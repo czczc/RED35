@@ -1,0 +1,12290 @@
+# total channels: 2048
+
+Channel 0
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 0 72 144 216 288 
+
+Channel 1
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 1 73 145 217 289 
+
+Channel 2
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 2 74 146 218 290 
+
+Channel 3
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 3 75 147 219 291 
+
+Channel 4
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 4 76 148 220 292 
+
+Channel 5
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 5 77 149 221 293 
+
+Channel 6
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 6 78 150 222 294 
+
+Channel 7
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 7 79 151 223 295 
+
+Channel 8
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 8 80 152 224 296 
+
+Channel 9
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 9 81 153 225 297 
+
+Channel 10
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 10 82 154 226 298 
+
+Channel 11
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 11 83 155 227 299 
+
+Channel 12
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 12 84 156 228 300 
+
+Channel 13
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 13 85 157 229 301 
+
+Channel 14
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 14 86 158 230 302 
+
+Channel 15
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 15 87 159 231 303 
+
+Channel 16
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 16 88 160 232 304 
+
+Channel 17
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 17 89 161 233 305 
+
+Channel 18
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 18 90 162 234 306 
+
+Channel 19
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 19 91 163 235 307 
+
+Channel 20
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 20 92 164 236 308 
+
+Channel 21
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 21 93 165 237 309 
+
+Channel 22
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 22 94 166 238 310 
+
+Channel 23
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 23 95 167 239 311 
+
+Channel 24
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 24 96 168 240 312 
+
+Channel 25
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 25 97 169 241 313 
+
+Channel 26
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 26 98 170 242 314 
+
+Channel 27
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 27 99 171 243 315 
+
+Channel 28
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 28 100 172 244 316 
+
+Channel 29
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 29 101 173 245 317 
+
+Channel 30
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 30 102 174 246 318 
+
+Channel 31
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 31 103 175 247 319 
+
+Channel 32
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 32 104 176 248 320 
+
+Channel 33
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 33 105 177 249 321 
+
+Channel 34
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 34 106 178 250 322 
+
+Channel 35
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 35 107 179 251 323 
+
+Channel 36
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 36 108 180 252 324 
+
+Channel 37
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 37 109 181 253 325 
+
+Channel 38
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 38 110 182 254 326 
+
+Channel 39
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 39 111 183 255 327 
+
+Channel 40
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 40 112 184 256 328 
+
+Channel 41
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 41 113 185 257 329 
+
+Channel 42
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 42 114 186 258 330 
+
+Channel 43
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 43 115 187 259 331 
+
+Channel 44
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 44 116 188 260 332 
+
+Channel 45
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 45 117 189 261 333 
+
+Channel 46
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 46 118 190 262 334 
+
+Channel 47
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 47 119 191 263 335 
+
+Channel 48
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 48 120 192 264 336 
+
+Channel 49
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 49 121 193 265 337 
+
+Channel 50
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 50 122 194 266 338 
+
+Channel 51
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 51 123 195 267 339 
+
+Channel 52
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 52 124 196 268 340 
+
+Channel 53
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 53 125 197 269 341 
+
+Channel 54
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 54 126 198 270 342 
+
+Channel 55
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 55 127 199 271 343 
+
+Channel 56
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 56 128 200 272 344 
+
+Channel 57
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 57 129 201 273 345 
+
+Channel 58
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 58 130 202 274 346 
+
+Channel 59
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 59 131 203 275 347 
+
+Channel 60
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 60 132 204 276 348 
+
+Channel 61
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 61 133 205 277 349 
+
+Channel 62
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 62 134 206 278 350 
+
+Channel 63
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 63 135 207 279 351 
+
+Channel 64
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 64 136 208 280 352 
+
+Channel 65
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 65 137 209 281 353 
+
+Channel 66
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 66 138 210 282 354 
+
+Channel 67
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 67 139 211 283 355 
+
+Channel 68
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 68 140 212 284 356 
+
+Channel 69
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 69 141 213 285 357 
+
+Channel 70
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 0 0 0 0 0 
+Wire 70 142 214 286 358 
+
+Channel 71
+Nwires 4
+TPC 0 1 0 1 
+Plane 0 0 0 0 
+Wire 71 143 215 287 
+
+Channel 72
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 0 72 144 216 288 
+
+Channel 73
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 1 73 145 217 289 
+
+Channel 74
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 2 74 146 218 290 
+
+Channel 75
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 3 75 147 219 291 
+
+Channel 76
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 4 76 148 220 292 
+
+Channel 77
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 5 77 149 221 293 
+
+Channel 78
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 6 78 150 222 294 
+
+Channel 79
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 7 79 151 223 295 
+
+Channel 80
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 8 80 152 224 296 
+
+Channel 81
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 9 81 153 225 297 
+
+Channel 82
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 10 82 154 226 298 
+
+Channel 83
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 11 83 155 227 299 
+
+Channel 84
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 12 84 156 228 300 
+
+Channel 85
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 13 85 157 229 301 
+
+Channel 86
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 14 86 158 230 302 
+
+Channel 87
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 15 87 159 231 303 
+
+Channel 88
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 16 88 160 232 304 
+
+Channel 89
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 17 89 161 233 305 
+
+Channel 90
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 18 90 162 234 306 
+
+Channel 91
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 19 91 163 235 307 
+
+Channel 92
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 20 92 164 236 308 
+
+Channel 93
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 21 93 165 237 309 
+
+Channel 94
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 22 94 166 238 310 
+
+Channel 95
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 23 95 167 239 311 
+
+Channel 96
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 24 96 168 240 312 
+
+Channel 97
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 25 97 169 241 313 
+
+Channel 98
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 26 98 170 242 314 
+
+Channel 99
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 27 99 171 243 315 
+
+Channel 100
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 28 100 172 244 316 
+
+Channel 101
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 29 101 173 245 317 
+
+Channel 102
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 30 102 174 246 318 
+
+Channel 103
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 31 103 175 247 319 
+
+Channel 104
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 32 104 176 248 320 
+
+Channel 105
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 33 105 177 249 321 
+
+Channel 106
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 34 106 178 250 322 
+
+Channel 107
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 35 107 179 251 323 
+
+Channel 108
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 36 108 180 252 324 
+
+Channel 109
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 37 109 181 253 325 
+
+Channel 110
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 38 110 182 254 326 
+
+Channel 111
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 39 111 183 255 327 
+
+Channel 112
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 40 112 184 256 328 
+
+Channel 113
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 41 113 185 257 329 
+
+Channel 114
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 42 114 186 258 330 
+
+Channel 115
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 43 115 187 259 331 
+
+Channel 116
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 44 116 188 260 332 
+
+Channel 117
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 45 117 189 261 333 
+
+Channel 118
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 46 118 190 262 334 
+
+Channel 119
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 47 119 191 263 335 
+
+Channel 120
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 48 120 192 264 336 
+
+Channel 121
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 49 121 193 265 337 
+
+Channel 122
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 50 122 194 266 338 
+
+Channel 123
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 51 123 195 267 339 
+
+Channel 124
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 52 124 196 268 340 
+
+Channel 125
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 53 125 197 269 341 
+
+Channel 126
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 54 126 198 270 342 
+
+Channel 127
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 55 127 199 271 343 
+
+Channel 128
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 56 128 200 272 344 
+
+Channel 129
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 57 129 201 273 345 
+
+Channel 130
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 58 130 202 274 346 
+
+Channel 131
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 59 131 203 275 347 
+
+Channel 132
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 60 132 204 276 348 
+
+Channel 133
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 61 133 205 277 349 
+
+Channel 134
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 62 134 206 278 350 
+
+Channel 135
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 63 135 207 279 351 
+
+Channel 136
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 64 136 208 280 352 
+
+Channel 137
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 65 137 209 281 353 
+
+Channel 138
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 66 138 210 282 354 
+
+Channel 139
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 67 139 211 283 355 
+
+Channel 140
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 68 140 212 284 356 
+
+Channel 141
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 69 141 213 285 357 
+
+Channel 142
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 0 0 0 0 0 
+Wire 70 142 214 286 358 
+
+Channel 143
+Nwires 4
+TPC 1 0 1 0 
+Plane 0 0 0 0 
+Wire 71 143 215 287 
+
+Channel 144
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 0 72 144 216 288 
+
+Channel 145
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 1 73 145 217 289 
+
+Channel 146
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 2 74 146 218 290 
+
+Channel 147
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 3 75 147 219 291 
+
+Channel 148
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 4 76 148 220 292 
+
+Channel 149
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 5 77 149 221 293 
+
+Channel 150
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 6 78 150 222 294 
+
+Channel 151
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 7 79 151 223 295 
+
+Channel 152
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 8 80 152 224 296 
+
+Channel 153
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 9 81 153 225 297 
+
+Channel 154
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 10 82 154 226 298 
+
+Channel 155
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 11 83 155 227 299 
+
+Channel 156
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 12 84 156 228 300 
+
+Channel 157
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 13 85 157 229 301 
+
+Channel 158
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 14 86 158 230 302 
+
+Channel 159
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 15 87 159 231 303 
+
+Channel 160
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 16 88 160 232 304 
+
+Channel 161
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 17 89 161 233 305 
+
+Channel 162
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 18 90 162 234 306 
+
+Channel 163
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 19 91 163 235 307 
+
+Channel 164
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 20 92 164 236 308 
+
+Channel 165
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 21 93 165 237 309 
+
+Channel 166
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 22 94 166 238 310 
+
+Channel 167
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 23 95 167 239 311 
+
+Channel 168
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 24 96 168 240 312 
+
+Channel 169
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 25 97 169 241 313 
+
+Channel 170
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 26 98 170 242 314 
+
+Channel 171
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 27 99 171 243 315 
+
+Channel 172
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 28 100 172 244 316 
+
+Channel 173
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 29 101 173 245 317 
+
+Channel 174
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 30 102 174 246 318 
+
+Channel 175
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 31 103 175 247 319 
+
+Channel 176
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 32 104 176 248 320 
+
+Channel 177
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 33 105 177 249 321 
+
+Channel 178
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 34 106 178 250 322 
+
+Channel 179
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 35 107 179 251 323 
+
+Channel 180
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 36 108 180 252 324 
+
+Channel 181
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 37 109 181 253 325 
+
+Channel 182
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 38 110 182 254 326 
+
+Channel 183
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 39 111 183 255 327 
+
+Channel 184
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 40 112 184 256 328 
+
+Channel 185
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 41 113 185 257 329 
+
+Channel 186
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 42 114 186 258 330 
+
+Channel 187
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 43 115 187 259 331 
+
+Channel 188
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 44 116 188 260 332 
+
+Channel 189
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 45 117 189 261 333 
+
+Channel 190
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 46 118 190 262 334 
+
+Channel 191
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 47 119 191 263 335 
+
+Channel 192
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 48 120 192 264 336 
+
+Channel 193
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 49 121 193 265 337 
+
+Channel 194
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 50 122 194 266 338 
+
+Channel 195
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 51 123 195 267 339 
+
+Channel 196
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 52 124 196 268 340 
+
+Channel 197
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 53 125 197 269 341 
+
+Channel 198
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 54 126 198 270 342 
+
+Channel 199
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 55 127 199 271 343 
+
+Channel 200
+Nwires 5
+TPC 0 1 0 1 0 
+Plane 1 1 1 1 1 
+Wire 56 128 200 272 344 
+
+Channel 201
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 57 129 201 273 
+
+Channel 202
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 58 130 202 274 
+
+Channel 203
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 59 131 203 275 
+
+Channel 204
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 60 132 204 276 
+
+Channel 205
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 61 133 205 277 
+
+Channel 206
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 62 134 206 278 
+
+Channel 207
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 63 135 207 279 
+
+Channel 208
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 64 136 208 280 
+
+Channel 209
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 65 137 209 281 
+
+Channel 210
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 66 138 210 282 
+
+Channel 211
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 67 139 211 283 
+
+Channel 212
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 68 140 212 284 
+
+Channel 213
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 69 141 213 285 
+
+Channel 214
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 70 142 214 286 
+
+Channel 215
+Nwires 4
+TPC 0 1 0 1 
+Plane 1 1 1 1 
+Wire 71 143 215 287 
+
+Channel 216
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 0 72 144 216 288 
+
+Channel 217
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 1 73 145 217 289 
+
+Channel 218
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 2 74 146 218 290 
+
+Channel 219
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 3 75 147 219 291 
+
+Channel 220
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 4 76 148 220 292 
+
+Channel 221
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 5 77 149 221 293 
+
+Channel 222
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 6 78 150 222 294 
+
+Channel 223
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 7 79 151 223 295 
+
+Channel 224
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 8 80 152 224 296 
+
+Channel 225
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 9 81 153 225 297 
+
+Channel 226
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 10 82 154 226 298 
+
+Channel 227
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 11 83 155 227 299 
+
+Channel 228
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 12 84 156 228 300 
+
+Channel 229
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 13 85 157 229 301 
+
+Channel 230
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 14 86 158 230 302 
+
+Channel 231
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 15 87 159 231 303 
+
+Channel 232
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 16 88 160 232 304 
+
+Channel 233
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 17 89 161 233 305 
+
+Channel 234
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 18 90 162 234 306 
+
+Channel 235
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 19 91 163 235 307 
+
+Channel 236
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 20 92 164 236 308 
+
+Channel 237
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 21 93 165 237 309 
+
+Channel 238
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 22 94 166 238 310 
+
+Channel 239
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 23 95 167 239 311 
+
+Channel 240
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 24 96 168 240 312 
+
+Channel 241
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 25 97 169 241 313 
+
+Channel 242
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 26 98 170 242 314 
+
+Channel 243
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 27 99 171 243 315 
+
+Channel 244
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 28 100 172 244 316 
+
+Channel 245
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 29 101 173 245 317 
+
+Channel 246
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 30 102 174 246 318 
+
+Channel 247
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 31 103 175 247 319 
+
+Channel 248
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 32 104 176 248 320 
+
+Channel 249
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 33 105 177 249 321 
+
+Channel 250
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 34 106 178 250 322 
+
+Channel 251
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 35 107 179 251 323 
+
+Channel 252
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 36 108 180 252 324 
+
+Channel 253
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 37 109 181 253 325 
+
+Channel 254
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 38 110 182 254 326 
+
+Channel 255
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 39 111 183 255 327 
+
+Channel 256
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 40 112 184 256 328 
+
+Channel 257
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 41 113 185 257 329 
+
+Channel 258
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 42 114 186 258 330 
+
+Channel 259
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 43 115 187 259 331 
+
+Channel 260
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 44 116 188 260 332 
+
+Channel 261
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 45 117 189 261 333 
+
+Channel 262
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 46 118 190 262 334 
+
+Channel 263
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 47 119 191 263 335 
+
+Channel 264
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 48 120 192 264 336 
+
+Channel 265
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 49 121 193 265 337 
+
+Channel 266
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 50 122 194 266 338 
+
+Channel 267
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 51 123 195 267 339 
+
+Channel 268
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 52 124 196 268 340 
+
+Channel 269
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 53 125 197 269 341 
+
+Channel 270
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 54 126 198 270 342 
+
+Channel 271
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 55 127 199 271 343 
+
+Channel 272
+Nwires 5
+TPC 1 0 1 0 1 
+Plane 1 1 1 1 1 
+Wire 56 128 200 272 344 
+
+Channel 273
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 57 129 201 273 
+
+Channel 274
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 58 130 202 274 
+
+Channel 275
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 59 131 203 275 
+
+Channel 276
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 60 132 204 276 
+
+Channel 277
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 61 133 205 277 
+
+Channel 278
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 62 134 206 278 
+
+Channel 279
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 63 135 207 279 
+
+Channel 280
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 64 136 208 280 
+
+Channel 281
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 65 137 209 281 
+
+Channel 282
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 66 138 210 282 
+
+Channel 283
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 67 139 211 283 
+
+Channel 284
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 68 140 212 284 
+
+Channel 285
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 69 141 213 285 
+
+Channel 286
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 70 142 214 286 
+
+Channel 287
+Nwires 4
+TPC 1 0 1 0 
+Plane 1 1 1 1 
+Wire 71 143 215 287 
+
+Channel 288
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 0 
+
+Channel 289
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 1 
+
+Channel 290
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 2 
+
+Channel 291
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 3 
+
+Channel 292
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 4 
+
+Channel 293
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 5 
+
+Channel 294
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 6 
+
+Channel 295
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 7 
+
+Channel 296
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 8 
+
+Channel 297
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 9 
+
+Channel 298
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 10 
+
+Channel 299
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 11 
+
+Channel 300
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 12 
+
+Channel 301
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 13 
+
+Channel 302
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 14 
+
+Channel 303
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 15 
+
+Channel 304
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 16 
+
+Channel 305
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 17 
+
+Channel 306
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 18 
+
+Channel 307
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 19 
+
+Channel 308
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 20 
+
+Channel 309
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 21 
+
+Channel 310
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 22 
+
+Channel 311
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 23 
+
+Channel 312
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 24 
+
+Channel 313
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 25 
+
+Channel 314
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 26 
+
+Channel 315
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 27 
+
+Channel 316
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 28 
+
+Channel 317
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 29 
+
+Channel 318
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 30 
+
+Channel 319
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 31 
+
+Channel 320
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 32 
+
+Channel 321
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 33 
+
+Channel 322
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 34 
+
+Channel 323
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 35 
+
+Channel 324
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 36 
+
+Channel 325
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 37 
+
+Channel 326
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 38 
+
+Channel 327
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 39 
+
+Channel 328
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 40 
+
+Channel 329
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 41 
+
+Channel 330
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 42 
+
+Channel 331
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 43 
+
+Channel 332
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 44 
+
+Channel 333
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 45 
+
+Channel 334
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 46 
+
+Channel 335
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 47 
+
+Channel 336
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 48 
+
+Channel 337
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 49 
+
+Channel 338
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 50 
+
+Channel 339
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 51 
+
+Channel 340
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 52 
+
+Channel 341
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 53 
+
+Channel 342
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 54 
+
+Channel 343
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 55 
+
+Channel 344
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 56 
+
+Channel 345
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 57 
+
+Channel 346
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 58 
+
+Channel 347
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 59 
+
+Channel 348
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 60 
+
+Channel 349
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 61 
+
+Channel 350
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 62 
+
+Channel 351
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 63 
+
+Channel 352
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 64 
+
+Channel 353
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 65 
+
+Channel 354
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 66 
+
+Channel 355
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 67 
+
+Channel 356
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 68 
+
+Channel 357
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 69 
+
+Channel 358
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 70 
+
+Channel 359
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 71 
+
+Channel 360
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 72 
+
+Channel 361
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 73 
+
+Channel 362
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 74 
+
+Channel 363
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 75 
+
+Channel 364
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 76 
+
+Channel 365
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 77 
+
+Channel 366
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 78 
+
+Channel 367
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 79 
+
+Channel 368
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 80 
+
+Channel 369
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 81 
+
+Channel 370
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 82 
+
+Channel 371
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 83 
+
+Channel 372
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 84 
+
+Channel 373
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 85 
+
+Channel 374
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 86 
+
+Channel 375
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 87 
+
+Channel 376
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 88 
+
+Channel 377
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 89 
+
+Channel 378
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 90 
+
+Channel 379
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 91 
+
+Channel 380
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 92 
+
+Channel 381
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 93 
+
+Channel 382
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 94 
+
+Channel 383
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 95 
+
+Channel 384
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 96 
+
+Channel 385
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 97 
+
+Channel 386
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 98 
+
+Channel 387
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 99 
+
+Channel 388
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 100 
+
+Channel 389
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 101 
+
+Channel 390
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 102 
+
+Channel 391
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 103 
+
+Channel 392
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 104 
+
+Channel 393
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 105 
+
+Channel 394
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 106 
+
+Channel 395
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 107 
+
+Channel 396
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 108 
+
+Channel 397
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 109 
+
+Channel 398
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 110 
+
+Channel 399
+Nwires 1
+TPC 0 
+Plane 2 
+Wire 111 
+
+Channel 400
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 0 
+
+Channel 401
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 1 
+
+Channel 402
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 2 
+
+Channel 403
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 3 
+
+Channel 404
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 4 
+
+Channel 405
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 5 
+
+Channel 406
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 6 
+
+Channel 407
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 7 
+
+Channel 408
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 8 
+
+Channel 409
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 9 
+
+Channel 410
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 10 
+
+Channel 411
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 11 
+
+Channel 412
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 12 
+
+Channel 413
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 13 
+
+Channel 414
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 14 
+
+Channel 415
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 15 
+
+Channel 416
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 16 
+
+Channel 417
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 17 
+
+Channel 418
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 18 
+
+Channel 419
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 19 
+
+Channel 420
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 20 
+
+Channel 421
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 21 
+
+Channel 422
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 22 
+
+Channel 423
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 23 
+
+Channel 424
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 24 
+
+Channel 425
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 25 
+
+Channel 426
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 26 
+
+Channel 427
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 27 
+
+Channel 428
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 28 
+
+Channel 429
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 29 
+
+Channel 430
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 30 
+
+Channel 431
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 31 
+
+Channel 432
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 32 
+
+Channel 433
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 33 
+
+Channel 434
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 34 
+
+Channel 435
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 35 
+
+Channel 436
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 36 
+
+Channel 437
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 37 
+
+Channel 438
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 38 
+
+Channel 439
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 39 
+
+Channel 440
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 40 
+
+Channel 441
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 41 
+
+Channel 442
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 42 
+
+Channel 443
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 43 
+
+Channel 444
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 44 
+
+Channel 445
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 45 
+
+Channel 446
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 46 
+
+Channel 447
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 47 
+
+Channel 448
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 48 
+
+Channel 449
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 49 
+
+Channel 450
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 50 
+
+Channel 451
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 51 
+
+Channel 452
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 52 
+
+Channel 453
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 53 
+
+Channel 454
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 54 
+
+Channel 455
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 55 
+
+Channel 456
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 56 
+
+Channel 457
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 57 
+
+Channel 458
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 58 
+
+Channel 459
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 59 
+
+Channel 460
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 60 
+
+Channel 461
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 61 
+
+Channel 462
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 62 
+
+Channel 463
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 63 
+
+Channel 464
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 64 
+
+Channel 465
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 65 
+
+Channel 466
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 66 
+
+Channel 467
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 67 
+
+Channel 468
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 68 
+
+Channel 469
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 69 
+
+Channel 470
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 70 
+
+Channel 471
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 71 
+
+Channel 472
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 72 
+
+Channel 473
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 73 
+
+Channel 474
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 74 
+
+Channel 475
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 75 
+
+Channel 476
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 76 
+
+Channel 477
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 77 
+
+Channel 478
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 78 
+
+Channel 479
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 79 
+
+Channel 480
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 80 
+
+Channel 481
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 81 
+
+Channel 482
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 82 
+
+Channel 483
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 83 
+
+Channel 484
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 84 
+
+Channel 485
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 85 
+
+Channel 486
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 86 
+
+Channel 487
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 87 
+
+Channel 488
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 88 
+
+Channel 489
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 89 
+
+Channel 490
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 90 
+
+Channel 491
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 91 
+
+Channel 492
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 92 
+
+Channel 493
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 93 
+
+Channel 494
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 94 
+
+Channel 495
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 95 
+
+Channel 496
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 96 
+
+Channel 497
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 97 
+
+Channel 498
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 98 
+
+Channel 499
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 99 
+
+Channel 500
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 100 
+
+Channel 501
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 101 
+
+Channel 502
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 102 
+
+Channel 503
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 103 
+
+Channel 504
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 104 
+
+Channel 505
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 105 
+
+Channel 506
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 106 
+
+Channel 507
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 107 
+
+Channel 508
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 108 
+
+Channel 509
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 109 
+
+Channel 510
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 110 
+
+Channel 511
+Nwires 1
+TPC 1 
+Plane 2 
+Wire 111 
+
+Channel 512
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 0 72 144 
+
+Channel 513
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 1 73 145 
+
+Channel 514
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 2 74 146 
+
+Channel 515
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 3 75 147 
+
+Channel 516
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 4 76 148 
+
+Channel 517
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 5 77 149 
+
+Channel 518
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 6 78 150 
+
+Channel 519
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 7 79 151 
+
+Channel 520
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 8 80 152 
+
+Channel 521
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 9 81 153 
+
+Channel 522
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 10 82 154 
+
+Channel 523
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 11 83 155 
+
+Channel 524
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 12 84 156 
+
+Channel 525
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 13 85 157 
+
+Channel 526
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 14 86 158 
+
+Channel 527
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 15 87 159 
+
+Channel 528
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 16 88 160 
+
+Channel 529
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 17 89 161 
+
+Channel 530
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 18 90 162 
+
+Channel 531
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 19 91 163 
+
+Channel 532
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 20 92 164 
+
+Channel 533
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 21 93 165 
+
+Channel 534
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 22 94 166 
+
+Channel 535
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 23 95 167 
+
+Channel 536
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 24 96 168 
+
+Channel 537
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 25 97 169 
+
+Channel 538
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 26 98 170 
+
+Channel 539
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 27 99 171 
+
+Channel 540
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 28 100 172 
+
+Channel 541
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 29 101 173 
+
+Channel 542
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 30 102 174 
+
+Channel 543
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 31 103 175 
+
+Channel 544
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 32 104 176 
+
+Channel 545
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 33 105 177 
+
+Channel 546
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 34 106 178 
+
+Channel 547
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 35 107 179 
+
+Channel 548
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 36 108 180 
+
+Channel 549
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 37 109 181 
+
+Channel 550
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 38 110 182 
+
+Channel 551
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 39 111 183 
+
+Channel 552
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 40 112 184 
+
+Channel 553
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 41 113 185 
+
+Channel 554
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 42 114 186 
+
+Channel 555
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 43 115 187 
+
+Channel 556
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 44 116 188 
+
+Channel 557
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 45 117 189 
+
+Channel 558
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 46 118 190 
+
+Channel 559
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 47 119 191 
+
+Channel 560
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 48 120 192 
+
+Channel 561
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 49 121 193 
+
+Channel 562
+Nwires 3
+TPC 2 3 2 
+Plane 0 0 0 
+Wire 50 122 194 
+
+Channel 563
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 51 123 
+
+Channel 564
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 52 124 
+
+Channel 565
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 53 125 
+
+Channel 566
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 54 126 
+
+Channel 567
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 55 127 
+
+Channel 568
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 56 128 
+
+Channel 569
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 57 129 
+
+Channel 570
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 58 130 
+
+Channel 571
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 59 131 
+
+Channel 572
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 60 132 
+
+Channel 573
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 61 133 
+
+Channel 574
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 62 134 
+
+Channel 575
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 63 135 
+
+Channel 576
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 64 136 
+
+Channel 577
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 65 137 
+
+Channel 578
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 66 138 
+
+Channel 579
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 67 139 
+
+Channel 580
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 68 140 
+
+Channel 581
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 69 141 
+
+Channel 582
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 70 142 
+
+Channel 583
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 71 143 
+
+Channel 584
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 0 72 144 
+
+Channel 585
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 1 73 145 
+
+Channel 586
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 2 74 146 
+
+Channel 587
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 3 75 147 
+
+Channel 588
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 4 76 148 
+
+Channel 589
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 5 77 149 
+
+Channel 590
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 6 78 150 
+
+Channel 591
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 7 79 151 
+
+Channel 592
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 8 80 152 
+
+Channel 593
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 9 81 153 
+
+Channel 594
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 10 82 154 
+
+Channel 595
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 11 83 155 
+
+Channel 596
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 12 84 156 
+
+Channel 597
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 13 85 157 
+
+Channel 598
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 14 86 158 
+
+Channel 599
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 15 87 159 
+
+Channel 600
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 16 88 160 
+
+Channel 601
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 17 89 161 
+
+Channel 602
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 18 90 162 
+
+Channel 603
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 19 91 163 
+
+Channel 604
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 20 92 164 
+
+Channel 605
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 21 93 165 
+
+Channel 606
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 22 94 166 
+
+Channel 607
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 23 95 167 
+
+Channel 608
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 24 96 168 
+
+Channel 609
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 25 97 169 
+
+Channel 610
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 26 98 170 
+
+Channel 611
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 27 99 171 
+
+Channel 612
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 28 100 172 
+
+Channel 613
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 29 101 173 
+
+Channel 614
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 30 102 174 
+
+Channel 615
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 31 103 175 
+
+Channel 616
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 32 104 176 
+
+Channel 617
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 33 105 177 
+
+Channel 618
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 34 106 178 
+
+Channel 619
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 35 107 179 
+
+Channel 620
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 36 108 180 
+
+Channel 621
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 37 109 181 
+
+Channel 622
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 38 110 182 
+
+Channel 623
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 39 111 183 
+
+Channel 624
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 40 112 184 
+
+Channel 625
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 41 113 185 
+
+Channel 626
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 42 114 186 
+
+Channel 627
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 43 115 187 
+
+Channel 628
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 44 116 188 
+
+Channel 629
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 45 117 189 
+
+Channel 630
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 46 118 190 
+
+Channel 631
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 47 119 191 
+
+Channel 632
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 48 120 192 
+
+Channel 633
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 49 121 193 
+
+Channel 634
+Nwires 3
+TPC 3 2 3 
+Plane 0 0 0 
+Wire 50 122 194 
+
+Channel 635
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 51 123 
+
+Channel 636
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 52 124 
+
+Channel 637
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 53 125 
+
+Channel 638
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 54 126 
+
+Channel 639
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 55 127 
+
+Channel 640
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 56 128 
+
+Channel 641
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 57 129 
+
+Channel 642
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 58 130 
+
+Channel 643
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 59 131 
+
+Channel 644
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 60 132 
+
+Channel 645
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 61 133 
+
+Channel 646
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 62 134 
+
+Channel 647
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 63 135 
+
+Channel 648
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 64 136 
+
+Channel 649
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 65 137 
+
+Channel 650
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 66 138 
+
+Channel 651
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 67 139 
+
+Channel 652
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 68 140 
+
+Channel 653
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 69 141 
+
+Channel 654
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 70 142 
+
+Channel 655
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 71 143 
+
+Channel 656
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 0 72 144 
+
+Channel 657
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 1 73 145 
+
+Channel 658
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 2 74 146 
+
+Channel 659
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 3 75 147 
+
+Channel 660
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 4 76 148 
+
+Channel 661
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 5 77 149 
+
+Channel 662
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 6 78 150 
+
+Channel 663
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 7 79 151 
+
+Channel 664
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 8 80 152 
+
+Channel 665
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 9 81 153 
+
+Channel 666
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 10 82 154 
+
+Channel 667
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 11 83 155 
+
+Channel 668
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 12 84 156 
+
+Channel 669
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 13 85 157 
+
+Channel 670
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 14 86 158 
+
+Channel 671
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 15 87 159 
+
+Channel 672
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 16 88 160 
+
+Channel 673
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 17 89 161 
+
+Channel 674
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 18 90 162 
+
+Channel 675
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 19 91 163 
+
+Channel 676
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 20 92 164 
+
+Channel 677
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 21 93 165 
+
+Channel 678
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 22 94 166 
+
+Channel 679
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 23 95 167 
+
+Channel 680
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 24 96 168 
+
+Channel 681
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 25 97 169 
+
+Channel 682
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 26 98 170 
+
+Channel 683
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 27 99 171 
+
+Channel 684
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 28 100 172 
+
+Channel 685
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 29 101 173 
+
+Channel 686
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 30 102 174 
+
+Channel 687
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 31 103 175 
+
+Channel 688
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 32 104 176 
+
+Channel 689
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 33 105 177 
+
+Channel 690
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 34 106 178 
+
+Channel 691
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 35 107 179 
+
+Channel 692
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 36 108 180 
+
+Channel 693
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 37 109 181 
+
+Channel 694
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 38 110 182 
+
+Channel 695
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 39 111 183 
+
+Channel 696
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 40 112 184 
+
+Channel 697
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 41 113 185 
+
+Channel 698
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 42 114 186 
+
+Channel 699
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 43 115 187 
+
+Channel 700
+Nwires 3
+TPC 2 3 2 
+Plane 1 1 1 
+Wire 44 116 188 
+
+Channel 701
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 45 117 
+
+Channel 702
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 46 118 
+
+Channel 703
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 47 119 
+
+Channel 704
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 48 120 
+
+Channel 705
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 49 121 
+
+Channel 706
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 50 122 
+
+Channel 707
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 51 123 
+
+Channel 708
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 52 124 
+
+Channel 709
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 53 125 
+
+Channel 710
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 54 126 
+
+Channel 711
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 55 127 
+
+Channel 712
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 56 128 
+
+Channel 713
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 57 129 
+
+Channel 714
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 58 130 
+
+Channel 715
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 59 131 
+
+Channel 716
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 60 132 
+
+Channel 717
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 61 133 
+
+Channel 718
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 62 134 
+
+Channel 719
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 63 135 
+
+Channel 720
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 64 136 
+
+Channel 721
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 65 137 
+
+Channel 722
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 66 138 
+
+Channel 723
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 67 139 
+
+Channel 724
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 68 140 
+
+Channel 725
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 69 141 
+
+Channel 726
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 70 142 
+
+Channel 727
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 71 143 
+
+Channel 728
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 0 72 144 
+
+Channel 729
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 1 73 145 
+
+Channel 730
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 2 74 146 
+
+Channel 731
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 3 75 147 
+
+Channel 732
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 4 76 148 
+
+Channel 733
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 5 77 149 
+
+Channel 734
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 6 78 150 
+
+Channel 735
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 7 79 151 
+
+Channel 736
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 8 80 152 
+
+Channel 737
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 9 81 153 
+
+Channel 738
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 10 82 154 
+
+Channel 739
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 11 83 155 
+
+Channel 740
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 12 84 156 
+
+Channel 741
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 13 85 157 
+
+Channel 742
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 14 86 158 
+
+Channel 743
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 15 87 159 
+
+Channel 744
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 16 88 160 
+
+Channel 745
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 17 89 161 
+
+Channel 746
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 18 90 162 
+
+Channel 747
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 19 91 163 
+
+Channel 748
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 20 92 164 
+
+Channel 749
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 21 93 165 
+
+Channel 750
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 22 94 166 
+
+Channel 751
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 23 95 167 
+
+Channel 752
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 24 96 168 
+
+Channel 753
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 25 97 169 
+
+Channel 754
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 26 98 170 
+
+Channel 755
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 27 99 171 
+
+Channel 756
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 28 100 172 
+
+Channel 757
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 29 101 173 
+
+Channel 758
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 30 102 174 
+
+Channel 759
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 31 103 175 
+
+Channel 760
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 32 104 176 
+
+Channel 761
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 33 105 177 
+
+Channel 762
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 34 106 178 
+
+Channel 763
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 35 107 179 
+
+Channel 764
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 36 108 180 
+
+Channel 765
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 37 109 181 
+
+Channel 766
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 38 110 182 
+
+Channel 767
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 39 111 183 
+
+Channel 768
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 40 112 184 
+
+Channel 769
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 41 113 185 
+
+Channel 770
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 42 114 186 
+
+Channel 771
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 43 115 187 
+
+Channel 772
+Nwires 3
+TPC 3 2 3 
+Plane 1 1 1 
+Wire 44 116 188 
+
+Channel 773
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 45 117 
+
+Channel 774
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 46 118 
+
+Channel 775
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 47 119 
+
+Channel 776
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 48 120 
+
+Channel 777
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 49 121 
+
+Channel 778
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 50 122 
+
+Channel 779
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 51 123 
+
+Channel 780
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 52 124 
+
+Channel 781
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 53 125 
+
+Channel 782
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 54 126 
+
+Channel 783
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 55 127 
+
+Channel 784
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 56 128 
+
+Channel 785
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 57 129 
+
+Channel 786
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 58 130 
+
+Channel 787
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 59 131 
+
+Channel 788
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 60 132 
+
+Channel 789
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 61 133 
+
+Channel 790
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 62 134 
+
+Channel 791
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 63 135 
+
+Channel 792
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 64 136 
+
+Channel 793
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 65 137 
+
+Channel 794
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 66 138 
+
+Channel 795
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 67 139 
+
+Channel 796
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 68 140 
+
+Channel 797
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 69 141 
+
+Channel 798
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 70 142 
+
+Channel 799
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 71 143 
+
+Channel 800
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 0 
+
+Channel 801
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 1 
+
+Channel 802
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 2 
+
+Channel 803
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 3 
+
+Channel 804
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 4 
+
+Channel 805
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 5 
+
+Channel 806
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 6 
+
+Channel 807
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 7 
+
+Channel 808
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 8 
+
+Channel 809
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 9 
+
+Channel 810
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 10 
+
+Channel 811
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 11 
+
+Channel 812
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 12 
+
+Channel 813
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 13 
+
+Channel 814
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 14 
+
+Channel 815
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 15 
+
+Channel 816
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 16 
+
+Channel 817
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 17 
+
+Channel 818
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 18 
+
+Channel 819
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 19 
+
+Channel 820
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 20 
+
+Channel 821
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 21 
+
+Channel 822
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 22 
+
+Channel 823
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 23 
+
+Channel 824
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 24 
+
+Channel 825
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 25 
+
+Channel 826
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 26 
+
+Channel 827
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 27 
+
+Channel 828
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 28 
+
+Channel 829
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 29 
+
+Channel 830
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 30 
+
+Channel 831
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 31 
+
+Channel 832
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 32 
+
+Channel 833
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 33 
+
+Channel 834
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 34 
+
+Channel 835
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 35 
+
+Channel 836
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 36 
+
+Channel 837
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 37 
+
+Channel 838
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 38 
+
+Channel 839
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 39 
+
+Channel 840
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 40 
+
+Channel 841
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 41 
+
+Channel 842
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 42 
+
+Channel 843
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 43 
+
+Channel 844
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 44 
+
+Channel 845
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 45 
+
+Channel 846
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 46 
+
+Channel 847
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 47 
+
+Channel 848
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 48 
+
+Channel 849
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 49 
+
+Channel 850
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 50 
+
+Channel 851
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 51 
+
+Channel 852
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 52 
+
+Channel 853
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 53 
+
+Channel 854
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 54 
+
+Channel 855
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 55 
+
+Channel 856
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 56 
+
+Channel 857
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 57 
+
+Channel 858
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 58 
+
+Channel 859
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 59 
+
+Channel 860
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 60 
+
+Channel 861
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 61 
+
+Channel 862
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 62 
+
+Channel 863
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 63 
+
+Channel 864
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 64 
+
+Channel 865
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 65 
+
+Channel 866
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 66 
+
+Channel 867
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 67 
+
+Channel 868
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 68 
+
+Channel 869
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 69 
+
+Channel 870
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 70 
+
+Channel 871
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 71 
+
+Channel 872
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 72 
+
+Channel 873
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 73 
+
+Channel 874
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 74 
+
+Channel 875
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 75 
+
+Channel 876
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 76 
+
+Channel 877
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 77 
+
+Channel 878
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 78 
+
+Channel 879
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 79 
+
+Channel 880
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 80 
+
+Channel 881
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 81 
+
+Channel 882
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 82 
+
+Channel 883
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 83 
+
+Channel 884
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 84 
+
+Channel 885
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 85 
+
+Channel 886
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 86 
+
+Channel 887
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 87 
+
+Channel 888
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 88 
+
+Channel 889
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 89 
+
+Channel 890
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 90 
+
+Channel 891
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 91 
+
+Channel 892
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 92 
+
+Channel 893
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 93 
+
+Channel 894
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 94 
+
+Channel 895
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 95 
+
+Channel 896
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 96 
+
+Channel 897
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 97 
+
+Channel 898
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 98 
+
+Channel 899
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 99 
+
+Channel 900
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 100 
+
+Channel 901
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 101 
+
+Channel 902
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 102 
+
+Channel 903
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 103 
+
+Channel 904
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 104 
+
+Channel 905
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 105 
+
+Channel 906
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 106 
+
+Channel 907
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 107 
+
+Channel 908
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 108 
+
+Channel 909
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 109 
+
+Channel 910
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 110 
+
+Channel 911
+Nwires 1
+TPC 2 
+Plane 2 
+Wire 111 
+
+Channel 912
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 0 
+
+Channel 913
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 1 
+
+Channel 914
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 2 
+
+Channel 915
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 3 
+
+Channel 916
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 4 
+
+Channel 917
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 5 
+
+Channel 918
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 6 
+
+Channel 919
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 7 
+
+Channel 920
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 8 
+
+Channel 921
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 9 
+
+Channel 922
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 10 
+
+Channel 923
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 11 
+
+Channel 924
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 12 
+
+Channel 925
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 13 
+
+Channel 926
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 14 
+
+Channel 927
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 15 
+
+Channel 928
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 16 
+
+Channel 929
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 17 
+
+Channel 930
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 18 
+
+Channel 931
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 19 
+
+Channel 932
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 20 
+
+Channel 933
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 21 
+
+Channel 934
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 22 
+
+Channel 935
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 23 
+
+Channel 936
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 24 
+
+Channel 937
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 25 
+
+Channel 938
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 26 
+
+Channel 939
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 27 
+
+Channel 940
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 28 
+
+Channel 941
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 29 
+
+Channel 942
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 30 
+
+Channel 943
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 31 
+
+Channel 944
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 32 
+
+Channel 945
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 33 
+
+Channel 946
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 34 
+
+Channel 947
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 35 
+
+Channel 948
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 36 
+
+Channel 949
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 37 
+
+Channel 950
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 38 
+
+Channel 951
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 39 
+
+Channel 952
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 40 
+
+Channel 953
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 41 
+
+Channel 954
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 42 
+
+Channel 955
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 43 
+
+Channel 956
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 44 
+
+Channel 957
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 45 
+
+Channel 958
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 46 
+
+Channel 959
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 47 
+
+Channel 960
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 48 
+
+Channel 961
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 49 
+
+Channel 962
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 50 
+
+Channel 963
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 51 
+
+Channel 964
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 52 
+
+Channel 965
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 53 
+
+Channel 966
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 54 
+
+Channel 967
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 55 
+
+Channel 968
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 56 
+
+Channel 969
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 57 
+
+Channel 970
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 58 
+
+Channel 971
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 59 
+
+Channel 972
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 60 
+
+Channel 973
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 61 
+
+Channel 974
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 62 
+
+Channel 975
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 63 
+
+Channel 976
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 64 
+
+Channel 977
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 65 
+
+Channel 978
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 66 
+
+Channel 979
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 67 
+
+Channel 980
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 68 
+
+Channel 981
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 69 
+
+Channel 982
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 70 
+
+Channel 983
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 71 
+
+Channel 984
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 72 
+
+Channel 985
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 73 
+
+Channel 986
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 74 
+
+Channel 987
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 75 
+
+Channel 988
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 76 
+
+Channel 989
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 77 
+
+Channel 990
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 78 
+
+Channel 991
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 79 
+
+Channel 992
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 80 
+
+Channel 993
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 81 
+
+Channel 994
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 82 
+
+Channel 995
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 83 
+
+Channel 996
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 84 
+
+Channel 997
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 85 
+
+Channel 998
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 86 
+
+Channel 999
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 87 
+
+Channel 1000
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 88 
+
+Channel 1001
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 89 
+
+Channel 1002
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 90 
+
+Channel 1003
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 91 
+
+Channel 1004
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 92 
+
+Channel 1005
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 93 
+
+Channel 1006
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 94 
+
+Channel 1007
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 95 
+
+Channel 1008
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 96 
+
+Channel 1009
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 97 
+
+Channel 1010
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 98 
+
+Channel 1011
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 99 
+
+Channel 1012
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 100 
+
+Channel 1013
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 101 
+
+Channel 1014
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 102 
+
+Channel 1015
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 103 
+
+Channel 1016
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 104 
+
+Channel 1017
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 105 
+
+Channel 1018
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 106 
+
+Channel 1019
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 107 
+
+Channel 1020
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 108 
+
+Channel 1021
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 109 
+
+Channel 1022
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 110 
+
+Channel 1023
+Nwires 1
+TPC 3 
+Plane 2 
+Wire 111 
+
+Channel 1024
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 0 72 144 216 
+
+Channel 1025
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 1 73 145 217 
+
+Channel 1026
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 2 74 146 218 
+
+Channel 1027
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 3 75 147 219 
+
+Channel 1028
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 4 76 148 220 
+
+Channel 1029
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 5 77 149 221 
+
+Channel 1030
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 6 78 150 222 
+
+Channel 1031
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 7 79 151 223 
+
+Channel 1032
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 8 80 152 224 
+
+Channel 1033
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 9 81 153 225 
+
+Channel 1034
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 10 82 154 226 
+
+Channel 1035
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 11 83 155 227 
+
+Channel 1036
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 12 84 156 228 
+
+Channel 1037
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 13 85 157 229 
+
+Channel 1038
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 14 86 158 230 
+
+Channel 1039
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 15 87 159 231 
+
+Channel 1040
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 16 88 160 232 
+
+Channel 1041
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 17 89 161 233 
+
+Channel 1042
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 18 90 162 234 
+
+Channel 1043
+Nwires 4
+TPC 4 5 4 5 
+Plane 0 0 0 0 
+Wire 19 91 163 235 
+
+Channel 1044
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 20 92 164 
+
+Channel 1045
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 21 93 165 
+
+Channel 1046
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 22 94 166 
+
+Channel 1047
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 23 95 167 
+
+Channel 1048
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 24 96 168 
+
+Channel 1049
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 25 97 169 
+
+Channel 1050
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 26 98 170 
+
+Channel 1051
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 27 99 171 
+
+Channel 1052
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 28 100 172 
+
+Channel 1053
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 29 101 173 
+
+Channel 1054
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 30 102 174 
+
+Channel 1055
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 31 103 175 
+
+Channel 1056
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 32 104 176 
+
+Channel 1057
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 33 105 177 
+
+Channel 1058
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 34 106 178 
+
+Channel 1059
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 35 107 179 
+
+Channel 1060
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 36 108 180 
+
+Channel 1061
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 37 109 181 
+
+Channel 1062
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 38 110 182 
+
+Channel 1063
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 39 111 183 
+
+Channel 1064
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 40 112 184 
+
+Channel 1065
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 41 113 185 
+
+Channel 1066
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 42 114 186 
+
+Channel 1067
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 43 115 187 
+
+Channel 1068
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 44 116 188 
+
+Channel 1069
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 45 117 189 
+
+Channel 1070
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 46 118 190 
+
+Channel 1071
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 47 119 191 
+
+Channel 1072
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 48 120 192 
+
+Channel 1073
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 49 121 193 
+
+Channel 1074
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 50 122 194 
+
+Channel 1075
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 51 123 195 
+
+Channel 1076
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 52 124 196 
+
+Channel 1077
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 53 125 197 
+
+Channel 1078
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 54 126 198 
+
+Channel 1079
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 55 127 199 
+
+Channel 1080
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 56 128 200 
+
+Channel 1081
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 57 129 201 
+
+Channel 1082
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 58 130 202 
+
+Channel 1083
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 59 131 203 
+
+Channel 1084
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 60 132 204 
+
+Channel 1085
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 61 133 205 
+
+Channel 1086
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 62 134 206 
+
+Channel 1087
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 63 135 207 
+
+Channel 1088
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 64 136 208 
+
+Channel 1089
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 65 137 209 
+
+Channel 1090
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 66 138 210 
+
+Channel 1091
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 67 139 211 
+
+Channel 1092
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 68 140 212 
+
+Channel 1093
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 69 141 213 
+
+Channel 1094
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 70 142 214 
+
+Channel 1095
+Nwires 3
+TPC 4 5 4 
+Plane 0 0 0 
+Wire 71 143 215 
+
+Channel 1096
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 0 72 144 216 
+
+Channel 1097
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 1 73 145 217 
+
+Channel 1098
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 2 74 146 218 
+
+Channel 1099
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 3 75 147 219 
+
+Channel 1100
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 4 76 148 220 
+
+Channel 1101
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 5 77 149 221 
+
+Channel 1102
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 6 78 150 222 
+
+Channel 1103
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 7 79 151 223 
+
+Channel 1104
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 8 80 152 224 
+
+Channel 1105
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 9 81 153 225 
+
+Channel 1106
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 10 82 154 226 
+
+Channel 1107
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 11 83 155 227 
+
+Channel 1108
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 12 84 156 228 
+
+Channel 1109
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 13 85 157 229 
+
+Channel 1110
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 14 86 158 230 
+
+Channel 1111
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 15 87 159 231 
+
+Channel 1112
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 16 88 160 232 
+
+Channel 1113
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 17 89 161 233 
+
+Channel 1114
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 18 90 162 234 
+
+Channel 1115
+Nwires 4
+TPC 5 4 5 4 
+Plane 0 0 0 0 
+Wire 19 91 163 235 
+
+Channel 1116
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 20 92 164 
+
+Channel 1117
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 21 93 165 
+
+Channel 1118
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 22 94 166 
+
+Channel 1119
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 23 95 167 
+
+Channel 1120
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 24 96 168 
+
+Channel 1121
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 25 97 169 
+
+Channel 1122
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 26 98 170 
+
+Channel 1123
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 27 99 171 
+
+Channel 1124
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 28 100 172 
+
+Channel 1125
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 29 101 173 
+
+Channel 1126
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 30 102 174 
+
+Channel 1127
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 31 103 175 
+
+Channel 1128
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 32 104 176 
+
+Channel 1129
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 33 105 177 
+
+Channel 1130
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 34 106 178 
+
+Channel 1131
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 35 107 179 
+
+Channel 1132
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 36 108 180 
+
+Channel 1133
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 37 109 181 
+
+Channel 1134
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 38 110 182 
+
+Channel 1135
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 39 111 183 
+
+Channel 1136
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 40 112 184 
+
+Channel 1137
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 41 113 185 
+
+Channel 1138
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 42 114 186 
+
+Channel 1139
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 43 115 187 
+
+Channel 1140
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 44 116 188 
+
+Channel 1141
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 45 117 189 
+
+Channel 1142
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 46 118 190 
+
+Channel 1143
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 47 119 191 
+
+Channel 1144
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 48 120 192 
+
+Channel 1145
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 49 121 193 
+
+Channel 1146
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 50 122 194 
+
+Channel 1147
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 51 123 195 
+
+Channel 1148
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 52 124 196 
+
+Channel 1149
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 53 125 197 
+
+Channel 1150
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 54 126 198 
+
+Channel 1151
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 55 127 199 
+
+Channel 1152
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 56 128 200 
+
+Channel 1153
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 57 129 201 
+
+Channel 1154
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 58 130 202 
+
+Channel 1155
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 59 131 203 
+
+Channel 1156
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 60 132 204 
+
+Channel 1157
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 61 133 205 
+
+Channel 1158
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 62 134 206 
+
+Channel 1159
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 63 135 207 
+
+Channel 1160
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 64 136 208 
+
+Channel 1161
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 65 137 209 
+
+Channel 1162
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 66 138 210 
+
+Channel 1163
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 67 139 211 
+
+Channel 1164
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 68 140 212 
+
+Channel 1165
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 69 141 213 
+
+Channel 1166
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 70 142 214 
+
+Channel 1167
+Nwires 3
+TPC 5 4 5 
+Plane 0 0 0 
+Wire 71 143 215 
+
+Channel 1168
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 0 72 144 216 
+
+Channel 1169
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 1 73 145 217 
+
+Channel 1170
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 2 74 146 218 
+
+Channel 1171
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 3 75 147 219 
+
+Channel 1172
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 4 76 148 220 
+
+Channel 1173
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 5 77 149 221 
+
+Channel 1174
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 6 78 150 222 
+
+Channel 1175
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 7 79 151 223 
+
+Channel 1176
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 8 80 152 224 
+
+Channel 1177
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 9 81 153 225 
+
+Channel 1178
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 10 82 154 226 
+
+Channel 1179
+Nwires 4
+TPC 4 5 4 5 
+Plane 1 1 1 1 
+Wire 11 83 155 227 
+
+Channel 1180
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 12 84 156 
+
+Channel 1181
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 13 85 157 
+
+Channel 1182
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 14 86 158 
+
+Channel 1183
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 15 87 159 
+
+Channel 1184
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 16 88 160 
+
+Channel 1185
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 17 89 161 
+
+Channel 1186
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 18 90 162 
+
+Channel 1187
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 19 91 163 
+
+Channel 1188
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 20 92 164 
+
+Channel 1189
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 21 93 165 
+
+Channel 1190
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 22 94 166 
+
+Channel 1191
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 23 95 167 
+
+Channel 1192
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 24 96 168 
+
+Channel 1193
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 25 97 169 
+
+Channel 1194
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 26 98 170 
+
+Channel 1195
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 27 99 171 
+
+Channel 1196
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 28 100 172 
+
+Channel 1197
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 29 101 173 
+
+Channel 1198
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 30 102 174 
+
+Channel 1199
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 31 103 175 
+
+Channel 1200
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 32 104 176 
+
+Channel 1201
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 33 105 177 
+
+Channel 1202
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 34 106 178 
+
+Channel 1203
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 35 107 179 
+
+Channel 1204
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 36 108 180 
+
+Channel 1205
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 37 109 181 
+
+Channel 1206
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 38 110 182 
+
+Channel 1207
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 39 111 183 
+
+Channel 1208
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 40 112 184 
+
+Channel 1209
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 41 113 185 
+
+Channel 1210
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 42 114 186 
+
+Channel 1211
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 43 115 187 
+
+Channel 1212
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 44 116 188 
+
+Channel 1213
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 45 117 189 
+
+Channel 1214
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 46 118 190 
+
+Channel 1215
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 47 119 191 
+
+Channel 1216
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 48 120 192 
+
+Channel 1217
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 49 121 193 
+
+Channel 1218
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 50 122 194 
+
+Channel 1219
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 51 123 195 
+
+Channel 1220
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 52 124 196 
+
+Channel 1221
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 53 125 197 
+
+Channel 1222
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 54 126 198 
+
+Channel 1223
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 55 127 199 
+
+Channel 1224
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 56 128 200 
+
+Channel 1225
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 57 129 201 
+
+Channel 1226
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 58 130 202 
+
+Channel 1227
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 59 131 203 
+
+Channel 1228
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 60 132 204 
+
+Channel 1229
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 61 133 205 
+
+Channel 1230
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 62 134 206 
+
+Channel 1231
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 63 135 207 
+
+Channel 1232
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 64 136 208 
+
+Channel 1233
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 65 137 209 
+
+Channel 1234
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 66 138 210 
+
+Channel 1235
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 67 139 211 
+
+Channel 1236
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 68 140 212 
+
+Channel 1237
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 69 141 213 
+
+Channel 1238
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 70 142 214 
+
+Channel 1239
+Nwires 3
+TPC 4 5 4 
+Plane 1 1 1 
+Wire 71 143 215 
+
+Channel 1240
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 0 72 144 216 
+
+Channel 1241
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 1 73 145 217 
+
+Channel 1242
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 2 74 146 218 
+
+Channel 1243
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 3 75 147 219 
+
+Channel 1244
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 4 76 148 220 
+
+Channel 1245
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 5 77 149 221 
+
+Channel 1246
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 6 78 150 222 
+
+Channel 1247
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 7 79 151 223 
+
+Channel 1248
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 8 80 152 224 
+
+Channel 1249
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 9 81 153 225 
+
+Channel 1250
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 10 82 154 226 
+
+Channel 1251
+Nwires 4
+TPC 5 4 5 4 
+Plane 1 1 1 1 
+Wire 11 83 155 227 
+
+Channel 1252
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 12 84 156 
+
+Channel 1253
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 13 85 157 
+
+Channel 1254
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 14 86 158 
+
+Channel 1255
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 15 87 159 
+
+Channel 1256
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 16 88 160 
+
+Channel 1257
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 17 89 161 
+
+Channel 1258
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 18 90 162 
+
+Channel 1259
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 19 91 163 
+
+Channel 1260
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 20 92 164 
+
+Channel 1261
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 21 93 165 
+
+Channel 1262
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 22 94 166 
+
+Channel 1263
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 23 95 167 
+
+Channel 1264
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 24 96 168 
+
+Channel 1265
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 25 97 169 
+
+Channel 1266
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 26 98 170 
+
+Channel 1267
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 27 99 171 
+
+Channel 1268
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 28 100 172 
+
+Channel 1269
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 29 101 173 
+
+Channel 1270
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 30 102 174 
+
+Channel 1271
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 31 103 175 
+
+Channel 1272
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 32 104 176 
+
+Channel 1273
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 33 105 177 
+
+Channel 1274
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 34 106 178 
+
+Channel 1275
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 35 107 179 
+
+Channel 1276
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 36 108 180 
+
+Channel 1277
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 37 109 181 
+
+Channel 1278
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 38 110 182 
+
+Channel 1279
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 39 111 183 
+
+Channel 1280
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 40 112 184 
+
+Channel 1281
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 41 113 185 
+
+Channel 1282
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 42 114 186 
+
+Channel 1283
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 43 115 187 
+
+Channel 1284
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 44 116 188 
+
+Channel 1285
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 45 117 189 
+
+Channel 1286
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 46 118 190 
+
+Channel 1287
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 47 119 191 
+
+Channel 1288
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 48 120 192 
+
+Channel 1289
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 49 121 193 
+
+Channel 1290
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 50 122 194 
+
+Channel 1291
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 51 123 195 
+
+Channel 1292
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 52 124 196 
+
+Channel 1293
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 53 125 197 
+
+Channel 1294
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 54 126 198 
+
+Channel 1295
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 55 127 199 
+
+Channel 1296
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 56 128 200 
+
+Channel 1297
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 57 129 201 
+
+Channel 1298
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 58 130 202 
+
+Channel 1299
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 59 131 203 
+
+Channel 1300
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 60 132 204 
+
+Channel 1301
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 61 133 205 
+
+Channel 1302
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 62 134 206 
+
+Channel 1303
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 63 135 207 
+
+Channel 1304
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 64 136 208 
+
+Channel 1305
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 65 137 209 
+
+Channel 1306
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 66 138 210 
+
+Channel 1307
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 67 139 211 
+
+Channel 1308
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 68 140 212 
+
+Channel 1309
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 69 141 213 
+
+Channel 1310
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 70 142 214 
+
+Channel 1311
+Nwires 3
+TPC 5 4 5 
+Plane 1 1 1 
+Wire 71 143 215 
+
+Channel 1312
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 0 
+
+Channel 1313
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 1 
+
+Channel 1314
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 2 
+
+Channel 1315
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 3 
+
+Channel 1316
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 4 
+
+Channel 1317
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 5 
+
+Channel 1318
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 6 
+
+Channel 1319
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 7 
+
+Channel 1320
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 8 
+
+Channel 1321
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 9 
+
+Channel 1322
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 10 
+
+Channel 1323
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 11 
+
+Channel 1324
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 12 
+
+Channel 1325
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 13 
+
+Channel 1326
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 14 
+
+Channel 1327
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 15 
+
+Channel 1328
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 16 
+
+Channel 1329
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 17 
+
+Channel 1330
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 18 
+
+Channel 1331
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 19 
+
+Channel 1332
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 20 
+
+Channel 1333
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 21 
+
+Channel 1334
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 22 
+
+Channel 1335
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 23 
+
+Channel 1336
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 24 
+
+Channel 1337
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 25 
+
+Channel 1338
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 26 
+
+Channel 1339
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 27 
+
+Channel 1340
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 28 
+
+Channel 1341
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 29 
+
+Channel 1342
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 30 
+
+Channel 1343
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 31 
+
+Channel 1344
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 32 
+
+Channel 1345
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 33 
+
+Channel 1346
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 34 
+
+Channel 1347
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 35 
+
+Channel 1348
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 36 
+
+Channel 1349
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 37 
+
+Channel 1350
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 38 
+
+Channel 1351
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 39 
+
+Channel 1352
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 40 
+
+Channel 1353
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 41 
+
+Channel 1354
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 42 
+
+Channel 1355
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 43 
+
+Channel 1356
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 44 
+
+Channel 1357
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 45 
+
+Channel 1358
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 46 
+
+Channel 1359
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 47 
+
+Channel 1360
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 48 
+
+Channel 1361
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 49 
+
+Channel 1362
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 50 
+
+Channel 1363
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 51 
+
+Channel 1364
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 52 
+
+Channel 1365
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 53 
+
+Channel 1366
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 54 
+
+Channel 1367
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 55 
+
+Channel 1368
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 56 
+
+Channel 1369
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 57 
+
+Channel 1370
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 58 
+
+Channel 1371
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 59 
+
+Channel 1372
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 60 
+
+Channel 1373
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 61 
+
+Channel 1374
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 62 
+
+Channel 1375
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 63 
+
+Channel 1376
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 64 
+
+Channel 1377
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 65 
+
+Channel 1378
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 66 
+
+Channel 1379
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 67 
+
+Channel 1380
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 68 
+
+Channel 1381
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 69 
+
+Channel 1382
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 70 
+
+Channel 1383
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 71 
+
+Channel 1384
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 72 
+
+Channel 1385
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 73 
+
+Channel 1386
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 74 
+
+Channel 1387
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 75 
+
+Channel 1388
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 76 
+
+Channel 1389
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 77 
+
+Channel 1390
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 78 
+
+Channel 1391
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 79 
+
+Channel 1392
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 80 
+
+Channel 1393
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 81 
+
+Channel 1394
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 82 
+
+Channel 1395
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 83 
+
+Channel 1396
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 84 
+
+Channel 1397
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 85 
+
+Channel 1398
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 86 
+
+Channel 1399
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 87 
+
+Channel 1400
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 88 
+
+Channel 1401
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 89 
+
+Channel 1402
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 90 
+
+Channel 1403
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 91 
+
+Channel 1404
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 92 
+
+Channel 1405
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 93 
+
+Channel 1406
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 94 
+
+Channel 1407
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 95 
+
+Channel 1408
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 96 
+
+Channel 1409
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 97 
+
+Channel 1410
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 98 
+
+Channel 1411
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 99 
+
+Channel 1412
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 100 
+
+Channel 1413
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 101 
+
+Channel 1414
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 102 
+
+Channel 1415
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 103 
+
+Channel 1416
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 104 
+
+Channel 1417
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 105 
+
+Channel 1418
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 106 
+
+Channel 1419
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 107 
+
+Channel 1420
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 108 
+
+Channel 1421
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 109 
+
+Channel 1422
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 110 
+
+Channel 1423
+Nwires 1
+TPC 4 
+Plane 2 
+Wire 111 
+
+Channel 1424
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 0 
+
+Channel 1425
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 1 
+
+Channel 1426
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 2 
+
+Channel 1427
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 3 
+
+Channel 1428
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 4 
+
+Channel 1429
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 5 
+
+Channel 1430
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 6 
+
+Channel 1431
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 7 
+
+Channel 1432
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 8 
+
+Channel 1433
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 9 
+
+Channel 1434
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 10 
+
+Channel 1435
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 11 
+
+Channel 1436
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 12 
+
+Channel 1437
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 13 
+
+Channel 1438
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 14 
+
+Channel 1439
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 15 
+
+Channel 1440
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 16 
+
+Channel 1441
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 17 
+
+Channel 1442
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 18 
+
+Channel 1443
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 19 
+
+Channel 1444
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 20 
+
+Channel 1445
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 21 
+
+Channel 1446
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 22 
+
+Channel 1447
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 23 
+
+Channel 1448
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 24 
+
+Channel 1449
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 25 
+
+Channel 1450
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 26 
+
+Channel 1451
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 27 
+
+Channel 1452
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 28 
+
+Channel 1453
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 29 
+
+Channel 1454
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 30 
+
+Channel 1455
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 31 
+
+Channel 1456
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 32 
+
+Channel 1457
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 33 
+
+Channel 1458
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 34 
+
+Channel 1459
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 35 
+
+Channel 1460
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 36 
+
+Channel 1461
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 37 
+
+Channel 1462
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 38 
+
+Channel 1463
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 39 
+
+Channel 1464
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 40 
+
+Channel 1465
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 41 
+
+Channel 1466
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 42 
+
+Channel 1467
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 43 
+
+Channel 1468
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 44 
+
+Channel 1469
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 45 
+
+Channel 1470
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 46 
+
+Channel 1471
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 47 
+
+Channel 1472
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 48 
+
+Channel 1473
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 49 
+
+Channel 1474
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 50 
+
+Channel 1475
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 51 
+
+Channel 1476
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 52 
+
+Channel 1477
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 53 
+
+Channel 1478
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 54 
+
+Channel 1479
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 55 
+
+Channel 1480
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 56 
+
+Channel 1481
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 57 
+
+Channel 1482
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 58 
+
+Channel 1483
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 59 
+
+Channel 1484
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 60 
+
+Channel 1485
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 61 
+
+Channel 1486
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 62 
+
+Channel 1487
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 63 
+
+Channel 1488
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 64 
+
+Channel 1489
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 65 
+
+Channel 1490
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 66 
+
+Channel 1491
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 67 
+
+Channel 1492
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 68 
+
+Channel 1493
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 69 
+
+Channel 1494
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 70 
+
+Channel 1495
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 71 
+
+Channel 1496
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 72 
+
+Channel 1497
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 73 
+
+Channel 1498
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 74 
+
+Channel 1499
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 75 
+
+Channel 1500
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 76 
+
+Channel 1501
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 77 
+
+Channel 1502
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 78 
+
+Channel 1503
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 79 
+
+Channel 1504
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 80 
+
+Channel 1505
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 81 
+
+Channel 1506
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 82 
+
+Channel 1507
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 83 
+
+Channel 1508
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 84 
+
+Channel 1509
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 85 
+
+Channel 1510
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 86 
+
+Channel 1511
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 87 
+
+Channel 1512
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 88 
+
+Channel 1513
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 89 
+
+Channel 1514
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 90 
+
+Channel 1515
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 91 
+
+Channel 1516
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 92 
+
+Channel 1517
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 93 
+
+Channel 1518
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 94 
+
+Channel 1519
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 95 
+
+Channel 1520
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 96 
+
+Channel 1521
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 97 
+
+Channel 1522
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 98 
+
+Channel 1523
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 99 
+
+Channel 1524
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 100 
+
+Channel 1525
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 101 
+
+Channel 1526
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 102 
+
+Channel 1527
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 103 
+
+Channel 1528
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 104 
+
+Channel 1529
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 105 
+
+Channel 1530
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 106 
+
+Channel 1531
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 107 
+
+Channel 1532
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 108 
+
+Channel 1533
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 109 
+
+Channel 1534
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 110 
+
+Channel 1535
+Nwires 1
+TPC 5 
+Plane 2 
+Wire 111 
+
+Channel 1536
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 0 72 144 216 288 
+
+Channel 1537
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 1 73 145 217 289 
+
+Channel 1538
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 2 74 146 218 290 
+
+Channel 1539
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 3 75 147 219 291 
+
+Channel 1540
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 4 76 148 220 292 
+
+Channel 1541
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 5 77 149 221 293 
+
+Channel 1542
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 6 78 150 222 294 
+
+Channel 1543
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 7 79 151 223 295 
+
+Channel 1544
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 8 80 152 224 296 
+
+Channel 1545
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 9 81 153 225 297 
+
+Channel 1546
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 10 82 154 226 298 
+
+Channel 1547
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 11 83 155 227 299 
+
+Channel 1548
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 12 84 156 228 300 
+
+Channel 1549
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 13 85 157 229 301 
+
+Channel 1550
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 14 86 158 230 302 
+
+Channel 1551
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 15 87 159 231 303 
+
+Channel 1552
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 16 88 160 232 304 
+
+Channel 1553
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 17 89 161 233 305 
+
+Channel 1554
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 18 90 162 234 306 
+
+Channel 1555
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 19 91 163 235 307 
+
+Channel 1556
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 20 92 164 236 308 
+
+Channel 1557
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 21 93 165 237 309 
+
+Channel 1558
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 22 94 166 238 310 
+
+Channel 1559
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 23 95 167 239 311 
+
+Channel 1560
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 24 96 168 240 312 
+
+Channel 1561
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 25 97 169 241 313 
+
+Channel 1562
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 26 98 170 242 314 
+
+Channel 1563
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 27 99 171 243 315 
+
+Channel 1564
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 28 100 172 244 316 
+
+Channel 1565
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 29 101 173 245 317 
+
+Channel 1566
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 30 102 174 246 318 
+
+Channel 1567
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 31 103 175 247 319 
+
+Channel 1568
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 32 104 176 248 320 
+
+Channel 1569
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 33 105 177 249 321 
+
+Channel 1570
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 34 106 178 250 322 
+
+Channel 1571
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 35 107 179 251 323 
+
+Channel 1572
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 36 108 180 252 324 
+
+Channel 1573
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 37 109 181 253 325 
+
+Channel 1574
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 38 110 182 254 326 
+
+Channel 1575
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 39 111 183 255 327 
+
+Channel 1576
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 40 112 184 256 328 
+
+Channel 1577
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 41 113 185 257 329 
+
+Channel 1578
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 42 114 186 258 330 
+
+Channel 1579
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 43 115 187 259 331 
+
+Channel 1580
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 44 116 188 260 332 
+
+Channel 1581
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 45 117 189 261 333 
+
+Channel 1582
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 46 118 190 262 334 
+
+Channel 1583
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 47 119 191 263 335 
+
+Channel 1584
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 48 120 192 264 336 
+
+Channel 1585
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 49 121 193 265 337 
+
+Channel 1586
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 50 122 194 266 338 
+
+Channel 1587
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 51 123 195 267 339 
+
+Channel 1588
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 52 124 196 268 340 
+
+Channel 1589
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 53 125 197 269 341 
+
+Channel 1590
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 54 126 198 270 342 
+
+Channel 1591
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 55 127 199 271 343 
+
+Channel 1592
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 56 128 200 272 344 
+
+Channel 1593
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 57 129 201 273 345 
+
+Channel 1594
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 58 130 202 274 346 
+
+Channel 1595
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 59 131 203 275 347 
+
+Channel 1596
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 60 132 204 276 348 
+
+Channel 1597
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 61 133 205 277 349 
+
+Channel 1598
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 62 134 206 278 350 
+
+Channel 1599
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 63 135 207 279 351 
+
+Channel 1600
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 64 136 208 280 352 
+
+Channel 1601
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 65 137 209 281 353 
+
+Channel 1602
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 66 138 210 282 354 
+
+Channel 1603
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 67 139 211 283 355 
+
+Channel 1604
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 68 140 212 284 356 
+
+Channel 1605
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 69 141 213 285 357 
+
+Channel 1606
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 0 0 0 0 0 
+Wire 70 142 214 286 358 
+
+Channel 1607
+Nwires 4
+TPC 6 7 6 7 
+Plane 0 0 0 0 
+Wire 71 143 215 287 
+
+Channel 1608
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 0 72 144 216 288 
+
+Channel 1609
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 1 73 145 217 289 
+
+Channel 1610
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 2 74 146 218 290 
+
+Channel 1611
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 3 75 147 219 291 
+
+Channel 1612
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 4 76 148 220 292 
+
+Channel 1613
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 5 77 149 221 293 
+
+Channel 1614
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 6 78 150 222 294 
+
+Channel 1615
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 7 79 151 223 295 
+
+Channel 1616
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 8 80 152 224 296 
+
+Channel 1617
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 9 81 153 225 297 
+
+Channel 1618
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 10 82 154 226 298 
+
+Channel 1619
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 11 83 155 227 299 
+
+Channel 1620
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 12 84 156 228 300 
+
+Channel 1621
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 13 85 157 229 301 
+
+Channel 1622
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 14 86 158 230 302 
+
+Channel 1623
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 15 87 159 231 303 
+
+Channel 1624
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 16 88 160 232 304 
+
+Channel 1625
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 17 89 161 233 305 
+
+Channel 1626
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 18 90 162 234 306 
+
+Channel 1627
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 19 91 163 235 307 
+
+Channel 1628
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 20 92 164 236 308 
+
+Channel 1629
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 21 93 165 237 309 
+
+Channel 1630
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 22 94 166 238 310 
+
+Channel 1631
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 23 95 167 239 311 
+
+Channel 1632
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 24 96 168 240 312 
+
+Channel 1633
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 25 97 169 241 313 
+
+Channel 1634
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 26 98 170 242 314 
+
+Channel 1635
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 27 99 171 243 315 
+
+Channel 1636
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 28 100 172 244 316 
+
+Channel 1637
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 29 101 173 245 317 
+
+Channel 1638
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 30 102 174 246 318 
+
+Channel 1639
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 31 103 175 247 319 
+
+Channel 1640
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 32 104 176 248 320 
+
+Channel 1641
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 33 105 177 249 321 
+
+Channel 1642
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 34 106 178 250 322 
+
+Channel 1643
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 35 107 179 251 323 
+
+Channel 1644
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 36 108 180 252 324 
+
+Channel 1645
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 37 109 181 253 325 
+
+Channel 1646
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 38 110 182 254 326 
+
+Channel 1647
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 39 111 183 255 327 
+
+Channel 1648
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 40 112 184 256 328 
+
+Channel 1649
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 41 113 185 257 329 
+
+Channel 1650
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 42 114 186 258 330 
+
+Channel 1651
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 43 115 187 259 331 
+
+Channel 1652
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 44 116 188 260 332 
+
+Channel 1653
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 45 117 189 261 333 
+
+Channel 1654
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 46 118 190 262 334 
+
+Channel 1655
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 47 119 191 263 335 
+
+Channel 1656
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 48 120 192 264 336 
+
+Channel 1657
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 49 121 193 265 337 
+
+Channel 1658
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 50 122 194 266 338 
+
+Channel 1659
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 51 123 195 267 339 
+
+Channel 1660
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 52 124 196 268 340 
+
+Channel 1661
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 53 125 197 269 341 
+
+Channel 1662
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 54 126 198 270 342 
+
+Channel 1663
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 55 127 199 271 343 
+
+Channel 1664
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 56 128 200 272 344 
+
+Channel 1665
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 57 129 201 273 345 
+
+Channel 1666
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 58 130 202 274 346 
+
+Channel 1667
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 59 131 203 275 347 
+
+Channel 1668
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 60 132 204 276 348 
+
+Channel 1669
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 61 133 205 277 349 
+
+Channel 1670
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 62 134 206 278 350 
+
+Channel 1671
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 63 135 207 279 351 
+
+Channel 1672
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 64 136 208 280 352 
+
+Channel 1673
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 65 137 209 281 353 
+
+Channel 1674
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 66 138 210 282 354 
+
+Channel 1675
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 67 139 211 283 355 
+
+Channel 1676
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 68 140 212 284 356 
+
+Channel 1677
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 69 141 213 285 357 
+
+Channel 1678
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 0 0 0 0 0 
+Wire 70 142 214 286 358 
+
+Channel 1679
+Nwires 4
+TPC 7 6 7 6 
+Plane 0 0 0 0 
+Wire 71 143 215 287 
+
+Channel 1680
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 0 72 144 216 288 
+
+Channel 1681
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 1 73 145 217 289 
+
+Channel 1682
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 2 74 146 218 290 
+
+Channel 1683
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 3 75 147 219 291 
+
+Channel 1684
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 4 76 148 220 292 
+
+Channel 1685
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 5 77 149 221 293 
+
+Channel 1686
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 6 78 150 222 294 
+
+Channel 1687
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 7 79 151 223 295 
+
+Channel 1688
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 8 80 152 224 296 
+
+Channel 1689
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 9 81 153 225 297 
+
+Channel 1690
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 10 82 154 226 298 
+
+Channel 1691
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 11 83 155 227 299 
+
+Channel 1692
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 12 84 156 228 300 
+
+Channel 1693
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 13 85 157 229 301 
+
+Channel 1694
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 14 86 158 230 302 
+
+Channel 1695
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 15 87 159 231 303 
+
+Channel 1696
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 16 88 160 232 304 
+
+Channel 1697
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 17 89 161 233 305 
+
+Channel 1698
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 18 90 162 234 306 
+
+Channel 1699
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 19 91 163 235 307 
+
+Channel 1700
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 20 92 164 236 308 
+
+Channel 1701
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 21 93 165 237 309 
+
+Channel 1702
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 22 94 166 238 310 
+
+Channel 1703
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 23 95 167 239 311 
+
+Channel 1704
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 24 96 168 240 312 
+
+Channel 1705
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 25 97 169 241 313 
+
+Channel 1706
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 26 98 170 242 314 
+
+Channel 1707
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 27 99 171 243 315 
+
+Channel 1708
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 28 100 172 244 316 
+
+Channel 1709
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 29 101 173 245 317 
+
+Channel 1710
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 30 102 174 246 318 
+
+Channel 1711
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 31 103 175 247 319 
+
+Channel 1712
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 32 104 176 248 320 
+
+Channel 1713
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 33 105 177 249 321 
+
+Channel 1714
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 34 106 178 250 322 
+
+Channel 1715
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 35 107 179 251 323 
+
+Channel 1716
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 36 108 180 252 324 
+
+Channel 1717
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 37 109 181 253 325 
+
+Channel 1718
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 38 110 182 254 326 
+
+Channel 1719
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 39 111 183 255 327 
+
+Channel 1720
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 40 112 184 256 328 
+
+Channel 1721
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 41 113 185 257 329 
+
+Channel 1722
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 42 114 186 258 330 
+
+Channel 1723
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 43 115 187 259 331 
+
+Channel 1724
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 44 116 188 260 332 
+
+Channel 1725
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 45 117 189 261 333 
+
+Channel 1726
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 46 118 190 262 334 
+
+Channel 1727
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 47 119 191 263 335 
+
+Channel 1728
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 48 120 192 264 336 
+
+Channel 1729
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 49 121 193 265 337 
+
+Channel 1730
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 50 122 194 266 338 
+
+Channel 1731
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 51 123 195 267 339 
+
+Channel 1732
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 52 124 196 268 340 
+
+Channel 1733
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 53 125 197 269 341 
+
+Channel 1734
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 54 126 198 270 342 
+
+Channel 1735
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 55 127 199 271 343 
+
+Channel 1736
+Nwires 5
+TPC 6 7 6 7 6 
+Plane 1 1 1 1 1 
+Wire 56 128 200 272 344 
+
+Channel 1737
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 57 129 201 273 
+
+Channel 1738
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 58 130 202 274 
+
+Channel 1739
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 59 131 203 275 
+
+Channel 1740
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 60 132 204 276 
+
+Channel 1741
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 61 133 205 277 
+
+Channel 1742
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 62 134 206 278 
+
+Channel 1743
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 63 135 207 279 
+
+Channel 1744
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 64 136 208 280 
+
+Channel 1745
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 65 137 209 281 
+
+Channel 1746
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 66 138 210 282 
+
+Channel 1747
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 67 139 211 283 
+
+Channel 1748
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 68 140 212 284 
+
+Channel 1749
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 69 141 213 285 
+
+Channel 1750
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 70 142 214 286 
+
+Channel 1751
+Nwires 4
+TPC 6 7 6 7 
+Plane 1 1 1 1 
+Wire 71 143 215 287 
+
+Channel 1752
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 0 72 144 216 288 
+
+Channel 1753
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 1 73 145 217 289 
+
+Channel 1754
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 2 74 146 218 290 
+
+Channel 1755
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 3 75 147 219 291 
+
+Channel 1756
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 4 76 148 220 292 
+
+Channel 1757
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 5 77 149 221 293 
+
+Channel 1758
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 6 78 150 222 294 
+
+Channel 1759
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 7 79 151 223 295 
+
+Channel 1760
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 8 80 152 224 296 
+
+Channel 1761
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 9 81 153 225 297 
+
+Channel 1762
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 10 82 154 226 298 
+
+Channel 1763
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 11 83 155 227 299 
+
+Channel 1764
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 12 84 156 228 300 
+
+Channel 1765
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 13 85 157 229 301 
+
+Channel 1766
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 14 86 158 230 302 
+
+Channel 1767
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 15 87 159 231 303 
+
+Channel 1768
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 16 88 160 232 304 
+
+Channel 1769
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 17 89 161 233 305 
+
+Channel 1770
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 18 90 162 234 306 
+
+Channel 1771
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 19 91 163 235 307 
+
+Channel 1772
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 20 92 164 236 308 
+
+Channel 1773
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 21 93 165 237 309 
+
+Channel 1774
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 22 94 166 238 310 
+
+Channel 1775
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 23 95 167 239 311 
+
+Channel 1776
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 24 96 168 240 312 
+
+Channel 1777
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 25 97 169 241 313 
+
+Channel 1778
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 26 98 170 242 314 
+
+Channel 1779
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 27 99 171 243 315 
+
+Channel 1780
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 28 100 172 244 316 
+
+Channel 1781
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 29 101 173 245 317 
+
+Channel 1782
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 30 102 174 246 318 
+
+Channel 1783
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 31 103 175 247 319 
+
+Channel 1784
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 32 104 176 248 320 
+
+Channel 1785
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 33 105 177 249 321 
+
+Channel 1786
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 34 106 178 250 322 
+
+Channel 1787
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 35 107 179 251 323 
+
+Channel 1788
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 36 108 180 252 324 
+
+Channel 1789
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 37 109 181 253 325 
+
+Channel 1790
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 38 110 182 254 326 
+
+Channel 1791
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 39 111 183 255 327 
+
+Channel 1792
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 40 112 184 256 328 
+
+Channel 1793
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 41 113 185 257 329 
+
+Channel 1794
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 42 114 186 258 330 
+
+Channel 1795
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 43 115 187 259 331 
+
+Channel 1796
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 44 116 188 260 332 
+
+Channel 1797
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 45 117 189 261 333 
+
+Channel 1798
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 46 118 190 262 334 
+
+Channel 1799
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 47 119 191 263 335 
+
+Channel 1800
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 48 120 192 264 336 
+
+Channel 1801
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 49 121 193 265 337 
+
+Channel 1802
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 50 122 194 266 338 
+
+Channel 1803
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 51 123 195 267 339 
+
+Channel 1804
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 52 124 196 268 340 
+
+Channel 1805
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 53 125 197 269 341 
+
+Channel 1806
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 54 126 198 270 342 
+
+Channel 1807
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 55 127 199 271 343 
+
+Channel 1808
+Nwires 5
+TPC 7 6 7 6 7 
+Plane 1 1 1 1 1 
+Wire 56 128 200 272 344 
+
+Channel 1809
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 57 129 201 273 
+
+Channel 1810
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 58 130 202 274 
+
+Channel 1811
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 59 131 203 275 
+
+Channel 1812
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 60 132 204 276 
+
+Channel 1813
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 61 133 205 277 
+
+Channel 1814
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 62 134 206 278 
+
+Channel 1815
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 63 135 207 279 
+
+Channel 1816
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 64 136 208 280 
+
+Channel 1817
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 65 137 209 281 
+
+Channel 1818
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 66 138 210 282 
+
+Channel 1819
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 67 139 211 283 
+
+Channel 1820
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 68 140 212 284 
+
+Channel 1821
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 69 141 213 285 
+
+Channel 1822
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 70 142 214 286 
+
+Channel 1823
+Nwires 4
+TPC 7 6 7 6 
+Plane 1 1 1 1 
+Wire 71 143 215 287 
+
+Channel 1824
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 0 
+
+Channel 1825
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 1 
+
+Channel 1826
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 2 
+
+Channel 1827
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 3 
+
+Channel 1828
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 4 
+
+Channel 1829
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 5 
+
+Channel 1830
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 6 
+
+Channel 1831
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 7 
+
+Channel 1832
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 8 
+
+Channel 1833
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 9 
+
+Channel 1834
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 10 
+
+Channel 1835
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 11 
+
+Channel 1836
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 12 
+
+Channel 1837
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 13 
+
+Channel 1838
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 14 
+
+Channel 1839
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 15 
+
+Channel 1840
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 16 
+
+Channel 1841
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 17 
+
+Channel 1842
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 18 
+
+Channel 1843
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 19 
+
+Channel 1844
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 20 
+
+Channel 1845
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 21 
+
+Channel 1846
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 22 
+
+Channel 1847
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 23 
+
+Channel 1848
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 24 
+
+Channel 1849
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 25 
+
+Channel 1850
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 26 
+
+Channel 1851
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 27 
+
+Channel 1852
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 28 
+
+Channel 1853
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 29 
+
+Channel 1854
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 30 
+
+Channel 1855
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 31 
+
+Channel 1856
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 32 
+
+Channel 1857
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 33 
+
+Channel 1858
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 34 
+
+Channel 1859
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 35 
+
+Channel 1860
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 36 
+
+Channel 1861
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 37 
+
+Channel 1862
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 38 
+
+Channel 1863
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 39 
+
+Channel 1864
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 40 
+
+Channel 1865
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 41 
+
+Channel 1866
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 42 
+
+Channel 1867
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 43 
+
+Channel 1868
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 44 
+
+Channel 1869
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 45 
+
+Channel 1870
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 46 
+
+Channel 1871
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 47 
+
+Channel 1872
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 48 
+
+Channel 1873
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 49 
+
+Channel 1874
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 50 
+
+Channel 1875
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 51 
+
+Channel 1876
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 52 
+
+Channel 1877
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 53 
+
+Channel 1878
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 54 
+
+Channel 1879
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 55 
+
+Channel 1880
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 56 
+
+Channel 1881
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 57 
+
+Channel 1882
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 58 
+
+Channel 1883
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 59 
+
+Channel 1884
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 60 
+
+Channel 1885
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 61 
+
+Channel 1886
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 62 
+
+Channel 1887
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 63 
+
+Channel 1888
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 64 
+
+Channel 1889
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 65 
+
+Channel 1890
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 66 
+
+Channel 1891
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 67 
+
+Channel 1892
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 68 
+
+Channel 1893
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 69 
+
+Channel 1894
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 70 
+
+Channel 1895
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 71 
+
+Channel 1896
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 72 
+
+Channel 1897
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 73 
+
+Channel 1898
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 74 
+
+Channel 1899
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 75 
+
+Channel 1900
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 76 
+
+Channel 1901
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 77 
+
+Channel 1902
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 78 
+
+Channel 1903
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 79 
+
+Channel 1904
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 80 
+
+Channel 1905
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 81 
+
+Channel 1906
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 82 
+
+Channel 1907
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 83 
+
+Channel 1908
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 84 
+
+Channel 1909
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 85 
+
+Channel 1910
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 86 
+
+Channel 1911
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 87 
+
+Channel 1912
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 88 
+
+Channel 1913
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 89 
+
+Channel 1914
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 90 
+
+Channel 1915
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 91 
+
+Channel 1916
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 92 
+
+Channel 1917
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 93 
+
+Channel 1918
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 94 
+
+Channel 1919
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 95 
+
+Channel 1920
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 96 
+
+Channel 1921
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 97 
+
+Channel 1922
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 98 
+
+Channel 1923
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 99 
+
+Channel 1924
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 100 
+
+Channel 1925
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 101 
+
+Channel 1926
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 102 
+
+Channel 1927
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 103 
+
+Channel 1928
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 104 
+
+Channel 1929
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 105 
+
+Channel 1930
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 106 
+
+Channel 1931
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 107 
+
+Channel 1932
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 108 
+
+Channel 1933
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 109 
+
+Channel 1934
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 110 
+
+Channel 1935
+Nwires 1
+TPC 6 
+Plane 2 
+Wire 111 
+
+Channel 1936
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 0 
+
+Channel 1937
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 1 
+
+Channel 1938
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 2 
+
+Channel 1939
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 3 
+
+Channel 1940
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 4 
+
+Channel 1941
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 5 
+
+Channel 1942
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 6 
+
+Channel 1943
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 7 
+
+Channel 1944
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 8 
+
+Channel 1945
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 9 
+
+Channel 1946
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 10 
+
+Channel 1947
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 11 
+
+Channel 1948
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 12 
+
+Channel 1949
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 13 
+
+Channel 1950
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 14 
+
+Channel 1951
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 15 
+
+Channel 1952
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 16 
+
+Channel 1953
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 17 
+
+Channel 1954
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 18 
+
+Channel 1955
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 19 
+
+Channel 1956
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 20 
+
+Channel 1957
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 21 
+
+Channel 1958
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 22 
+
+Channel 1959
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 23 
+
+Channel 1960
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 24 
+
+Channel 1961
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 25 
+
+Channel 1962
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 26 
+
+Channel 1963
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 27 
+
+Channel 1964
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 28 
+
+Channel 1965
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 29 
+
+Channel 1966
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 30 
+
+Channel 1967
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 31 
+
+Channel 1968
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 32 
+
+Channel 1969
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 33 
+
+Channel 1970
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 34 
+
+Channel 1971
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 35 
+
+Channel 1972
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 36 
+
+Channel 1973
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 37 
+
+Channel 1974
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 38 
+
+Channel 1975
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 39 
+
+Channel 1976
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 40 
+
+Channel 1977
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 41 
+
+Channel 1978
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 42 
+
+Channel 1979
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 43 
+
+Channel 1980
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 44 
+
+Channel 1981
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 45 
+
+Channel 1982
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 46 
+
+Channel 1983
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 47 
+
+Channel 1984
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 48 
+
+Channel 1985
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 49 
+
+Channel 1986
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 50 
+
+Channel 1987
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 51 
+
+Channel 1988
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 52 
+
+Channel 1989
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 53 
+
+Channel 1990
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 54 
+
+Channel 1991
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 55 
+
+Channel 1992
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 56 
+
+Channel 1993
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 57 
+
+Channel 1994
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 58 
+
+Channel 1995
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 59 
+
+Channel 1996
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 60 
+
+Channel 1997
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 61 
+
+Channel 1998
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 62 
+
+Channel 1999
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 63 
+
+Channel 2000
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 64 
+
+Channel 2001
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 65 
+
+Channel 2002
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 66 
+
+Channel 2003
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 67 
+
+Channel 2004
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 68 
+
+Channel 2005
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 69 
+
+Channel 2006
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 70 
+
+Channel 2007
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 71 
+
+Channel 2008
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 72 
+
+Channel 2009
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 73 
+
+Channel 2010
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 74 
+
+Channel 2011
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 75 
+
+Channel 2012
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 76 
+
+Channel 2013
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 77 
+
+Channel 2014
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 78 
+
+Channel 2015
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 79 
+
+Channel 2016
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 80 
+
+Channel 2017
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 81 
+
+Channel 2018
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 82 
+
+Channel 2019
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 83 
+
+Channel 2020
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 84 
+
+Channel 2021
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 85 
+
+Channel 2022
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 86 
+
+Channel 2023
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 87 
+
+Channel 2024
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 88 
+
+Channel 2025
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 89 
+
+Channel 2026
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 90 
+
+Channel 2027
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 91 
+
+Channel 2028
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 92 
+
+Channel 2029
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 93 
+
+Channel 2030
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 94 
+
+Channel 2031
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 95 
+
+Channel 2032
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 96 
+
+Channel 2033
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 97 
+
+Channel 2034
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 98 
+
+Channel 2035
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 99 
+
+Channel 2036
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 100 
+
+Channel 2037
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 101 
+
+Channel 2038
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 102 
+
+Channel 2039
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 103 
+
+Channel 2040
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 104 
+
+Channel 2041
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 105 
+
+Channel 2042
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 106 
+
+Channel 2043
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 107 
+
+Channel 2044
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 108 
+
+Channel 2045
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 109 
+
+Channel 2046
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 110 
+
+Channel 2047
+Nwires 1
+TPC 7 
+Plane 2 
+Wire 111 
+
