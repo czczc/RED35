@@ -288,7 +288,7 @@ void MCEvent::FillPixel(int yView, int xView)
                 }
                 for (int i_tdc=0; i_tdc<size_tdc; i_tdc++) {
                     // double x = tdcs[i_tdc];
-                    double x = geom->ProjectionX(tpc, tdcs[i_tdc]);
+                    double x = geom->ProjectionX(tpc, tdcs[i_tdc], wirePlane);
                     // cout << tpc << " " << tdcs[i_tdc] << " " << x << endl;
                     int weight = adcs[i_tdc];
                     if (weight>1e4) {
@@ -332,7 +332,7 @@ void MCEvent::FillPixel(int yView, int xView)
                 // only show designated APA's
                 if (!showAPA[(tpc-1)/2]) continue;
 
-                double x = geom->ProjectionX(tpc, hit_peakT[i]);
+                double x = geom->ProjectionX(tpc, hit_peakT[i], wirePlane);
                 double y = _ProjectionY(yView, tpc, wire);
                 h->Fill(x, y, hit_charge[i]);
             }

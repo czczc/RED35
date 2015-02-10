@@ -24,6 +24,8 @@
 #include "TParticlePDG.h"
 #include "TString.h"
 #include "TColor.h"
+#include "TClonesArray.h"
+#include "TLorentzVector.h"
 
 #include <iostream>
 using namespace std;
@@ -38,7 +40,7 @@ Gui3DController::Gui3DController()
     InitNavigationFrame();
     InitEvent();
 
-    AddTracks();
+    // AddTracks();
 
     ProjectionView();
 }
@@ -184,13 +186,13 @@ void Gui3DController::AddTracks()
         gEve->AddElement(list);
     }    
     TString name;
-    name.Form("%i: MC Particles", currentEvent);
+    name.Form("Event %i: MC Tracks", currentEvent);
     list->SetName(name.Data());
 
     int mc_Ntrack = event->mc_Ntrack;  // number of tracks in MC
     TEveRecTrackD *rc = 0;
     TEveTrack* track = 0;
-    TEvePathMarkD* pm = 0;
+
     int colors[6] = {kMagenta, kGreen, kYellow, kRed, kCyan, kWhite};
     int nTrackShowed = 0;
     for (int i=0; i<mc_Ntrack; i++) {
@@ -210,11 +212,22 @@ void Gui3DController::AddTracks()
         s.Form("%i: %s", mc_id, p->GetName());
         track->SetName(s.Data());
         track->SetLineColor( colors[nTrackShowed % 6] );
-        pm = new TEvePathMarkD(TEvePathMarkD::kReference);
-        pm->fV.Set(event->mc_endXYZT[i][0], event->mc_endXYZT[i][1], event->mc_endXYZT[i][2]);
-        track->AddPathMark(*pm);
+
+        TClonesArray *pos = (TClonesArray*)(*event->mc_trackPosition)[i];
+        int nPoints = pos->GetEntries();
+        for (int k=1; k<nPoints; k++) {
+            TLorentzVector* l = (TLorentzVector*)(*pos)[k];
+            TEvePathMarkD pm(TEvePathMarkD::kReference);
+            pm.fV.Set(l->X(), l->Y(), l->Z());
+            track->AddPathMark(pm);
+            // delete pm;
+        }
+                
         list->AddElement(track);
         track->MakeTrack();
+
+
+
         nTrackShowed++;
     }
 

@@ -211,13 +211,15 @@ double MCGeometry::ProjectionV(int tpc, int wire)
 }
 
 
-double MCGeometry::ProjectionX(int tpc, int tdc)
+double MCGeometry::ProjectionX(int tpc, int tdc, int plane)
 {
     // all numbers are in cm;
     // const double xPerTDC = 0.0775; // TDC = 2MHZ; drift = 1.55e6 mm/s
     const double xPerTDC = 0.0802815; // TDC = 2MHZ; drift = 1.55e6 mm/s
     
     double start = -0.9986;  // starting z for the 0 wire in 0 tpc
+    if (plane == 0) start = -0.0225;
+    else if (plane == 1) start = -0.5105;
 
     double x = -10000; // init to some unphysical region
     if (tpc % 2 == 1) {
