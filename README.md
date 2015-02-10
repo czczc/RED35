@@ -14,7 +14,7 @@
 * git flow feature pull origin chaoz_ctree
 * re-compile lbnecode
 * produce a MC/reco root file
-* lar -c ctree35t.fcl [MC/reco]
+* lar -c ctree35t.fcl [MC/reco root file]
 
 
 This will generate a "sample.root" file for the event display. You can then scp this file to your local [data/](https://github.com/czczc/RED35/tree/master/data) directory.

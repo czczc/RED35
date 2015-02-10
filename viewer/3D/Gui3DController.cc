@@ -67,7 +67,7 @@ void Gui3DController::InitEvent()
 
 void Gui3DController::InitGeometry()
 {
-    TGeoManager::Import("../Geometry/lbne35t4apa.gdml");
+    TGeoManager::Import("../Geometry/lbne35t4apa_v3_nowires.gdml");
     // TGeoManager::Import("../Geometry/lbne35t4apa.root");
     gGeoManager->DefaultColors();
     TGeoNode* world = gGeoManager->GetTopNode();

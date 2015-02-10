@@ -1,6 +1,6 @@
 {
     gROOT->Reset();
-    gROOT->ProcessLine(".x load3dClasses.C" );
+    gROOT->ProcessLine(".x loadClasses.C" );
 
     Gui3DController *w = new Gui3DController();
     w->Run();
