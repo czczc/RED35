@@ -1,5 +1,6 @@
 #include "Gui3DController.h"
 #include "MCEvent.h"
+#include "MCGeometry.h"
 
 #include "TEveManager.h"
 #include "TEveGeoNode.h"
@@ -191,6 +192,7 @@ void Gui3DController::AddMCTracks()
     int mc_Ntrack = event->mc_Ntrack;  // number of tracks in MC
     TEveRecTrackD *rc = 0;
     TEveTrack* track = 0;
+    TLorentzVector* l = 0;
 
     int colors[6] = {kMagenta, kGreen, kYellow, kRed, kCyan, kWhite};
     int nTrackShowed = 0;
@@ -204,28 +206,42 @@ void Gui3DController::AddMCTracks()
         if ( fabs(p->Charge()) < 1e-2 ) {
             continue;  // skip neutral particles
         }
-        rc = new TEveRecTrackD();
-        rc->fV.Set(event->mc_startXYZT[i][0], event->mc_startXYZT[i][1], event->mc_startXYZT[i][2]);
-        track = new TEveTrack(rc, mcTrackList->GetPropagator());
-        TString s;
-        s.Form("%i: %s", mc_id, p->GetName());
-        track->SetName(s.Data());
-        track->SetLineColor( colors[nTrackShowed % 6] );
-        track->SetLineWidth(2);
 
         TClonesArray *pos = (TClonesArray*)(*event->mc_trackPosition)[i];
+
+        bool isTrackCreated = false;
         int nPoints = pos->GetEntries();
-        for (int k=1; k<nPoints; k++) {
-            TLorentzVector* l = (TLorentzVector*)(*pos)[k];
-            TEvePathMarkD pm(TEvePathMarkD::kReference);
-            pm.fV.Set(l->X(), l->Y(), l->Z());
-            track->AddPathMark(pm);
-            // delete pm;
+        for (int k=0; k<nPoints; k++) {
+            l = (TLorentzVector*)(*pos)[k];
+            if ( event->geom->IsPointInside(l->X(), l->Y(), l->Z()) ) {
+                if (!isTrackCreated) {
+                    rc = new TEveRecTrackD();
+                    rc->fV.Set(l->X(), l->Y(), l->Z());
+                    track = new TEveTrack(rc, mcTrackList->GetPropagator());
+                    TString s;
+                    s.Form("%i: %s", mc_id, p->GetName());
+                    track->SetName(s.Data());
+                    track->SetLineColor( colors[nTrackShowed % 6] );
+                    track->SetLineWidth(2);
+
+                    isTrackCreated = true;
+                }
+                else {
+                    TEvePathMarkD pm(TEvePathMarkD::kReference);
+                    pm.fV.Set(l->X(), l->Y(), l->Z());
+                    track->AddPathMark(pm);
+                }
+            }
+            // else {
+            //     cout << l->X() << ", " << l->Y() << ", " << l->Z() << endl;
+            // }
         }
-                
-        mcTrackList->AddElement(track);
-        track->MakeTrack();
-        nTrackShowed++;
+        if (isTrackCreated) {
+            mcTrackList->AddElement(track);
+            track->MakeTrack();
+            nTrackShowed++;
+        }
+
     }
 
 }

@@ -256,3 +256,13 @@ void MCGeometry::PrintInfo()
         }
     }
 }
+
+bool MCGeometry::IsPointInside(double x, double y, double z, double scale)
+{
+    return (
+        x>-40*scale && x<240*scale
+        && y>-90*scale && y<120*scale
+        && z>-10*scale && z<160*scale
+    );
+}
+
