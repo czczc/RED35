@@ -30,3 +30,18 @@ This will generate a "sample.root" file for the event display. You can then scp 
 ### 3D Event Display
     (under the scripts/ directory)
     root -l run3d.C
+
+
+## (If You Have [RAKE](https://github.com/ruby/rake) Installed)
+
+### Build the Application
+    rake
+
+### 2D Event Display
+
+    rake 2d
+
+### 3D Event Display
+    
+    rake 3d
+
