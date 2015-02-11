@@ -500,8 +500,8 @@ void GuiController::Reload()
 
     // InitTracksList();
     MCTrackSelected(1); // select the first track
-    cw->showMCButton->SetState(kButtonUp);
-    UpdateShowMC();
+    // cw->showMCButton->SetState(kButtonUp);
+    // UpdateShowMC();
     DrawPixels();
 }
 
@@ -522,8 +522,8 @@ void GuiController::Reload()
 void GuiController::MCTrackSelected(int id)
 {
     currentTrackId = id;
-    cw->showMCButton->SetState(kButtonDown);
-    currentShowMC = true;
+    // cw->showMCButton->SetState(kButtonDown);
+    // currentShowMC = true;
 
     cw->fDaughterTracksListBox->RemoveAll();
     int i = event->trackIndex[id];
