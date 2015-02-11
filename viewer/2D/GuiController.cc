@@ -498,25 +498,26 @@ void GuiController::Reload()
     event->PrintInfo();
     iw->DrawEventInfo(event);
 
-    InitTracksList();
+    // InitTracksList();
+    MCTrackSelected(1); // select the first track
     cw->showMCButton->SetState(kButtonUp);
     UpdateShowMC();
     DrawPixels();
 }
 
 
-void GuiController::InitTracksList()
-{   
+// void GuiController::InitTracksList()
+// {   
 
-    cw->fSiblingTracksListBox->RemoveAll();
-    cw->fParentTracksListBox->RemoveAll();
-    cw->fDaughterTracksListBox->RemoveAll();
-    TGString name;
-    name.Form("%s (%.1f)", PDGName(event->mc_pdg[0]).Data(), KE(event->mc_startMomentum[0])*1000);
-    int id = event->mc_id[0];
-    currentTrackId = id;
-    cw->fSiblingTracksListBox->AddEntry(name, id);
-}
+    // cw->fSiblingTracksListBox->RemoveAll();
+    // cw->fParentTracksListBox->RemoveAll();
+    // cw->fDaughterTracksListBox->RemoveAll();
+    // TGString name;
+    // name.Form("%s (%.1f)", PDGName(event->mc_pdg[0]).Data(), KE(event->mc_startMomentum[0])*1000);
+    // int id = event->mc_id[0];
+    // currentTrackId = id;
+    // cw->fSiblingTracksListBox->AddEntry(name, id);
+// }
 
 void GuiController::MCTrackSelected(int id)
 {
@@ -560,8 +561,8 @@ void GuiController::MCTrackSelected(int id)
 
 
     cw->fSiblingTracksListBox->Select(id);
-    DrawTrack(id);
-    cout << "MC Track, id: " << id << ", daughters: " << nDaughter << endl;
+    if (currentShowMC) DrawTrack(id);
+    cout << PDGName(event->mc_pdg[i]) << ": id: " << id << ", daughters: " << nDaughter << endl;
 }
 
 

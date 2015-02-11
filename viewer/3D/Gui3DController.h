@@ -22,7 +22,8 @@ public:
     void InitNavigationFrame();
     void InitEvent();
     void Reload();
-    void AddTracks();
+    void AddMCTracks();
+    void AddRecoTracks();
     void ProjectionView();
     void Run();
 
@@ -33,7 +34,8 @@ public:
     MCEvent *event;
     int currentEvent;
     TDatabasePDG *dbPDG;
-    TEveTrackList *list;
+    TEveTrackList *mcTrackList;
+    TEveTrackList *recoTrackList;
 
     // GUIs
     TGMainFrame        *frmMain;

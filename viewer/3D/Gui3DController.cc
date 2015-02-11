@@ -33,14 +33,12 @@ using namespace std;
 Gui3DController::Gui3DController()
 {
     dbPDG = new TDatabasePDG();
-    list = 0;
+    mcTrackList = 0;
 
     TEveManager::Create();
     InitGeometry();
     InitNavigationFrame();
     InitEvent();
-
-    // AddTracks();
 
     ProjectionView();
 }
@@ -173,21 +171,22 @@ void Gui3DController::InitNavigationFrame()
    browser->SetTabTitle("Events", 0);
 }
 
-void Gui3DController::AddTracks()
+
+void Gui3DController::AddMCTracks()
 {
-    if (list) {
-        list->RemoveElements();
+    if (mcTrackList) {
+        mcTrackList->RemoveElements();
     }
     else {
-        list = new TEveTrackList();
-        list->GetPropagator()->SetStepper(TEveTrackPropagator::kRungeKutta);
-        list->GetPropagator()->SetMaxR(1e4);
-        list->GetPropagator()->SetMaxZ(1e4);
-        gEve->AddElement(list);
+        mcTrackList = new TEveTrackList();
+        mcTrackList->GetPropagator()->SetStepper(TEveTrackPropagator::kRungeKutta);
+        mcTrackList->GetPropagator()->SetMaxR(1e4);
+        mcTrackList->GetPropagator()->SetMaxZ(1e4);
+        gEve->AddElement(mcTrackList);
     }    
     TString name;
     name.Form("Event %i: MC Tracks", currentEvent);
-    list->SetName(name.Data());
+    mcTrackList->SetName(name.Data());
 
     int mc_Ntrack = event->mc_Ntrack;  // number of tracks in MC
     TEveRecTrackD *rc = 0;
@@ -207,11 +206,12 @@ void Gui3DController::AddTracks()
         }
         rc = new TEveRecTrackD();
         rc->fV.Set(event->mc_startXYZT[i][0], event->mc_startXYZT[i][1], event->mc_startXYZT[i][2]);
-        track = new TEveTrack(rc, list->GetPropagator());
+        track = new TEveTrack(rc, mcTrackList->GetPropagator());
         TString s;
         s.Form("%i: %s", mc_id, p->GetName());
         track->SetName(s.Data());
         track->SetLineColor( colors[nTrackShowed % 6] );
+        track->SetLineWidth(2);
 
         TClonesArray *pos = (TClonesArray*)(*event->mc_trackPosition)[i];
         int nPoints = pos->GetEntries();
@@ -223,15 +223,64 @@ void Gui3DController::AddTracks()
             // delete pm;
         }
                 
-        list->AddElement(track);
+        mcTrackList->AddElement(track);
         track->MakeTrack();
-
-
-
         nTrackShowed++;
     }
 
 }
+
+
+void Gui3DController::AddRecoTracks()
+{
+    if (recoTrackList) {
+        recoTrackList->RemoveElements();
+    }
+    else {
+        recoTrackList = new TEveTrackList();
+        recoTrackList->GetPropagator()->SetStepper(TEveTrackPropagator::kRungeKutta);
+        recoTrackList->GetPropagator()->SetMaxR(1e4);
+        recoTrackList->GetPropagator()->SetMaxZ(1e4);
+        gEve->AddElement(recoTrackList);
+    }    
+    TString name;
+    name.Form("Event %i: Reco Tracks", currentEvent);
+    recoTrackList->SetName(name.Data());
+
+    int nTrack = event->reco_nTrack;  // number of tracks in MC
+    TEveRecTrackD *rc = 0;
+    TEveTrack* track = 0;
+
+    int colors[6] = {kMagenta, kGreen, kYellow, kRed, kCyan, kWhite};
+    int nTrackShowed = 0;
+    for (int i=0; i<nTrack; i++) {
+        TClonesArray *pos = (TClonesArray*)(*event->reco_trackPosition)[i];
+        TLorentzVector* l = (TLorentzVector*)(*pos)[0];
+
+        rc = new TEveRecTrackD();
+        rc->fV.Set(l->X(), l->Y(), l->Z());
+        track = new TEveTrack(rc, recoTrackList->GetPropagator());
+        TString s;
+        s.Form("track %i", i);
+        track->SetName(s.Data());
+        track->SetLineColor( colors[nTrackShowed % 6] );
+        track->SetLineStyle(3);
+
+        int nPoints = pos->GetEntries();
+        for (int k=1; k<nPoints; k++) {
+            l = (TLorentzVector*)(*pos)[k];
+            TEvePathMarkD pm(TEvePathMarkD::kReference);
+            pm.fV.Set(l->X(), l->Y(), l->Z());
+            track->AddPathMark(pm);
+        }
+                
+        recoTrackList->AddElement(track);
+        track->MakeTrack();
+        nTrackShowed++;
+    }
+
+}
+
 
 void Gui3DController::ProjectionView()
 {
@@ -340,6 +389,7 @@ void Gui3DController::Reload()
     event->GetEntry(currentEvent);
     // event->PrintInfo(1);
     event->PrintInfo();
-    AddTracks();
+    AddMCTracks();
+    AddRecoTracks();
     gEve->DoRedraw3D();
 }

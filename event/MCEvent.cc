@@ -100,6 +100,9 @@ void MCEvent::InitBranchAddress()
     simTree->SetBranchAddress("hit_peakT"  , &hit_peakT);
     simTree->SetBranchAddress("hit_charge" , &hit_charge);
 
+    simTree->SetBranchAddress("reco_nTrack"    , &reco_nTrack);
+    simTree->SetBranchAddress("reco_trackPosition"  , &reco_trackPosition);
+
 }
 
 
@@ -126,12 +129,10 @@ void MCEvent::GetEntry(int entry)
 {
     Reset();
     simTree->GetEntry(entry);
-    // mc_trackPosition->Print();
-    // TClonesArray *pos = (TClonesArray*)(*mc_trackPosition)[3];
+
+    // reco_trackPosition->Print();
+    // TClonesArray *pos = (TClonesArray*)(*reco_trackPosition)[reco_nTrack-1];
     // pos->Print();
-    // TLorentzVector* l = (TLorentzVector*)(*pos)[0];
-    // cout << mc_trackPosition->GetEntries() << endl;
-    // cout << pos->GetEntries() << endl;
 
     ProcessTracks();
     ProcessChannels();
@@ -261,8 +262,8 @@ void MCEvent::FillPixel(int yView, int xView)
                 double y = _ProjectionY(yView, tpc, wire);
                 int ybin = h->GetYaxis()->FindBin(y);
                 (*m)[ybin] = channel.Encode(wirePlane, tpc, wire);
-                if (ybin == 216) {cout << (*m)[ybin] << " " << y << " " << ybin << " " << tpc << endl;}
-                if (channelId == 191) {cout << (*m)[ybin] << " " <<  y << " " << ybin << " " << tpc << endl;}
+                // if (ybin == 216) {cout << (*m)[ybin] << " " << y << " " << ybin << " " << tpc << endl;}
+                // if (channelId == 191) {cout << (*m)[ybin] << " " <<  y << " " << ybin << " " << tpc << endl;}
                 int id = 0;
                 vector<int>& tdcs = (*raw_wfTDC).at(id);
                 vector<int>& adcs = (*raw_wfADC).at(id);
@@ -375,7 +376,7 @@ void MCEvent::ProcessTracks()
     }
     for (int i=0; i<mc_Ntrack; i++) {
         vector<int> parents;
-        if (mc_mother[i]!=0) {
+        if (!IsPrimary(i)) {
             parents.push_back(trackIndex[mc_mother[i]]);  // for single gen, parent size == 1;
         }
         trackParents.push_back(parents);
@@ -390,8 +391,12 @@ void MCEvent::ProcessTracks()
     }
     for (int i=0; i<mc_Ntrack; i++) {
         vector<int> siblings;
-        if (mc_mother[i] == 0) {
-            siblings.push_back(i);
+        if ( IsPrimary(i) ) {
+            for (int j=0; j<mc_Ntrack; j++) {
+                if( IsPrimary(j) ) {
+                    siblings.push_back(j);
+                }
+            }
         }
         else {
             // siblings are simply children of the mother

@@ -72,6 +72,10 @@ public:
     float  hit_peakT[MAX_HITS];      //peak time
     float  hit_charge[MAX_HITS];     //charge (area)
 
+    int reco_nTrack;    // number of tracks
+    TObjArray* reco_trackPosition;
+
+
     // derived variables
     int raw_NZchannels;
     int raw_NUchannels;
@@ -120,6 +124,8 @@ public:
     void InitHistograms();
     void ProcessTracks();
     void ProcessChannels();
+    bool IsPrimary(int i) { return mc_mother[i] == 0; }
+    
     void FillPixel(int yView, int xView);  // T=-1, U=0, V=1, Z=2
 
 private:
