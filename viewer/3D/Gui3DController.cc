@@ -156,6 +156,7 @@ void Gui3DController::InitNavigationFrame()
         eventEntry = new TGNumberEntryField(hf, -1, 0, TGNumberFormat::kNESInteger);
         eventEntry->SetDefaultSize(60, 20);
         hf->AddFrame(eventEntry, new TGLayoutHints(kLHintsTop | kLHintsCenterY, 3, 2, 2, 2));
+        eventEntry->Connect("ReturnPressed()", "Gui3DController", this, "Jump()");
 
         nextButton = new TGTextButton(hf, "Next >");
         hf->AddFrame(nextButton, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 3, 2, 2, 2));
@@ -394,6 +395,20 @@ void Gui3DController::Next()
     }
     else {
         currentEvent++;
+    }
+    cout << "next: current event: " << currentEvent << endl;
+    Reload();
+}
+
+void Gui3DController::Jump()
+{
+    int maxEvent = event->nEvents-1;
+    currentEvent = int(eventEntry->GetNumber());
+    if (currentEvent>=maxEvent) {
+        currentEvent = maxEvent;
+    }
+    else if (currentEvent < 0) {
+        currentEvent=0;
     }
     cout << "next: current event: " << currentEvent << endl;
     Reload();

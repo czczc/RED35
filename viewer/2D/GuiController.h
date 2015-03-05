@@ -35,6 +35,7 @@ public:
     // slots
     void Prev();
     void Next();
+    void Jump();
     void AutoZoom();
     void UnZoom(bool redraw=true);
     void SyncRangeZT();

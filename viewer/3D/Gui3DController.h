@@ -30,6 +30,7 @@ public:
     // slots
     void Prev();
     void Next();
+    void Jump();
 
     MCEvent *event;
     int currentEvent;

@@ -110,6 +110,8 @@ void GuiController::InitConnections()
 
     cw->prevButton->Connect("Clicked()", "GuiController", this, "Prev()");
     cw->nextButton->Connect("Clicked()", "GuiController", this, "Next()");
+    cw->eventEntry->Connect("ReturnPressed()", "GuiController", this, "Jump()");
+
     cw->autoZoomButton->Connect("Clicked()", "GuiController", this, "AutoZoom()");
     cw->unZoomButton->Connect("Clicked()", "GuiController", this, "UnZoom()");
     cw->xrangeButton->Connect("Clicked()", "GuiController", this, "SyncXaxis()");
@@ -489,6 +491,17 @@ void GuiController::Next()
     Reload();
 }
 
+void GuiController::Jump()
+{
+    currentEvent = int(cw->eventEntry->GetNumber());
+    if (currentEvent>=event->nEvents-1) {
+        currentEvent = event->nEvents-1;
+    }
+    else if (currentEvent < 0) {
+        currentEvent=0;
+    }
+    Reload();
+}
 
 void GuiController::Reload()
 {    
