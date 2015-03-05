@@ -22,6 +22,8 @@ MCEvent::MCEvent(){}
 
 MCEvent::MCEvent(const char* filename)
 {
+    geom = new MCGeometry();
+
     raw_wfADC = new std::vector<std::vector<int> >;
     raw_wfTDC = new std::vector<std::vector<int> >;
     calib_wfADC = new std::vector<std::vector<int> >;
@@ -36,7 +38,6 @@ MCEvent::MCEvent(const char* filename)
     simTree = (TTree*)rootFile->Get("/Event/Sim");
     nEvents = simTree->GetEntries();
 
-    geom = new MCGeometry();
     optionDisplay = kRAW;      // default display raw signal
     optionInductionSignal = 1; // default draw positive signal only
     for (int i=0; i<4; i++) showAPA[i] = true;
