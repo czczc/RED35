@@ -11,8 +11,8 @@ void gl()
   gSystem->IgnoreSignal(kSigSegmentationViolation, true);
   TEveManager::Create();
   // TGeoManager::Import("lbne35t4apa.gdml");
-  // TGeoManager::Import("lbne35t4apa_v3_nowires.gdml");
-  TGeoManager::Import("lbne35t4apa_v3.gdml");
+  TGeoManager::Import("lbne35t4apa_v3_nowires.gdml");
+  // TGeoManager::Import("lbne35t4apa_v3.gdml");
 
   TGeoNode* world = gGeoManager->GetTopNode();
 
