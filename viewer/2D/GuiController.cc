@@ -17,6 +17,7 @@
 #include "TGString.h"
 #include "TGDoubleSlider.h"
 #include "TGLabel.h"
+#include "TSystem.h"
 
 #include "TDatabasePDG.h"
 #include "TParticlePDG.h"
@@ -77,21 +78,16 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     iw = mw->fControlWindow->fInfoWindow;
     can = vw->can;
 
-    const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
-    static TString dir("../data");
-    TGFileInfo fi;
-    fi.fFileTypes = filetypes;
-    fi.fIniDir    = StrDup(dir);
-    new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
-    dir = fi.fIniDir;
-
-    // event = new MCEvent("../data/sample.root");
-    event = new MCEvent(fi.fFilename);
-    geom = event->geom;
-    currentEvent = 0;
     xMin_now = 0; 
     xMax_now = 3200;
-    Reload();
+
+    OpenDialog();
+
+    // event = new MCEvent("../data/sample.root");
+    // event = new MCEvent(fi.fFilename);
+    // geom = event->geom;
+    // currentEvent = 0;
+    // Reload();
 
     InitConnections();
 
@@ -591,28 +587,39 @@ void GuiController::Open(const char* filename)
 
 void GuiController::HandleMenu(int id)
 {
-    const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    // const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
     switch (id) {
         case M_FILE_OPEN:
-            {
-                static TString dir("../data");
-                TGFileInfo fi;
-                fi.fFileTypes = filetypes;
-                fi.fIniDir    = StrDup(dir);
-                new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
-                dir = fi.fIniDir;
-                if (fi.fFilename) {
-                    UnZoom();
-                    cout << "open file: " << fi.fFilename << endl;
-                    Open(fi.fFilename);
-                }
-            }
+            OpenDialog();
             break;
 
         case M_FILE_EXIT:
             gApplication->Terminate(0);
             break;
     }
+}
+
+void GuiController::OpenDialog()
+{
+    const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    TString currentDir(gSystem->WorkingDirectory());
+    static TString dir("../data");
+    TGFileInfo fi;
+    fi.fFileTypes = filetypes;
+    fi.fIniDir    = StrDup(dir);
+    new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
+    dir = fi.fIniDir;
+    gSystem->cd(currentDir.Data());
+
+    if (fi.fFilename) {
+        // UnZoom();
+        cout << "open file: " << fi.fFilename << endl;
+        Open(fi.fFilename);
+    }
+    else {
+        gApplication->Terminate(0);
+    }
+
 }
 
 void GuiController::AutoZoom(TH2F* hist, bool zoomX)

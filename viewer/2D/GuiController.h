@@ -52,6 +52,8 @@ public:
     void ProcessCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *selected);
     void HandleMenu(int id);
 
+    void OpenDialog();
+
     // void InitTracksList();
     void AutoZoom(TH2F* hist, bool zoomY=true);
     void DrawTrack(int id);
