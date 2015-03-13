@@ -418,7 +418,7 @@ void MCEvent::PrintInfo(int level)
     cout << "run/subRun/event (total) : " 
         << runNo << "/" 
         << subRunNo << "/" 
-        << eventNo-1 << " ("
+        << eventNo << " ("
         << nEvents << ")"
         << endl;
 
