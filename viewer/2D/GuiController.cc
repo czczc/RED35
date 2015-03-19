@@ -72,6 +72,7 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     trackStartPointV->SetMarkerColor(kWhite);
     trackStartPointV->SetMarkerSize(1.0);
 
+    event = 0;
     mw = new MainWindow(p, w, h);
     vw = mw->fViewWindow;
     cw = mw->fControlWindow;
@@ -577,6 +578,8 @@ void GuiController::MCTrackSelected(int id)
 
 void GuiController::Open(const char* filename)
 {
+    cout << "here" << endl;
+
     if (event) delete event;
     event = new MCEvent(filename);
     geom = event->geom;

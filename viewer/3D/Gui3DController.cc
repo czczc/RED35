@@ -35,8 +35,10 @@ using namespace std;
 
 Gui3DController::Gui3DController()
 {
+    event = 0;
     dbPDG = new TDatabasePDG();
     mcTrackList = 0;
+    recoTrackList = 0;
 
     TEveManager::Create();
     InitGeometry();
