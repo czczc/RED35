@@ -10,7 +10,9 @@
 #include "TTree.h"
 #include "TMath.h"
 #include "TH2F.h"
+#include "TH2Poly.h"
 #include "TCanvas.h"
+#include "TGraph.h"
 #include "TColor.h"
 #include "TLine.h"
 #include "TClonesArray.h"
@@ -31,12 +33,17 @@ MCEvent::MCEvent(const char* filename)
 
     mc_trackPosition = new TObjArray();
     mc_trackMomentum = new TObjArray();
+    reco_trackPosition = new TObjArray();
 
     rootFile = new TFile(filename);
     simTree = (TTree*)rootFile->Get("/Event/Sim");
     nEvents = simTree->GetEntries();
+    opTree[0] = (TTree*)rootFile->Get("/OpDet/AllPhotons"); // no need to set branch addresses for AllPhotons tree
+    opTree[1] = (TTree*)rootFile->Get("/OpDet/DetectedPhotons"); // no need to set branch address for DetectedPhotons tree
+    opTree[2] = (TTree*)rootFile->Get("/OpDet/OpDets");
+    opTree[3] = (TTree*)rootFile->Get("/OpDet/OpDetEvents");
 
-    geom = new MCGeometry();
+    geom = new MCGeometry("../Geometry/ChannelWireMap.txt", filename);
     optionDisplay = kRAW;      // default display raw signal
     optionInductionSignal = 1; // default draw positive signal only
     for (int i=0; i<4; i++) showAPA[i] = true;
@@ -57,6 +64,7 @@ MCEvent::~MCEvent()
     delete mc_daughters;
     delete mc_trackPosition;
     delete mc_trackMomentum;
+    delete reco_trackPosition;
 
     rootFile->Close();
     delete rootFile;
@@ -103,6 +111,11 @@ void MCEvent::InitBranchAddress()
     simTree->SetBranchAddress("reco_nTrack"    , &reco_nTrack);
     simTree->SetBranchAddress("reco_trackPosition"  , &reco_trackPosition);
 
+    opTree[2]->SetBranchAddress("CountOpDetAll",      &CountOpDetAll);
+    opTree[2]->SetBranchAddress("CountOpDetDetected", &CountOpDetDetected);
+    opTree[3]->SetBranchAddress("CountAll",           &CountAll);
+    opTree[3]->SetBranchAddress("CountDetected",      &CountDetected);
+
 }
 
 
@@ -123,12 +136,25 @@ void MCEvent::InitHistograms()
     hPixelZT->GetYaxis()->SetTitle("z [cm]");
     hPixelUT->GetYaxis()->SetTitle("v [cm]");
     hPixelVT->GetYaxis()->SetTitle("u [cm]");
+
+    hOpDetAll = new TH2Poly("hOpDetAll", "Photon Detectors", 0, 160, -80, 120);
+    for (int i=0; i<NOPDETS; i++) {
+      Double_t x[]={geom->OpDetCenterZ[i]-geom->OpDetHalfWidths[i], geom->OpDetCenterZ[i]+geom->OpDetHalfWidths[i], geom->OpDetCenterZ[i]+geom->OpDetHalfWidths[i], geom->OpDetCenterZ[i]-geom->OpDetHalfWidths[i]};
+      Double_t y[]={geom->OpDetCenterY[i]-geom->OpDetHalfHeights[i], geom->OpDetCenterY[i]-geom->OpDetHalfHeights[i], geom->OpDetCenterY[i]+geom->OpDetHalfHeights[i], geom->OpDetCenterY[i]+geom->OpDetHalfHeights[i]};
+      hOpDetAll->AddBin(4, x, y);
+    }
+    hOpDetAll->GetXaxis()->SetTitle("z [cm]");
+    hOpDetAll->GetYaxis()->SetTitle("y [cm]");
+
+
 }
 
 void MCEvent::GetEntry(int entry)
 {
     Reset();
     simTree->GetEntry(entry);
+    opTree[2]->GetEntry(entry);
+    opTree[3]->GetEntry(entry);
 
     // reco_trackPosition->Print();
     // TClonesArray *pos = (TClonesArray*)(*reco_trackPosition)[reco_nTrack-1];
@@ -342,6 +368,58 @@ void MCEvent::FillPixel(int yView, int xView)
     
 }
 
+void MCEvent::FillOpDet()
+{
+  for (int i=0; i<NOPDETS; i++) {
+      //hOpDetAll->Fill(geom->OpDetCenterZ[i], geom->OpDetCenterY[i], CountOpDetDetected[i]);
+      hOpDetAll->SetBinContent(i+1,CountOpDetDetected[i]);
+      //std::cout<<CountOpDetDetected[i]<<" ";
+  }
+  //std::cout<<std::endl;
+}
+
+TGraph * MCEvent::PlotTracks(int yView, int xView, bool IsMC, int trackID)
+{
+
+  TObjArray *track_position = 0;
+  TGraph *sp = new TGraph();
+  sp->SetLineWidth(2);
+  int Ntracks=0;
+  if (IsMC) {
+    Ntracks = mc_Ntrack;
+    track_position = (TObjArray*)mc_trackPosition->Clone();
+    sp->SetLineStyle(1);
+    sp->SetLineColor(TMath::Abs(TMath::Abs(mc_pdg[trackID])-9));
+  } else {
+    Ntracks = reco_nTrack;
+    track_position = (TObjArray*)reco_trackPosition->Clone();
+    sp->SetLineStyle(2);
+    sp->SetLineColor(kRed);
+  }
+
+  TClonesArray *trackPoints = (TClonesArray*)(*track_position)[trackID];  
+  int Npoints = trackPoints->GetEntriesFast();
+  for(int j=0; j<Npoints; j++){
+    double x,y;
+    TLorentzVector *p = (TLorentzVector*)(*trackPoints)[j];
+    if (yView==2 && xView==-1){ //x-z plane
+      x=p->X();
+      y=p->Z();    
+    }
+    else if (yView==0 && xView==-1){ //x-u plane
+      x=p->X();
+      y=(p->Y()+p->Z())/TMath::Sqrt(2);
+    }
+    else if (yView==1 && xView==-1){ //x-v plane
+      x=p->X();
+      y=(p->Y()-p->Z())/TMath::Sqrt(2);
+    }
+   sp->SetPoint(j,x,y);
+  }
+
+  return sp;
+}
+
 double MCEvent::_ProjectionY(int yView, int tpc, int wire)
 {
     double y = 0;
@@ -425,7 +503,7 @@ void MCEvent::PrintInfo(int level)
     cout << "Z channels: " << raw_NZchannels << ", " << hit_NZchannels << endl;
     cout << "U channels: " << raw_NUchannels << ", " << hit_NUchannels << endl;
     cout << "V channels: " << raw_NVchannels << ", " << hit_NVchannels << endl;
-
+    cout << "No. of detected photons: "<< CountDetected << endl;
     // print mc info
     if (level > 0) {
         cout << "MC tracks:" << mc_Ntrack;

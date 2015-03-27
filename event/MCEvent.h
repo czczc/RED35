@@ -8,18 +8,22 @@
 class MCGeometry;
 class TFile;
 class TH2F;
+class TH2Poly;
 class TObjArray;
+class TGraph;
 
 class MCEvent {
 public:
     TFile *rootFile;
     TTree *simTree;
+    TTree *opTree[4];
     MCGeometry *geom;
 
     enum LIMITS {
         MAX_CHANNEL = 2048,
         MAX_TRACKS = 2000,
         MAX_HITS = 20000,
+	MAX_OPDET = 8,
     };
 
     enum VIEW {
@@ -35,8 +39,8 @@ public:
         kHITS = 3,
         kTRACK = 4,
     };
-
-    int nEvents;
+ 
+   int nEvents;
 
     // simTree Leafs
     int eventNo;
@@ -75,6 +79,15 @@ public:
     int reco_nTrack;    // number of tracks
     TObjArray* reco_trackPosition;
 
+    // Photon detectors variables
+    int   AllPhoton_OpChannel;
+    float AllPhoton_Time;
+    int   DetPhoton_OpChannel;
+    float DetPhoton_Time;
+    int   CountOpDetAll[MAX_OPDET];
+    int   CountOpDetDetected[MAX_OPDET];
+    int   CountAll;
+    int   CountDetected;
 
     // derived variables
     int raw_NZchannels;
@@ -101,6 +114,7 @@ public:
     TH2F *hPixelZT;
     TH2F *hPixelUT;
     TH2F *hPixelVT;
+    TH2Poly *hOpDetAll;
     std::map<int, int> zBintoWireHash;
     std::map<int, int> uBintoWireHash;
     std::map<int, int> vBintoWireHash;
@@ -127,7 +141,9 @@ public:
     bool IsPrimary(int i) { return mc_mother[i] == 0; }
     
     void FillPixel(int yView, int xView);  // T=-1, U=0, V=1, Z=2
+    void FillOpDet();
 
+    TGraph * PlotTracks(int yView, int xView, bool IsMC, int trackID); // T=-1, U=0, V=1, Z=2
 private:
     double _ProjectionY(int yView, int tpc, int wire);
 };

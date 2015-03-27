@@ -14,15 +14,13 @@
 
 using namespace std;
 
-MCGeometry::MCGeometry(const char* mapFileName)
+MCGeometry::MCGeometry(const char* mapFileName, const char* rootFileName)
 {
-    // rootFile = new TFile(rootFileName);
-    // geoTree = (TTree*)rootFile->Get("/Detector/Geometry");
+    TFile *rootFile = new TFile(rootFileName, "read");
+    geoTree = (TTree*)rootFile->Get("/Detector/Geometry");
 
     ReadChanneleWireMap(mapFileName);
-
-  // InitBranchAddress();
-  // InitGeometry();
+    GetPDGeometry();
 }
 
 MCGeometry::~MCGeometry()
@@ -255,6 +253,20 @@ void MCGeometry::PrintInfo()
             // cout << tpc << "\t" << wire << "\t" << ProjectionV(tpc, wire) << endl;
         }
     }
+}
+
+void MCGeometry::LoadPDGeometryTree()
+{
+  geoTree->SetBranchAddress("OpDetPositions_Y", &OpDetCenterY);
+  geoTree->SetBranchAddress("OpDetPositions_Z", &OpDetCenterZ);
+  geoTree->SetBranchAddress("OpDetHalfWidths" , &OpDetHalfWidths);
+  geoTree->SetBranchAddress("OpDetHalfHeights", &OpDetHalfHeights);
+}
+
+void MCGeometry::GetPDGeometry()
+{
+  LoadPDGeometryTree();
+  geoTree->GetEntry(0);
 }
 
 bool MCGeometry::IsPointInside(double x, double y, double z, double scale)
