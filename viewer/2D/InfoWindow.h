@@ -20,13 +20,13 @@ public:
     void ClearCanvas();
     void SetTheme(int i);
     void UpdateCanvas();
-
+    void SetStyle(int theme);
 
     void DrawEventInfo(MCEvent *ev);
     void DrawWire(int channelId, MCEvent *ev, int wirehash=0);
     
     TCanvas* can; 
-    vector<TObject*> listOfDrawables;
+    std::vector<TObject*> listOfDrawables;
     int theme;
     int colors[MAXCOLORS];
 
