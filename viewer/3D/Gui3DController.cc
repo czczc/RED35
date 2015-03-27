@@ -114,6 +114,10 @@ void Gui3DController::InitGeometry()
             node->GetVolume()->SetLineColor(kRed);
             // node->GetVolume()->SetTransparency(10);
         }
+	else if (name.Contains("OpDet")) {
+	    //node->GetVolume()->SetLineColor(kWrite);
+	    node->GetVolume()->SetTransparency(20);
+	}
         else {
             node->SetInvisible();
             node->SetAllInvisible();
