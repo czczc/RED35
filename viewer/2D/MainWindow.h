@@ -5,6 +5,7 @@
 
 class ViewWindow;
 class ControlWindow;
+class PDControl;
 class TGMenuBar;
 class TGPopupMenu;
 
@@ -19,11 +20,12 @@ public:
     MainWindow(const TGWindow *p, int w,int h);
     virtual ~MainWindow();
 
-private:
+public:
     TGHorizontalFrame *fViewAndControlFrame;
     ViewWindow        *fViewWindow;
     ControlWindow     *fControlWindow;
-    
+    PDControl         *fPDControl;
+
     TGMenuBar         *fMenuBar;
     TGPopupMenu       *fMenuFile;
     TGLayoutHints     *fMenuBarItemLayout;
