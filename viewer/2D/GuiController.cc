@@ -203,7 +203,7 @@ void GuiController::ProcessPDCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *se
 
 void GuiController::AutoZoom()
 {    
-    AutoZoom(event->hPixelZT, false);
+    AutoZoom(event->hPixelZT);//, false);
     AutoZoom(event->hPixelUT, false);
     AutoZoom(event->hPixelVT, false);
     Modified();
@@ -301,6 +301,8 @@ void GuiController::UpdatePalette(int id)
     SetTheme(currentTheme);
 
     Modified();
+    pd_can->GetPad(1)->Modified();
+    pd_can->Update();
     cout << "changing theme: " << id << endl;
 }
 
@@ -397,9 +399,6 @@ void GuiController::Modified()
     can->GetPad(3)->Modified();
     // can->GetPad(3)->Update();
     can->Update();
-    pd_can->GetPad(1)->Modified();
-    //pd_can->GetPad(2)->Modified();
-    pd_can->Update();
 }
 
 
