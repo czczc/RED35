@@ -39,6 +39,7 @@
 #include "TROOT.h"
 #include "TStyle.h"
 #include "TExec.h"
+#include "TSystem.h"
 
 #include <exception>
 #include <iostream>
@@ -79,6 +80,7 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     trackRecoLineU = 0;
     trackRecoLineV = 0;
 
+    event = 0;
     mw = new MainWindow(p, w, h);
     vw = mw->fViewWindow;
     cw = mw->fControlWindow;
@@ -89,7 +91,7 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     can = vw->can;
     pd_can = pw->can;
 
-    const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    /*const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
     static TString dir("../data");
     TGFileInfo fi;
     fi.fFileTypes = filetypes;
@@ -100,11 +102,11 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     // event = new MCEvent("../data/sample.root");
     event = new MCEvent(fi.fFilename);
     geom = event->geom;
-    currentEvent = 0;
+    currentEvent = 0;*/
     xMin_now = 0; 
     xMax_now = 3200;
-    Reload();
-
+    //Reload();
+    OpenDialog();
     InitConnections();
 
 }
@@ -686,10 +688,10 @@ void GuiController::Open(const char* filename)
 
 void GuiController::HandleMenu(int id)
 {
-    const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    //const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
     switch (id) {
         case M_FILE_OPEN:
-            {
+	  /*{
                 static TString dir("../data");
                 TGFileInfo fi;
                 fi.fFileTypes = filetypes;
@@ -701,12 +703,34 @@ void GuiController::HandleMenu(int id)
                     cout << "open file: " << fi.fFilename << endl;
                     Open(fi.fFilename);
                 }
-            }
+		}*/
+	    OpenDialog();
             break;
 
         case M_FILE_EXIT:
             gApplication->Terminate(0);
             break;
+    }
+}
+
+void GuiController::OpenDialog()
+{
+    const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    TString currentDir(gSystem->WorkingDirectory());
+    static TString dir("../data");
+    TGFileInfo fi;
+    fi.fFileTypes = filetypes;
+    fi.fIniDir    = StrDup(dir);
+    new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
+    dir = fi.fIniDir;
+    gSystem->cd(currentDir.Data());
+    if (fi.fFilename) {
+        // UnZoom();
+        cout << "open file: " << fi.fFilename << endl;
+	Open(fi.fFilename);
+    }
+    else {
+         gApplication->Terminate(0);
     }
 }
 

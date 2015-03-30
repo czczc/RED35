@@ -20,6 +20,8 @@
 #include "TGButton.h"
 #include "TGNumberEntry.h"
 #include "TGFileDialog.h"
+#include "TSystem.h"
+#include "TApplication.h"
 
 #include "TDatabasePDG.h"
 #include "TParticlePDG.h"
@@ -33,8 +35,10 @@ using namespace std;
 
 Gui3DController::Gui3DController()
 {
+    event = 0;
     dbPDG = new TDatabasePDG();
     mcTrackList = 0;
+    recoTrackList = 0;
 
     TEveManager::Create();
     InitGeometry();
@@ -53,15 +57,25 @@ Gui3DController::~Gui3DController()
 void Gui3DController::InitEvent()
 {
     const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    TString currentDir(gSystem->WorkingDirectory());
     static TString dir("../data");
     TGFileInfo fi;
     fi.fFileTypes = filetypes;
     fi.fIniDir    = StrDup(dir);
     new TGFileDialog(gClient->GetRoot(), frmMain, kFDOpen, &fi);
     dir = fi.fIniDir;
-    cout << fi.fFilename << endl;
-    event = new MCEvent(fi.fFilename);
-    currentEvent = 0;
+    //cout << fi.fFilename << endl;
+    //event = new MCEvent(fi.fFilename);
+    //currentEvent = 0;
+    gSystem->cd(currentDir.Data());
+    if (fi.fFilename) {
+        cout << "open file: " << fi.fFilename << endl;
+	event = new MCEvent(fi.fFilename);
+	currentEvent = 0;
+    }
+    else {
+        gApplication->Terminate(0);
+    }
     Reload();
 }
 
@@ -190,7 +204,8 @@ void Gui3DController::AddMCTracks()
         gEve->AddElement(mcTrackList);
     }    
     TString name;
-    name.Form("Event %i: MC Tracks", currentEvent);
+    //name.Form("Event %i: MC Tracks", currentEvent);
+    name.Form("(%i/%i/%i): MC Tracks", event->runNo, event->subRunNo, event->eventNo);
     mcTrackList->SetName(name.Data());
 
     int mc_Ntrack = event->mc_Ntrack;  // number of tracks in MC
@@ -264,7 +279,8 @@ void Gui3DController::AddRecoTracks()
         gEve->AddElement(recoTrackList);
     }    
     TString name;
-    name.Form("Event %i: Reco Tracks", currentEvent);
+    //name.Form("Event %i: Reco Tracks", currentEvent);
+    name.Form("(%i/%i/%i): Reco Tracks", event->runNo, event->subRunNo, event->eventNo);
     recoTrackList->SetName(name.Data());
 
     int nTrack = event->reco_nTrack;  // number of tracks in MC
