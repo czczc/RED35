@@ -9,6 +9,8 @@
 #include "TLine.h"
 #include "TMath.h"
 #include "TLatex.h"
+#include "TColor.h"
+#include "TStyle.h"
 
 #include <iostream>
 #include <vector>
@@ -25,6 +27,15 @@ InfoWindow::InfoWindow(const TGWindow *p, int w,int h)
 
 InfoWindow::~InfoWindow()
 {
+}
+
+void InfoWindow::SetStyle(int theme)
+{
+  if (theme==0) {
+    gStyle->SetFrameFillColor(TColor::GetColor(float(0.1), float(0.1), float(0.1)));
+  } else {
+    gStyle->SetFrameFillColor(kWhite);
+  }
 }
 
 void InfoWindow::SetTheme(int i)
@@ -65,6 +76,7 @@ void InfoWindow::DrawEventInfo(MCEvent *ev)
     lines.push_back(Form("Event: %i", ev->eventNo));
     lines.push_back(Form("Hits: %i", ev->no_hits));
     lines.push_back(Form("Hit Channels: %i / %i / %i", ev->raw_NZchannels, ev->raw_NUchannels, ev->raw_NVchannels));
+    lines.push_back(Form("Photons: %d", ev->CountDetected));
     float startx = 0.05;
     float starty = 0.9;
     size_t size = lines.size();
@@ -84,7 +96,7 @@ void InfoWindow::DrawEventInfo(MCEvent *ev)
 void InfoWindow::DrawWire(int channelId, MCEvent *ev, int wirehash)
 {
     ClearCanvas();
-    
+    //SetStyle(theme);    
     int plane, tpc, wire;
     MCChannel::Decode(wirehash, plane, tpc, wire);
 

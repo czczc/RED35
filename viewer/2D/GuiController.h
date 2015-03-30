@@ -11,13 +11,17 @@ class MainWindow;
 class ViewWindow;
 class InfoWindow;
 class ControlWindow;
+class PDControl;
+class PDWindow;
+class RecoWindow;
 class MCEvent;
 class MCGeometry;
 class TCanvas;
 class TH2F;
-class TLine;
-class TMarker;
+class TH2Poly;
 class TDatabasePDG;
+class TGraph;
+class TMarker;
 
 class GuiController
 {
@@ -46,19 +50,30 @@ public:
     void UpdateInductionSig(int id);
     void UpdateAPA(int id);
     void UpdateShowMC();
+    void UpdateShowReco();
     void UpdatePalette(int id);
     void UpdateDisplayOption(int id);
     void MCTrackSelected(int id);
+    void RecoTrackSelected(int id);// added by xiaoyue
     void ProcessCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *selected);
+    void ProcessPDCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *selected);
     void HandleMenu(int id);
 
     void OpenDialog();
 
     // void InitTracksList();
     void AutoZoom(TH2F* hist, bool zoomY=true);
-    void DrawTrack(int id);
-    void HideTrack();
+    void DrawTrack(int id, bool IsMC);
+    void HideMCTrack();
+    void HideRecoTrack();
     void SetTheme(int theme);
+
+    //void PaletteRainbow();
+    //void PaletteGray();
+    //void PaletteSummer();
+    //void PaletteGrayInv();
+    //void PaletteFire();
+    //void SetPalette(int i);
 
     // utilities
     double KE(float* momentum);  // KE
@@ -68,20 +83,27 @@ public:
     ViewWindow *vw;
     InfoWindow *iw;
     ControlWindow *cw;
+    PDControl     *pc;
+    RecoWindow    *rw;
+    PDWindow      *pw;
     MCEvent *event;
     MCGeometry *geom;
 
     TCanvas *can;
-
+    TCanvas *pd_can;
     int currentEvent;
     int xMin_now, xMax_now;
 
-    TLine* trackLineZ;
-    TMarker* trackStartPointZ;
-    TLine* trackLineU;
-    TMarker* trackStartPointU;
-    TLine* trackLineV;
-    TMarker* trackStartPointV;
+    TGraph* trackMCLineZ;
+    TGraph* trackMCLineU;
+    TGraph* trackMCLineV;
+    TGraph* trackRecoLineZ;
+    TGraph* trackRecoLineU;
+    TGraph* trackRecoLineV;
+
+    TMarker *trackStartPointZ;
+    TMarker *trackStartPointU;
+    TMarker *trackStartPointV;
 
     TDatabasePDG *dbPDG;
 
@@ -90,7 +112,9 @@ public:
     int currentTheme;
     int currentInductionSig;
     bool currentShowMC;
-    int currentTrackId;
+    bool currentShowReco;
+    int currentMCTrackId;
+    int currentRecoTrackId;
 
 };
 

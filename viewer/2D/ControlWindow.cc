@@ -16,7 +16,7 @@ ControlWindow::ControlWindow(const TGWindow *p, int w, int h)
 {
     fInfoWindow = new InfoWindow(this, 200, 200);
     AddFrame(fInfoWindow, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    
+
     // Navigation Frame
     fNavigationFrame = new TGHorizontalFrame(this, w, 100, kFixedWidth);
     AddFrame(fNavigationFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
@@ -34,7 +34,7 @@ ControlWindow::ControlWindow(const TGWindow *p, int w, int h)
 
     // Display Option Selection
     fDisplayFrame = new TGHorizontalFrame(this, w, 100);
-    AddFrame(fDisplayFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
+    AddFrame(fDisplayFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 1, 1));
     displayButtonGroup = new TGButtonGroup(fDisplayFrame, "Display Properties", kHorizontalFrame); 
     fDisplayFrame->AddFrame(displayButtonGroup, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
     rawButton = new TGRadioButton(displayButtonGroup,  "Raw    "); 
@@ -45,7 +45,7 @@ ControlWindow::ControlWindow(const TGWindow *p, int w, int h)
     // zoom control button frame  
     fZoomControlFrame = new TGGroupFrame(this, "Display Options", kVerticalFrame);
     fZoomControlFrame->SetTitlePos(TGGroupFrame::kLeft);
-    AddFrame(fZoomControlFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
+    AddFrame(fZoomControlFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 1, 1));
 
     fZoomButtonFrame = new TGHorizontalFrame(fZoomControlFrame, w, 100);
     fZoomControlFrame->AddFrame(fZoomButtonFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
@@ -118,12 +118,11 @@ ControlWindow::ControlWindow(const TGWindow *p, int w, int h)
 
     // MC group frame
     fMCGroupFrame = new TGGroupFrame(this, "Monte Carlo Truth", kVerticalFrame);
-    int hTracks = 300;
-    fTracksFrame = new TGHorizontalFrame(fMCGroupFrame, w, hTracks);
-    fDaughterTracksFrame = new TGVerticalFrame(fTracksFrame, w, hTracks);
-    fParentSiblingTracksFrame = new TGVerticalFrame(fTracksFrame, w, hTracks);
+    int hTracks = 255;
+    fMCTracksFrame = new TGHorizontalFrame(fMCGroupFrame, w, hTracks);
+    fDaughterTracksFrame = new TGVerticalFrame(fMCTracksFrame, w, hTracks);
+    fParentSiblingTracksFrame = new TGVerticalFrame(fMCTracksFrame, w, hTracks);
     
-
 
     TGLabel *labelDaughterTracks = new TGLabel(fDaughterTracksFrame, "Children (MeV)");
     fDaughterTracksFrame->AddFrame(labelDaughterTracks, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
@@ -152,25 +151,10 @@ ControlWindow::ControlWindow(const TGWindow *p, int w, int h)
     fParentSiblingTracksFrame->AddFrame(showMCButton, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
     showMCButton->SetState(kButtonUp);
 
-    fTracksFrame->AddFrame(fParentSiblingTracksFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    fTracksFrame->AddFrame(fDaughterTracksFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    fMCGroupFrame->AddFrame(fTracksFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    AddFrame(fMCGroupFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-
-    // Palette Selection
-    fColorScaleFrame = new TGHorizontalFrame(this, w, 100);
-    paletteButtonGroup = new TGButtonGroup(fColorScaleFrame, "Color Theme", kVerticalFrame); 
-    rainbowPaletteButton = new TGRadioButton(paletteButtonGroup, "Rainbow (Night)"); 
-    grayPaletteButton = new TGRadioButton(paletteButtonGroup, "Film (Night)"); 
-    summerPaletteButton = new TGRadioButton(paletteButtonGroup, "Sea (Day)"); 
-    grayinvPaletteButton = new TGRadioButton(paletteButtonGroup, "Ink (Day)"); 
-    rainbowPaletteButton->SetState(kButtonDown);
-
-    // fZTSlider = new TGDoubleVSlider(fColorScaleFrame, 90, 2, -1, kVerticalFrame, GetDefaultFrameBackground(), kTRUE);
-
-    fColorScaleFrame->AddFrame(paletteButtonGroup, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    // fColorScaleFrame->AddFrame(fZTSlider, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    AddFrame(fColorScaleFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
+    fMCTracksFrame->AddFrame(fParentSiblingTracksFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
+    fMCTracksFrame->AddFrame(fDaughterTracksFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
+    fMCGroupFrame->AddFrame(fMCTracksFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
+    AddFrame(fMCGroupFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 0, 0));
 
 }
 
@@ -180,5 +164,5 @@ ControlWindow::~ControlWindow()
     // delete eventEntry;
     // delete next;
     // delete fNavigationFrame;
-    // delete fTracksFrame;
+    // delete fMCTracksFrame;
 }

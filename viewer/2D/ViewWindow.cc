@@ -18,7 +18,7 @@ ViewWindow::ViewWindow(const TGWindow *p, int w,int h)
 {
     can = GetCanvas();
     InitCanvas();
-    InitStyle();
+    SetStyle();
 }
 
 ViewWindow::~ViewWindow()
@@ -39,49 +39,73 @@ void ViewWindow::SetTheme(int theme)
         can->cd(i);
         if (theme == 0) {
             // gPad->SetFillColor(TColor::GetColor(222,186,135));
-            gPad->SetFillColor(TColor::GetColor(210,210,210));
+	    gPad->SetFillColor(TColor::GetColor(210,210,210));
         }
         else {
-            gPad->SetFillColor(kWhite);
+	    gPad->SetFillColor(kWhite);
         }
-        gPad->SetGridx();
-        gPad->SetGridy();
+	gPad->SetGridx();
+	gPad->SetGridy();
     }
 }
 
-void ViewWindow::InitStyle()
+void ViewWindow::SetStyle()
 {
-    gROOT->SetStyle("Plain");
-    gStyle->SetOptStat(0);
-    gStyle->SetPalette(1);
-    gStyle->SetTitleStyle(0);
-    gStyle->SetTitleBorderSize(0);
-    gStyle->SetTitleOffset(1.0, "x");
-    gStyle->SetTitleOffset(1.0, "y");
-    gStyle->SetTitleFont(42, "P");
-    gStyle->SetTitleFontSize(0.06);
-    gStyle->SetTitleXSize(0.05);
-    gStyle->SetTitleYSize(0.05);
-    gStyle->SetLabelSize(0.06, "x");
-    gStyle->SetLabelSize(0.06, "y");
-    gStyle->SetHistLineWidth(2);
-    gStyle->SetLegendBorderSize(0);
+  gROOT->SetStyle("Plain");
+  gStyle->SetOptStat(0);
+  gStyle->SetPalette(1);
+  gStyle->SetTitleStyle(0);
+  gStyle->SetTitleBorderSize(0);
+  gStyle->SetTitleOffset(1.0, "x");
+  gStyle->SetTitleOffset(1.0, "y");
+  gStyle->SetTitleFont(42, "P");
+  gStyle->SetTitleFontSize(0.06);
+  gStyle->SetTitleXSize(0.05);
+  gStyle->SetTitleYSize(0.05);
+  gStyle->SetLabelSize(0.06, "x");
+  gStyle->SetLabelSize(0.06, "y");
+  gStyle->SetHistLineWidth(2);
+  gStyle->SetLegendBorderSize(0);
     
-    gStyle->SetPadLeftMargin(0.08);
-    gStyle->SetPadRightMargin(0.04);
-    gStyle->SetMarkerSize(0.3);
+  gStyle->SetPadLeftMargin(0.08);
+  gStyle->SetPadRightMargin(0.04);
+  gStyle->SetMarkerSize(0.3);
 
 
-    PaletteRainbow();
+  PaletteRainbow();
 
-    gROOT->ForceStyle();
+  gROOT->ForceStyle();
 }
 
+void ViewWindow::SetPalette(int i)
+{
+  
+  switch (i) {
+  case 1:
+      PaletteRainbow();
+      break;
+  case 2:
+      PaletteGray();
+      break;
+  case 3:
+      PaletteFire();
+      break;
+  case 4:
+      PaletteSummer();
+      break;
+  case 5:
+      PaletteFire();
+      break;
+  default:
+      PaletteRainbow();
+  }
+  gROOT->ForceStyle(); 
+
+}
 
 void ViewWindow::PaletteRainbow()
 {
     gStyle->SetFrameFillColor(TColor::GetColor(float(0.1), float(0.1), float(0.1)));
-
     // http://diana.parno.net/thoughts/?p=28
     const Int_t NRGBs = 5;
     const Int_t NCont = 255;
@@ -143,4 +167,10 @@ void ViewWindow::PaletteGrayInv()
     Double_t Stops[Number] = { 0, 1.00};
     TColor::CreateGradientColorTable(Number,Stops,Red,Green,Blue,nb);
     gStyle->SetNumberContours(nb);
+}
+
+void ViewWindow::PaletteFire()
+{
+    gStyle->SetFrameFillColor(TColor::GetColor(float(0.1), float(0.1), float(0.1)));
+    gStyle->SetPalette(53);
 }

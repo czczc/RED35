@@ -1,7 +1,8 @@
 #include "MainWindow.h"
 #include "ViewWindow.h"
 #include "ControlWindow.h"
-
+#include "PDControl.h"
+#include "TGLayout.h"
 #include "TGMenu.h"
 
 #include "TString.h"
@@ -19,14 +20,18 @@ MainWindow::MainWindow(const TGWindow *p, int w,int h)
     AddFrame(fViewAndControlFrame, new TGLayoutHints(kLHintsExpandX  | kLHintsExpandY, 2, 2, 2, 2));
 
     int controlWindowWidth = 240;
-    fViewWindow = new ViewWindow(fViewAndControlFrame, w-controlWindowWidth-10, h);
+    int PDControlWidth = 260;
+    fViewWindow = new ViewWindow(fViewAndControlFrame, w-controlWindowWidth-PDControlWidth, h);
     fViewAndControlFrame->AddFrame(fViewWindow, new TGLayoutHints(
         // kLHintsTop | kFixedWidth, 2, 2, 2, 2));
         kLHintsTop | kLHintsExpandX  | kLHintsExpandY, 2, 2, 2, 2));
 
     fControlWindow = new ControlWindow(fViewAndControlFrame, controlWindowWidth, h);
-    fViewAndControlFrame->AddFrame(fControlWindow, new TGLayoutHints(
-        kLHintsTop  | kFixedWidth, 2, 2, 2, 2));
+    fViewAndControlFrame->AddFrame(fControlWindow, new TGLayoutHints(kLHintsTop | kLHintsExpandY  | kFixedWidth, 2, 2, 2, 2));
+
+    //TGMatrixLayout(fPDControl, 2, 2, 2, 2); 
+    fPDControl = new PDControl(fViewAndControlFrame, PDControlWidth, h);
+    fViewAndControlFrame->AddFrame(fPDControl, new TGLayoutHints(kLHintsTop | kLHintsExpandY  | kFixedWidth, 2, 2, 2, 2));
 
     // set main window stats
     SetWindowName("LBNE 35t Event Viewer");
