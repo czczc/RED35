@@ -32,7 +32,6 @@ public:
 
     void Open(const char* filename);
     void Reload();
-    void OpenDialog();
     void InitConnections();
     void DrawPixels();
     void Modified();

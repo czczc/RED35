@@ -387,14 +387,14 @@ TGraph * MCEvent::PlotTracks(int yView, int xView, bool IsMC, int trackID)
   TObjArray *track_position = 0;
   TGraph *sp = new TGraph();
   sp->SetLineWidth(2);
-  int Ntracks=0;
+  // int Ntracks=0;
   if (IsMC) {
-    Ntracks = mc_Ntrack;
+    // Ntracks = mc_Ntrack;
     track_position = (TObjArray*)mc_trackPosition->Clone();
     sp->SetLineStyle(1);
     sp->SetLineColor(TMath::Abs(TMath::Abs(mc_pdg[trackID])-9));
   } else {
-    Ntracks = reco_nTrack;
+    // Ntracks = reco_nTrack;
     track_position = (TObjArray*)reco_trackPosition->Clone();
     sp->SetLineStyle(2);
     sp->SetLineColor(kRed);
@@ -403,7 +403,8 @@ TGraph * MCEvent::PlotTracks(int yView, int xView, bool IsMC, int trackID)
   TClonesArray *trackPoints = (TClonesArray*)(*track_position)[trackID];  
   int Npoints = trackPoints->GetEntriesFast();
   for(int j=0; j<Npoints; j++){
-    double x,y;
+    double x=0;
+    double y=0;
     TLorentzVector *p = (TLorentzVector*)(*trackPoints)[j];
     if (yView==2 && xView==-1){ //x-z plane
       x=p->X();
