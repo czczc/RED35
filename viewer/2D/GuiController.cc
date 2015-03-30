@@ -20,6 +20,7 @@
 #include "TGString.h"
 #include "TGDoubleSlider.h"
 #include "TGLabel.h"
+#include "TSystem.h"
 
 #include "TDatabasePDG.h"
 #include "TParticlePDG.h"
@@ -91,22 +92,12 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     can = vw->can;
     pd_can = pw->can;
 
-    /*const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
-    static TString dir("../data");
-    TGFileInfo fi;
-    fi.fFileTypes = filetypes;
-    fi.fIniDir    = StrDup(dir);
-    new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
-    dir = fi.fIniDir;
-
-    // event = new MCEvent("../data/sample.root");
-    event = new MCEvent(fi.fFilename);
-    geom = event->geom;
-    currentEvent = 0;*/
     xMin_now = 0; 
     xMax_now = 3200;
-    //Reload();
+
     OpenDialog();
+
+
     InitConnections();
 
 }
@@ -569,14 +560,14 @@ void GuiController::Next()
 
 void GuiController::Jump()
 {
-  currentEvent = int(cw->eventEntry->GetNumber());
-  if (currentEvent>=event->nEvents-1) {
-    currentEvent = event->nEvents-1;
-  }
-  else if (currentEvent < 0) {
-    currentEvent=0;
-  }
-  Reload();
+    currentEvent = int(cw->eventEntry->GetNumber());
+    if (currentEvent>=event->nEvents-1) {
+        currentEvent = event->nEvents-1;
+    }
+    else if (currentEvent < 0) {
+        currentEvent=0;
+    }
+    Reload();
 }
 
 void GuiController::Reload()
@@ -678,6 +669,8 @@ void GuiController::RecoTrackSelected(int id)
 
 void GuiController::Open(const char* filename)
 {
+    cout << "here" << endl;
+
     if (event) delete event;
     event = new MCEvent(filename);
     geom = event->geom;
@@ -688,23 +681,10 @@ void GuiController::Open(const char* filename)
 
 void GuiController::HandleMenu(int id)
 {
-    //const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
+    // const char *filetypes[] = {"ROOT files", "*.root", 0, 0};
     switch (id) {
         case M_FILE_OPEN:
-	  /*{
-                static TString dir("../data");
-                TGFileInfo fi;
-                fi.fFileTypes = filetypes;
-                fi.fIniDir    = StrDup(dir);
-                new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
-                dir = fi.fIniDir;
-                if (fi.fFilename) {
-                    UnZoom();
-                    cout << "open file: " << fi.fFilename << endl;
-                    Open(fi.fFilename);
-                }
-		}*/
-	    OpenDialog();
+            OpenDialog();
             break;
 
         case M_FILE_EXIT:
@@ -724,14 +704,16 @@ void GuiController::OpenDialog()
     new TGFileDialog(gClient->GetRoot(), mw, kFDOpen, &fi);
     dir = fi.fIniDir;
     gSystem->cd(currentDir.Data());
+
     if (fi.fFilename) {
         // UnZoom();
         cout << "open file: " << fi.fFilename << endl;
-	Open(fi.fFilename);
+        Open(fi.fFilename);
     }
     else {
-         gApplication->Terminate(0);
+        gApplication->Terminate(0);
     }
+
 }
 
 void GuiController::AutoZoom(TH2F* hist, bool zoomX)

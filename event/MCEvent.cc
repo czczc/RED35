@@ -24,6 +24,8 @@ MCEvent::MCEvent(){}
 
 MCEvent::MCEvent(const char* filename)
 {
+    // geom = new MCGeometry();
+
     raw_wfADC = new std::vector<std::vector<int> >;
     raw_wfTDC = new std::vector<std::vector<int> >;
     calib_wfADC = new std::vector<std::vector<int> >;
@@ -44,6 +46,7 @@ MCEvent::MCEvent(const char* filename)
     opTree[3] = (TTree*)rootFile->Get("/OpDet/OpDetEvents");
 
     geom = new MCGeometry("../Geometry/ChannelWireMap.txt", filename);
+
     optionDisplay = kRAW;      // default display raw signal
     optionInductionSignal = 1; // default draw positive signal only
     for (int i=0; i<4; i++) showAPA[i] = true;
@@ -495,7 +498,7 @@ void MCEvent::PrintInfo(int level)
     cout << "run/subRun/event (total) : " 
         << runNo << "/" 
         << subRunNo << "/" 
-        << eventNo-1 << " ("
+        << eventNo << " ("
         << nEvents << ")"
         << endl;
 
