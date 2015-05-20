@@ -110,6 +110,27 @@ void MCEvent::InitBranchAddress()
     simTree->SetBranchAddress("hit_channel", &hit_channel);
     simTree->SetBranchAddress("hit_peakT"  , &hit_peakT);
     simTree->SetBranchAddress("hit_charge" , &hit_charge);
+    simTree->SetBranchAddress("hit_wireID" , &hit_wireID);
+    simTree->SetBranchAddress("hit_tpc"    , &hit_tpc);
+    simTree->SetBranchAddress("hit_plane"  , &hit_plane);
+
+    simTree->SetBranchAddress("nthits"    , &nthits);
+    simTree->SetBranchAddress("thit_channel", &thit_channel);
+    simTree->SetBranchAddress("thit_peakT"  , &thit_peakT);
+    simTree->SetBranchAddress("thit_charge" , &thit_charge);
+    simTree->SetBranchAddress("thit_wireID" , &thit_wireID);
+    simTree->SetBranchAddress("thit_tpc"    , &thit_tpc);
+    simTree->SetBranchAddress("thit_plane"  , &thit_plane);
+
+    simTree->SetBranchAddress("nclhits"      , &nclhits);
+    simTree->SetBranchAddress("chit_cryostat", &chit_cryostat);
+    simTree->SetBranchAddress("chit_tpc"     , &chit_tpc);
+    simTree->SetBranchAddress("chit_plane"   , &chit_plane);
+    simTree->SetBranchAddress("chit_charge"  , &chit_charge);
+    simTree->SetBranchAddress("chit_peakT"   , &chit_peakT);
+    simTree->SetBranchAddress("chit_wire"    , &chit_wire);
+    simTree->SetBranchAddress("chit_channel" , &chit_channel);
+    simTree->SetBranchAddress("chit_cluster" , &chit_cluster);
 
     simTree->SetBranchAddress("reco_nTrack"    , &reco_nTrack);
     simTree->SetBranchAddress("reco_trackPosition"  , &reco_trackPosition);
@@ -342,6 +363,7 @@ void MCEvent::FillPixel(int yView, int xView)
             }
         }
     } // raw & calib done
+
     else if (optionDisplay == kHITS) {
         for (int i=0; i<no_hits; i++) {
             int channelId = hit_channel[i];
@@ -368,6 +390,53 @@ void MCEvent::FillPixel(int yView, int xView)
             }
         }
     } // hits done
+
+    else if (optionDisplay == kTRUEHITS) {
+        for (int i=0; i<nthits; i++) {
+            int channelId = thit_channel[i];
+            int wire = thit_wireID[i];
+            int tpc = thit_tpc[i];
+            int plane = thit_plane[i];
+            if ( ! ((yView == kU && plane == 0) || 
+                    (yView == kV && plane == 1) ||
+                    (yView == kZ && plane == 2))
+               ) {
+                continue; // skip other channels
+            }
+	    // skip short drift chamber
+	    if (tpc % 2 == 0) continue; 
+	    // only show designated APA's
+	    if (!showAPA[(tpc-1)/2]) continue;
+
+	    double x = geom->ProjectionX(tpc, thit_peakT[i], wirePlane);
+	    double y = _ProjectionY(yView, tpc, wire);
+	    h->Fill(x, y, thit_charge[i]);
+        }
+    } // true hits done
+
+    else if (optionDisplay == kCLUSTERS) {
+      h->SetMinimum(0.);
+      for (int i=0; i<nclhits; i++) {
+	int channelID = chit_channel[i];
+	int wire = chit_wire[i];
+	int tpc = chit_tpc[i];
+	int plane = chit_plane[i];
+	if (! ((yView == kU && plane == 0) ||
+	       (yView == kV && plane == 1) ||
+	       (yView == kZ && plane == 2))
+	    ) {
+	  continue;
+	}
+	//skip short drift chamber
+	if (tpc % 2 ==0) continue;
+	//only show designated APAs
+	if(!showAPA[(tpc-1)/2]) continue;
+
+	double x = geom->ProjectionX(tpc, chit_peakT[i], wirePlane);
+	double y = _ProjectionY(yView, tpc, wire);
+	h->Fill(x, y, chit_cluster[i]-yView+1.);
+      }
+    } //clusters done 
     
 }
 

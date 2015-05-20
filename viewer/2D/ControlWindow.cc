@@ -37,9 +37,11 @@ ControlWindow::ControlWindow(const TGWindow *p, int w, int h)
     AddFrame(fDisplayFrame, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 1, 1));
     displayButtonGroup = new TGButtonGroup(fDisplayFrame, "Display Properties", kHorizontalFrame); 
     fDisplayFrame->AddFrame(displayButtonGroup, new TGLayoutHints(kLHintsTop | kLHintsExpandX, 2, 2, 2, 2));
-    rawButton = new TGRadioButton(displayButtonGroup,  "Raw    "); 
-    calibButton = new TGRadioButton(displayButtonGroup, "Calib    "); 
-    hitsButton = new TGRadioButton(displayButtonGroup, "Hits    "); 
+    rawButton = new TGRadioButton(displayButtonGroup,  "Raw"); 
+    calibButton = new TGRadioButton(displayButtonGroup, "Calib"); 
+    hitsButton = new TGRadioButton(displayButtonGroup, "Hits"); 
+    trueButton = new TGRadioButton(displayButtonGroup, "True hits");
+    clusterButton = new TGRadioButton(displayButtonGroup, "Clusters");
     rawButton->SetState(kButtonDown);
 
     // zoom control button frame  

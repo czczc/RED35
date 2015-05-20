@@ -321,7 +321,7 @@ void GuiController::UpdateInductionSig(int id)
     if (id == currentInductionSig) return;
          if (id == 1) event->optionInductionSignal = 1;
     else if (id == 2) event->optionInductionSignal = -1;
-    else if (id == 3) event->optionInductionSignal = 0;
+    else if (id == 3 || id == 4) event->optionInductionSignal = 0;
     currentInductionSig = id;
 
     Reload();

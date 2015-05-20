@@ -37,7 +37,9 @@ public:
         kRAW = 1,
         kCALIB = 2,
         kHITS = 3,
-        kTRACK = 4,
+	kTRUEHITS = 4,
+	kCLUSTERS = 5,
+        kTRACK = 6,
     };
  
    int nEvents;
@@ -75,6 +77,27 @@ public:
     int    hit_channel[MAX_HITS];    //channel ID
     float  hit_peakT[MAX_HITS];      //peak time
     float  hit_charge[MAX_HITS];     //charge (area)
+    float  hit_wireID[MAX_HITS];
+    float  hit_tpc[MAX_HITS];
+    float  hit_plane[MAX_HITS];
+
+    int    nthits;
+    int    thit_channel[MAX_HITS];
+    float  thit_peakT[MAX_HITS];
+    float  thit_charge[MAX_HITS];
+    int    thit_wireID[MAX_HITS];
+    int    thit_tpc[MAX_HITS];
+    int    thit_plane[MAX_HITS];
+
+    int    nclhits;
+    int    chit_cryostat[MAX_HITS];
+    int    chit_tpc[MAX_HITS];
+    int    chit_plane[MAX_HITS];
+    int    chit_charge[MAX_HITS];
+    float  chit_peakT[MAX_HITS];
+    int    chit_wire[MAX_HITS];
+    int    chit_channel[MAX_HITS];
+    int    chit_cluster[MAX_HITS];
 
     int reco_nTrack;    // number of tracks
     TObjArray* reco_trackPosition;

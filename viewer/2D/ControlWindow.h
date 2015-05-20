@@ -28,6 +28,8 @@ public:
     TGRadioButton      *rawButton; 
     TGRadioButton      *calibButton; 
     TGRadioButton      *hitsButton;
+    TGRadioButton      *trueButton;
+    TGRadioButton      *clusterButton;
 
     TGGroupFrame       *fZoomControlFrame;
     TGHorizontalFrame  *fZoomButtonFrame;
