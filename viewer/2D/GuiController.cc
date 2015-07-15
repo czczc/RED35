@@ -47,7 +47,7 @@
 #include <map>
 using namespace std;
 
-GuiController::GuiController(const TGWindow *p, int w,int h)
+GuiController::GuiController(const TGWindow *p, int w, int h, const char* filename)
 {
 
     // InitPDGMap();
@@ -92,10 +92,15 @@ GuiController::GuiController(const TGWindow *p, int w,int h)
     can = vw->can;
     pd_can = pw->can;
 
-    xMin_now = 0; 
+    xMin_now = 0;
     xMax_now = 3200;
 
-    OpenDialog();
+    if (!filename) {
+        OpenDialog();
+    }
+    else {
+        Open(filename);
+    }
 
 
     InitConnections();
@@ -143,7 +148,7 @@ void GuiController::InitConnections()
     can->GetPad(2)->Connect("RangeChanged()", "GuiController", this, "SyncRangeUT()");
     can->GetPad(3)->Connect("RangeChanged()", "GuiController", this, "SyncRangeVT()");
 
-    can->Connect("ProcessedEvent(Int_t,Int_t,Int_t,TObject*)", "GuiController", 
+    can->Connect("ProcessedEvent(Int_t,Int_t,Int_t,TObject*)", "GuiController",
            this, "ProcessCanvasEvent(Int_t,Int_t,Int_t,TObject*)");
     pd_can->Connect("ProcessedEvent(Int_t,Int_t,Int_t,TObject*)", "GuiController",
 			       this, "ProcessPDCanvasEvent(Int_t,Int_t,Int_t,TObject*)");
@@ -169,7 +174,7 @@ void GuiController::ProcessCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *sele
         else { cout << "not recognized: " << name << endl; return;}
         int wirehash = (*m)[biny];
         int channelNo = geom->wireToChannel[wirehash];
-        cout 
+        cout
             // << "event: " << ev
             << "x: " << xx
             << ", y: " << yy
@@ -202,7 +207,7 @@ void GuiController::ProcessPDCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *se
 }
 
 void GuiController::AutoZoom()
-{    
+{
     AutoZoom(event->hPixelZT);//, false);
     AutoZoom(event->hPixelUT, false);
     AutoZoom(event->hPixelVT, false);
@@ -210,14 +215,14 @@ void GuiController::AutoZoom()
 }
 
 void GuiController::UnZoom(bool redraw)
-{    
+{
     xMin_now = 1;
     xMax_now = 3200;
-    event->hPixelZT->GetXaxis()->SetRange(xMin_now, xMax_now); 
-    event->hPixelUT->GetXaxis()->SetRange(xMin_now, xMax_now); 
+    event->hPixelZT->GetXaxis()->SetRange(xMin_now, xMax_now);
+    event->hPixelUT->GetXaxis()->SetRange(xMin_now, xMax_now);
     event->hPixelVT->GetXaxis()->SetRange(xMin_now, xMax_now);
-    event->hPixelZT->GetYaxis()->SetRange(1, 343); 
-    event->hPixelUT->GetYaxis()->SetRange(1, 510); 
+    event->hPixelZT->GetYaxis()->SetRange(1, 343);
+    event->hPixelUT->GetYaxis()->SetRange(1, 510);
     event->hPixelVT->GetYaxis()->SetRange(1, 495);
     cw->tdcMinEntry->SetIntNumber(xMin_now);
     cw->tdcMaxEntry->SetIntNumber(xMax_now);
@@ -229,7 +234,7 @@ void GuiController::SyncRangeZT()
 {
     xMin_now = event->hPixelZT->GetXaxis()->GetFirst();
     xMax_now = event->hPixelZT->GetXaxis()->GetLast();
-    event->hPixelUT->GetXaxis()->SetRange(xMin_now, xMax_now); 
+    event->hPixelUT->GetXaxis()->SetRange(xMin_now, xMax_now);
     event->hPixelVT->GetXaxis()->SetRange(xMin_now, xMax_now);
     cw->tdcMinEntry->SetIntNumber(xMin_now);
     cw->tdcMaxEntry->SetIntNumber(xMax_now);
@@ -255,7 +260,7 @@ void GuiController::SyncRangeUT()
 {
     xMin_now = event->hPixelUT->GetXaxis()->GetFirst();
     xMax_now = event->hPixelUT->GetXaxis()->GetLast();
-    event->hPixelZT->GetXaxis()->SetRange(xMin_now, xMax_now); 
+    event->hPixelZT->GetXaxis()->SetRange(xMin_now, xMax_now);
     event->hPixelVT->GetXaxis()->SetRange(xMin_now, xMax_now);
     cw->tdcMinEntry->SetIntNumber(xMin_now);
     cw->tdcMaxEntry->SetIntNumber(xMax_now);
@@ -267,7 +272,7 @@ void GuiController::SyncRangeVT()
 {
     xMin_now = event->hPixelVT->GetXaxis()->GetFirst();
     xMax_now = event->hPixelVT->GetXaxis()->GetLast();
-    event->hPixelZT->GetXaxis()->SetRange(xMin_now, xMax_now); 
+    event->hPixelZT->GetXaxis()->SetRange(xMin_now, xMax_now);
     event->hPixelUT->GetXaxis()->SetRange(xMin_now, xMax_now);
     cw->tdcMinEntry->SetIntNumber(xMin_now);
     cw->tdcMaxEntry->SetIntNumber(xMax_now);
@@ -276,10 +281,10 @@ void GuiController::SyncRangeVT()
 }
 
 void GuiController::SyncXaxis()
-{   
+{
     double x1 = cw->tdcMinEntry->GetNumber();
     double x2 = cw->tdcMaxEntry->GetNumber();
-    
+
     event->hPixelZT->GetXaxis()->SetRange(x1, x2);
     event->hPixelUT->GetXaxis()->SetRange(x1, x2);
     event->hPixelVT->GetXaxis()->SetRange(x1, x2);
@@ -289,7 +294,7 @@ void GuiController::SyncXaxis()
 
 void GuiController::UpdatePalette(int id)
 {
-    if (id == currentPalette) return; 
+    if (id == currentPalette) return;
          if (id == 1) vw->PaletteRainbow();
     else if (id == 2) vw->PaletteGray();
     else if (id == 3) vw->PaletteSummer();
@@ -390,7 +395,7 @@ void GuiController::SetTheme(int theme)
 }
 
 void GuiController::Modified()
-{   
+{
     //vw->SetStyle();
     can->GetPad(1)->Modified();
     // can->GetPad(1)->Update();
@@ -436,7 +441,7 @@ void GuiController::DrawPixels()
 }
 
 
-void GuiController::DrawTrack(int id, bool IsMC) 
+void GuiController::DrawTrack(int id, bool IsMC)
 {
     int trackID = event->trackIndex[id];
     int i=0;
@@ -455,7 +460,7 @@ void GuiController::DrawTrack(int id, bool IsMC)
       can->cd(1);
       trackMCLineZ->Draw();
       trackStartPointZ->Draw();
-      
+
       trackStartPointU->SetX(event->mc_startXYZT[i][0]);
       trackStartPointU->SetY((event->mc_startXYZT[i][1]+event->mc_startXYZT[i][2])*TMath::Sqrt(2)/2);
       if(trackMCLineU) {delete trackMCLineU; trackMCLineU=NULL;}
@@ -463,14 +468,14 @@ void GuiController::DrawTrack(int id, bool IsMC)
       can->cd(2);
       trackMCLineU->Draw();
       trackStartPointU->Draw();
-      
+
       trackStartPointV->SetX(event->mc_startXYZT[i][0]);
       trackStartPointV->SetY((event->mc_startXYZT[i][1]-event->mc_startXYZT[i][2])*TMath::Sqrt(2)/2);
       if(trackMCLineV) {delete trackMCLineV; trackMCLineV=NULL;}
       trackMCLineV = (TGraph*)event->PlotTracks(1, -1, IsMC, i);
       can->cd(3);
       trackMCLineV->Draw();
-      trackStartPointV->Draw();      
+      trackStartPointV->Draw();
     } else {
       if(event->reco_nTrack==0) return;
       if(trackRecoLineZ) {delete trackRecoLineZ; trackRecoLineZ=NULL;}
@@ -500,10 +505,10 @@ void GuiController::HideMCTrack()
 
     trackStartPointZ->SetX(faraway);
     trackStartPointZ->SetY(faraway);
-    trackStartPointU->SetX(faraway); 
-    trackStartPointU->SetY(faraway); 
-    trackStartPointV->SetX(faraway); 
-    trackStartPointV->SetY(faraway); 
+    trackStartPointU->SetX(faraway);
+    trackStartPointU->SetY(faraway);
+    trackStartPointV->SetX(faraway);
+    trackStartPointV->SetY(faraway);
     can->cd(1);
     //trackMCLineZ->Draw();
     trackStartPointZ->Draw();
@@ -570,7 +575,7 @@ void GuiController::Jump()
 }
 
 void GuiController::Reload()
-{    
+{
     cw->eventEntry->SetNumber(currentEvent);
     event->GetEntry(currentEvent);
     // event->PrintInfo(1);
@@ -587,7 +592,7 @@ void GuiController::Reload()
 }
 
 // void GuiController::InitTracksList()
-// {   
+// {
 
     // cw->fSiblingTracksListBox->RemoveAll();
     // cw->fParentTracksListBox->RemoveAll();
@@ -725,7 +730,7 @@ void GuiController::AutoZoom(TH2F* hist, bool zoomX)
 
     for(Int_t i = 1; i <= hist->GetNbinsX(); i++){
         for(Int_t j = 1; j <= hist->GetNbinsY(); j++){
-      
+
             if(hist->GetBinContent(i, j) <= 1) continue;
 
             if(i < xMin) xMin = i;
@@ -754,14 +759,14 @@ double GuiController::KE(float* momentum)
 
 
 TGString GuiController::PDGName(int pdg)
-{   
+{
     TParticlePDG *p = dbPDG->GetParticle(pdg);
     if (p == 0) {
         if (pdg>1e9) {
             int z = (pdg - 1e9) / 10000;
             int a = (pdg - 1e9 - z*1e4) / 10;
             TGString name;
-            if (z == 18) name = "Ar";   
+            if (z == 18) name = "Ar";
 
             else if (z == 17) name = "Cl";
             else if (z == 19) name = "Ca";

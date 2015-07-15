@@ -27,7 +27,7 @@ class GuiController
 {
     RQ_OBJECT("MyMainFrame")
 public:
-    GuiController(const TGWindow *p, int w, int h);
+    GuiController(const TGWindow *p, int w, int h, const char* filename=0);
     virtual ~GuiController();
 
     void Open(const char* filename);
