@@ -72,7 +72,7 @@ MCEvent::~MCEvent()
     rootFile->Close();
     delete rootFile;
     delete geom;
-    
+
 }
 
 void MCEvent::InitBranchAddress()
@@ -290,7 +290,7 @@ void MCEvent::FillPixel(int yView, int xView)
             int channelId = raw_channelId[i];
             MCChannel channel = geom->fChannels[channelId];
             int plane = channel.planes[0];
-            if ( ! ((yView == kU && plane == 0) || 
+            if ( ! ((yView == kU && plane == 0) ||
                     (yView == kV && plane == 1) ||
                     (yView == kZ && plane == 2))
                ) {
@@ -300,12 +300,13 @@ void MCEvent::FillPixel(int yView, int xView)
             // MCChannel channel = geom->fChannels[channels->at(i)];
             // cout << yView << " View channel " << channels[i] << ": " << endl;
             for (int j=0; j<channel.Nwires; j++) {
+
                 int wire = channel.wires[j];
                 int tpc = channel.tpcs[j];
                 // int plane = channel.planes[j];
 
                 // skip short drift chamber
-                if (tpc % 2 == 0) continue; 
+                if (tpc % 2 == 0) continue;
                 // only show designated APA's
                 if (!showAPA[(tpc-1)/2]) continue;
 
@@ -321,22 +322,39 @@ void MCEvent::FillPixel(int yView, int xView)
 
                 if (optionDisplay == kRAW) {
                     id = TMath::BinarySearch(raw_Nhit, raw_channelId, channel.channelNo);
-                    tdcs = (*raw_wfTDC).at(id);
-                    adcs = (*raw_wfADC).at(id);
-                    size_tdc = tdcs.size();
+                    // cout << i << ", " << j << "| " << channel.Nwires << ", " << id << endl;
+                    // cout << channel.channelNo << endl;
+                    if (id==-1) {
+                        cout << "cannot find raw channel " << channel.channelNo << endl;
+                        size_tdc = 0;
+                    }
+                    else {
+                        tdcs = (*raw_wfTDC).at(id);
+                        adcs = (*raw_wfADC).at(id);
+                        size_tdc = tdcs.size();
+                    }
+
                 }
                 else {  // calib wire
                     id = TMath::BinarySearch(calib_Nhit, calib_channelId, channel.channelNo);
-                    if (calib_channelId[id] == channel.channelNo) {
-                        tdcs = (*calib_wfTDC).at(id);
-                        adcs = (*calib_wfADC).at(id);
-                        size_tdc = tdcs.size();
-                    }
-                    else {
-                        cout << "cannot find raw channel " << channel.channelNo << " in calib wire, skipping" << endl; 
+                    if (id == -1) {
+                        cout << "cannot find raw channel " << channel.channelNo << endl;
                         size_tdc = 0;
                     }
+                    else {
+                        if (calib_channelId[id] == channel.channelNo) {
+                            tdcs = (*calib_wfTDC).at(id);
+                            adcs = (*calib_wfADC).at(id);
+                            size_tdc = tdcs.size();
+                        }
+                        else {
+                            cout << "cannot find raw channel " << channel.channelNo << " in calib wire, skipping" << endl;
+                            size_tdc = 0;
+                        }
+                    }
+
                 }
+
                 for (int i_tdc=0; i_tdc<size_tdc; i_tdc++) {
                     // double x = tdcs[i_tdc];
                     double x = geom->ProjectionX(tpc, tdcs[i_tdc], wirePlane);
@@ -369,7 +387,7 @@ void MCEvent::FillPixel(int yView, int xView)
             int channelId = hit_channel[i];
             MCChannel channel = geom->fChannels[channelId];
             int plane = channel.planes[0];
-            if ( ! ((yView == kU && plane == 0) || 
+            if ( ! ((yView == kU && plane == 0) ||
                     (yView == kV && plane == 1) ||
                     (yView == kZ && plane == 2))
                ) {
@@ -380,7 +398,7 @@ void MCEvent::FillPixel(int yView, int xView)
                 int tpc = channel.tpcs[j];
 
                 // skip short drift chamber
-                if (tpc % 2 == 0) continue; 
+                if (tpc % 2 == 0) continue;
                 // only show designated APA's
                 if (!showAPA[(tpc-1)/2]) continue;
 
@@ -397,14 +415,14 @@ void MCEvent::FillPixel(int yView, int xView)
             int wire = thit_wireID[i];
             int tpc = thit_tpc[i];
             int plane = thit_plane[i];
-            if ( ! ((yView == kU && plane == 0) || 
+            if ( ! ((yView == kU && plane == 0) ||
                     (yView == kV && plane == 1) ||
                     (yView == kZ && plane == 2))
                ) {
                 continue; // skip other channels
             }
 	    // skip short drift chamber
-	    if (tpc % 2 == 0) continue; 
+	    if (tpc % 2 == 0) continue;
 	    // only show designated APA's
 	    if (!showAPA[(tpc-1)/2]) continue;
 
@@ -436,8 +454,8 @@ void MCEvent::FillPixel(int yView, int xView)
 	double y = _ProjectionY(yView, tpc, wire);
 	h->Fill(x, y, chit_cluster[i]-yView+1.);
       }
-    } //clusters done 
-    
+    } //clusters done
+
 }
 
 void MCEvent::FillOpDet()
@@ -469,7 +487,7 @@ TGraph * MCEvent::PlotTracks(int yView, int xView, bool IsMC, int trackID)
     sp->SetLineColor(kRed);
   }
 
-  TClonesArray *trackPoints = (TClonesArray*)(*track_position)[trackID];  
+  TClonesArray *trackPoints = (TClonesArray*)(*track_position)[trackID];
   int Npoints = trackPoints->GetEntriesFast();
   for(int j=0; j<Npoints; j++){
     double x=0;
@@ -477,7 +495,7 @@ TGraph * MCEvent::PlotTracks(int yView, int xView, bool IsMC, int trackID)
     TLorentzVector *p = (TLorentzVector*)(*trackPoints)[j];
     if (yView==2 && xView==-1){ //x-z plane
       x=p->X();
-      y=p->Z();    
+      y=p->Z();
     }
     else if (yView==0 && xView==-1){ //x-u plane
       x=p->X();
@@ -565,9 +583,9 @@ void MCEvent::ProcessTracks()
 
 void MCEvent::PrintInfo(int level)
 {
-    cout << "run/subRun/event (total) : " 
-        << runNo << "/" 
-        << subRunNo << "/" 
+    cout << "run/subRun/event (total) : "
+        << runNo << "/"
+        << subRunNo << "/"
         << eventNo << " ("
         << nEvents << ")"
         << endl;

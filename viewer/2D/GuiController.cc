@@ -587,8 +587,8 @@ void GuiController::Reload()
     // cw->showMCButton->SetState(kButtonUp);
     //UpdateShowMC();
     DrawPixels();
-    pw->DrawOpDets(event);
-    pw->DrawOpDetChannel(8,event);
+    // pw->DrawOpDets(event);
+    // pw->DrawOpDetChannel(8,event);
 }
 
 // void GuiController::InitTracksList()
