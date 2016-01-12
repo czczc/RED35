@@ -49,7 +49,7 @@ void InfoWindow::SetTheme(int i)
     else { // day theme
         colors[0] = kBlack;
         colors[1] = kRed;
-        colors[2] = kBlue;    
+        colors[2] = kBlue;
     }
 }
 
@@ -59,7 +59,7 @@ void InfoWindow::InitCanvas()
 
 void InfoWindow::ClearCanvas()
 {
-    can->cd();    
+    can->cd();
     size_t size = listOfDrawables.size();
     for (size_t i=0; i!=size; i++) {
         delete listOfDrawables[i];
@@ -96,21 +96,23 @@ void InfoWindow::DrawEventInfo(MCEvent *ev)
 void InfoWindow::DrawWire(int channelId, MCEvent *ev, int wirehash)
 {
     ClearCanvas();
-    //SetStyle(theme);    
+    //SetStyle(theme);
     int plane, tpc, wire;
     MCChannel::Decode(wirehash, plane, tpc, wire);
 
     // Container
     TString name = Form("channel_%i", channelId);
     TString title = Form("Channel %i: Plane %i, TPC %i, Wire %i", channelId, plane, tpc, wire);
-    TH2F *hh = new TH2F(name, title, 3200, 0, 3200, 100, -500, 500); 
+    TH2F *hh = new TH2F(name, title, 3200, 0, 3200, 100, -500, 500);
     listOfDrawables.push_back(hh);
     hh->Draw();
 
 
     // Raw signal
-    int id = TMath::BinarySearch(ev->raw_Nhit, ev->raw_channelId, channelId);
-    if (!(ev->raw_channelId[id] == channelId)) {
+    // int id = TMath::BinarySearch(ev->raw_Nhit, ev->raw_channelId, channelId);
+    int id = ev->raw_channelIdMap[channelId];
+    cout << "index: " << id << "; id: " << ev->raw_channelId[id] << endl;
+    if (id < 0 || channelId ==0 || !(ev->raw_channelId[id] == channelId)) {
         cout << "cannot find channel " << channelId << endl;
         UpdateCanvas();
         return;
@@ -118,7 +120,7 @@ void InfoWindow::DrawWire(int channelId, MCEvent *ev, int wirehash)
     vector<int>& tdcs = (*(ev->raw_wfTDC)).at(id);
     vector<int>& adcs = (*(ev->raw_wfADC)).at(id);
     int size_tdc = tdcs.size();
-    TH1F *h = new TH1F(name+"_wf", title, 3200, 0, 3200); 
+    TH1F *h = new TH1F(name+"_wf", title, 3200, 0, 3200);
     listOfDrawables.push_back(h);
     h->SetLineColor(colors[0]);
     for (int i=0; i<size_tdc; i++) {
@@ -130,20 +132,22 @@ void InfoWindow::DrawWire(int channelId, MCEvent *ev, int wirehash)
 
     // Calibrated signal
     int id2 = TMath::BinarySearch(ev->calib_Nhit, ev->calib_channelId, channelId);
-    if (!(ev->calib_channelId[id2] == channelId)) {
+    if (ev->calib_channelId[id2] == channelId) { // has calib
+        vector<int>& tdcs2 = (*(ev->calib_wfTDC)).at(id2);
+        vector<int>& adcs2 = (*(ev->calib_wfADC)).at(id2);
+        int size_tdc2 = tdcs2.size();
+        TH1F *h2 = new TH1F(name+"_calib", title, 3200, 0, 3200);
+        listOfDrawables.push_back(h2);
+        h2->SetLineColor(colors[1]);
+        for (int i=0; i<size_tdc2; i++) {
+            h2->SetBinContent(tdcs2[i], adcs2[i]);
+        }
+        h2->Draw("same");
+    }
+    else {
         cout << "cannot find calib channel " << channelId << endl;
-        return;
     }
-    vector<int>& tdcs2 = (*(ev->calib_wfTDC)).at(id2);
-    vector<int>& adcs2 = (*(ev->calib_wfADC)).at(id2);
-    int size_tdc2 = tdcs2.size();
-    TH1F *h2 = new TH1F(name+"_calib", title, 3200, 0, 3200); 
-    listOfDrawables.push_back(h2);
-    h2->SetLineColor(colors[1]);
-    for (int i=0; i<size_tdc2; i++) {
-        h2->SetBinContent(tdcs2[i], adcs2[i]);
-    }
-    h2->Draw("same");
+
 
     // Hits
     for (int i=0; i<ev->no_hits; i++) {

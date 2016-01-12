@@ -3373,10 +3373,10 @@ Plane 0 0 0
 Wire 49 121 193 
 
 Channel 562
-Nwires 3
-TPC 2 3 2 
-Plane 0 0 0 
-Wire 50 122 194 
+Nwires 2
+TPC 2 3 
+Plane 0 0 
+Wire 50 122 
 
 Channel 563
 Nwires 2
@@ -3805,10 +3805,10 @@ Plane 0 0 0
 Wire 49 121 193 
 
 Channel 634
-Nwires 3
-TPC 3 2 3 
-Plane 0 0 0 
-Wire 50 122 194 
+Nwires 2
+TPC 3 2 
+Plane 0 0 
+Wire 50 122 
 
 Channel 635
 Nwires 2
@@ -4201,10 +4201,10 @@ Plane 1 1 1
 Wire 43 115 187 
 
 Channel 700
-Nwires 3
-TPC 2 3 2 
-Plane 1 1 1 
-Wire 44 116 188 
+Nwires 2
+TPC 2 3 
+Plane 1 1 
+Wire 44 116 
 
 Channel 701
 Nwires 2
@@ -4633,10 +4633,10 @@ Plane 1 1 1
 Wire 43 115 187 
 
 Channel 772
-Nwires 3
-TPC 3 2 3 
-Plane 1 1 1 
-Wire 44 116 188 
+Nwires 2
+TPC 3 2 
+Plane 1 1 
+Wire 44 116 
 
 Channel 773
 Nwires 2

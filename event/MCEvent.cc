@@ -222,6 +222,22 @@ void MCEvent::Reset()
 
 void MCEvent::ProcessChannels()
 {
+    // sort the raw_channelId in place
+    // const int N = raw_Nhit;
+    // int index[N], tmp[N];
+    // TMath::Sort(raw_Nhit, raw_channelId, index, false);
+    // for (int i = 0; i < raw_Nhit; ++i) {
+    //     tmp[i] = raw_channelId[ index[i] ];
+    // }
+    // for (int i = 0; i < raw_Nhit; ++i) {
+    //     raw_channelId[i] = tmp[i];
+    // }
+
+    for (int i = 0; i < raw_Nhit; ++i) {
+        // mapping channelId => index
+        raw_channelIdMap[ raw_channelId[i] ] = i;
+    }
+
     for (int i=0; i<raw_Nhit; i++) {
         int channelId = raw_channelId[i];
         MCChannel channel = geom->fChannels[channelId];
@@ -321,7 +337,8 @@ void MCEvent::FillPixel(int yView, int xView)
                 int size_tdc = tdcs.size();
 
                 if (optionDisplay == kRAW) {
-                    id = TMath::BinarySearch(raw_Nhit, raw_channelId, channel.channelNo);
+                    // id = TMath::BinarySearch(raw_Nhit, raw_channelId, channel.channelNo);
+                    id = raw_channelIdMap[channel.channelNo];
                     // cout << i << ", " << j << "| " << channel.Nwires << ", " << id << endl;
                     // cout << channel.channelNo << endl;
                     if (id==-1) {
@@ -338,7 +355,7 @@ void MCEvent::FillPixel(int yView, int xView)
                 else {  // calib wire
                     id = TMath::BinarySearch(calib_Nhit, calib_channelId, channel.channelNo);
                     if (id == -1) {
-                        cout << "cannot find raw channel " << channel.channelNo << endl;
+                        cout << "cannot find calib channel " << channel.channelNo << endl;
                         size_tdc = 0;
                     }
                     else {

@@ -581,8 +581,13 @@ void GuiController::Reload()
     // event->PrintInfo(1);
     event->PrintInfo();
     iw->DrawEventInfo(event);
+
     // InitTracksList();
-    MCTrackSelected(1); // select the first track
+    if (event->mc_Ntrack>0) {
+        MCTrackSelected(1); // select the first track
+    }
+    // cout << "i am here" << endl;
+
     RecoTrackSelected(0);
     // cw->showMCButton->SetState(kButtonUp);
     //UpdateShowMC();

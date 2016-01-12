@@ -28,7 +28,7 @@ public:
 
     enum VIEW {
         kU = 0,
-        kV = 1, 
+        kV = 1,
         kZ = 2,
         kT = -1,
     };
@@ -41,7 +41,7 @@ public:
 	kCLUSTERS = 5,
         kTRACK = 6,
     };
- 
+
    int nEvents;
 
     // simTree Leafs
@@ -119,6 +119,8 @@ public:
     std::vector<int> raw_ZchannelId;
     std::vector<int> raw_UchannelId;
     std::vector<int> raw_VchannelId;
+    std::map<int, int> raw_channelIdMap;
+
 
     int hit_NZchannels;
     int hit_NUchannels;
@@ -142,7 +144,7 @@ public:
     std::map<int, int> uBintoWireHash;
     std::map<int, int> vBintoWireHash;
 
-    int optionDisplay; 
+    int optionDisplay;
     int optionInductionSignal;  // 1:pos; 0:both; -1:neg
     bool showAPA[4];
 
@@ -162,7 +164,7 @@ public:
     void ProcessTracks();
     void ProcessChannels();
     bool IsPrimary(int i) { return mc_mother[i] == 0; }
-    
+
     void FillPixel(int yView, int xView);  // T=-1, U=0, V=1, Z=2
     void FillOpDet();
 
