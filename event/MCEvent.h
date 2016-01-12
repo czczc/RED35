@@ -148,9 +148,16 @@ public:
     int optionInductionSignal;  // 1:pos; 0:both; -1:neg
     bool showAPA[4];
 
+    // tdc constants
+    double xPerTDC;
+    double nTDCTicks;
+    void SetXPerTDC(double x) { xPerTDC = x; }
+    void SetNTDCTicks(int n) { nTDCTicks = n; }
+
     //-------------------------------------
     MCEvent();
-    MCEvent(const char* filename);
+    MCEvent(const char* filename, int nTDCTicks=3200, double xPerTDC=0.0802815);
+
     virtual ~MCEvent();
 
     //  methods

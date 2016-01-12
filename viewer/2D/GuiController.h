@@ -27,7 +27,9 @@ class GuiController
 {
     RQ_OBJECT("MyMainFrame")
 public:
-    GuiController(const TGWindow *p, int w, int h, const char* filename=0);
+    GuiController(const TGWindow *p, int w, int h, const char* filename=0,
+       int nTDCTicks=3200, double xPerTDC=0.0802815);
+
     virtual ~GuiController();
 
     void Open(const char* filename);
@@ -115,6 +117,11 @@ public:
     bool currentShowReco;
     int currentMCTrackId;
     int currentRecoTrackId;
+
+    double xPerTDC;
+    double nTDCTicks;
+    void SetXPerTDC(double x) { xPerTDC = x; }
+    void SetNTDCTicks(int n) { nTDCTicks = n; }
 
 };
 

@@ -47,8 +47,11 @@
 #include <map>
 using namespace std;
 
-GuiController::GuiController(const TGWindow *p, int w, int h, const char* filename)
+GuiController::GuiController(const TGWindow *p, int w, int h, const char* filename, int nTDCTicks, double xPerTDC)
 {
+
+    SetNTDCTicks(nTDCTicks);
+    SetXPerTDC(xPerTDC);
 
     // InitPDGMap();
     dbPDG = new TDatabasePDG();
@@ -681,7 +684,7 @@ void GuiController::Open(const char* filename)
     cout << "here" << endl;
 
     if (event) delete event;
-    event = new MCEvent(filename);
+    event = new MCEvent(filename, nTDCTicks, xPerTDC);
     geom = event->geom;
     currentEvent = 0;
     Reload();

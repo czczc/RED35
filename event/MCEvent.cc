@@ -22,9 +22,11 @@ using namespace std;
 
 MCEvent::MCEvent(){}
 
-MCEvent::MCEvent(const char* filename)
+MCEvent::MCEvent(const char* filename, int nTDCTicks, double xPerTDC)
 {
     // geom = new MCGeometry();
+    SetNTDCTicks(nTDCTicks);
+    SetXPerTDC(xPerTDC);
 
     raw_wfADC = new std::vector<std::vector<int> >;
     raw_wfTDC = new std::vector<std::vector<int> >;
@@ -148,10 +150,10 @@ void MCEvent::InitHistograms()
     // hPixelZT = new TH2F("hPixelZT", "Z vs T", 3200, 0-0.5, 3200-0.5, 400, 0-0.5, 400-0.5);
     // hPixelUT = new TH2F("hPixelUT", "U vs T", 3200, 0-0.5, 3200-0.5, 400, 0-0.5, 400-0.5);
     // hPixelVT = new TH2F("hPixelVT", "V vs T", 3200, 0-0.5, 3200-0.5, 400, 0-0.5, 400-0.5);
-    const double xPerTDC = 0.0802815;
-    hPixelZT = new TH2F("hPixelZT", "Z (|_ collection Y wire) vs X (drift axis)", 3200, -1, -1+3200*xPerTDC, 359, 0, 0+359*0.449055);
-    hPixelUT = new TH2F("hPixelUT", "V (|_  induction U wire ) vs X (drift axis)", 3200, -1, -1+3200*xPerTDC, 510, -53, -53+510*0.487811);
-    hPixelVT = new TH2F("hPixelVT", "U (|_  induction V wire ) vs X (drift axis)", 3200, -1, -1+3200*xPerTDC, 510, -168, -168+510*0.500144);
+    // const double xPerTDC = 0.0802815;
+    hPixelZT = new TH2F("hPixelZT", "Z (|_ collection Y wire) vs X (drift axis)", nTDCTicks, -1, -1+nTDCTicks*xPerTDC, 359, 0, 0+359*0.449055);
+    hPixelUT = new TH2F("hPixelUT", "V (|_  induction U wire ) vs X (drift axis)", nTDCTicks, -1, -1+nTDCTicks*xPerTDC, 510, -53, -53+510*0.487811);
+    hPixelVT = new TH2F("hPixelVT", "U (|_  induction V wire ) vs X (drift axis)", nTDCTicks, -1, -1+nTDCTicks*xPerTDC, 510, -168, -168+510*0.500144);
 
     hPixelZT->GetXaxis()->SetTitle("x [cm]");
     hPixelUT->GetXaxis()->SetTitle("x [cm]");
