@@ -33,11 +33,13 @@ MCEvent::MCEvent(const char* filename, int nTDCTicks, double xPerTDC)
     calib_wfADC = new std::vector<std::vector<int> >;
     calib_wfTDC = new std::vector<std::vector<int> >;
     mc_daughters = new std::vector<std::vector<int> >;  // daughters id of this track; vector
-
+    OpChannelToOpDet = new std::vector<std::vector<int> >;
+    timestamp = new std::vector<std::vector<int> >;
 
     mc_trackPosition = new TObjArray();
     mc_trackMomentum = new TObjArray();
     reco_trackPosition = new TObjArray();
+    averageWaveform = new TObjArray();
 
     rootFile = new TFile(filename);
     simTree = (TTree*)rootFile->Get("/Event/Sim");
@@ -70,6 +72,9 @@ MCEvent::~MCEvent()
     delete mc_trackPosition;
     delete mc_trackMomentum;
     delete reco_trackPosition;
+    delete averageWaveform;
+    delete OpChannelToOpDet;
+    delete timestamp;
 
     rootFile->Close();
     delete rootFile;
@@ -137,6 +142,12 @@ void MCEvent::InitBranchAddress()
     simTree->SetBranchAddress("reco_nTrack"    , &reco_nTrack);
     simTree->SetBranchAddress("reco_trackPosition"  , &reco_trackPosition);
 
+    simTree->SetBranchAddress("averageWaveforms", &averageWaveform);
+    simTree->SetBranchAddress("timestamp", &timestamp);
+    //simTree->SetBranchAddress("waveformCount", &waveformCount);
+    simTree->SetBranchAddress("OpChannelToOpDet", &OpChannelToOpDet);
+    simTree->SetBranchAddress("sampleFreq", &sampleFreq);
+
     opTree[2]->SetBranchAddress("CountOpDetAll",      &CountOpDetAll);
     opTree[2]->SetBranchAddress("CountOpDetDetected", &CountOpDetDetected);
     opTree[3]->SetBranchAddress("CountAll",           &CountAll);
@@ -172,7 +183,19 @@ void MCEvent::InitHistograms()
     hOpDetAll->GetXaxis()->SetTitle("z [cm]");
     hOpDetAll->GetYaxis()->SetTitle("y [cm]");
 
-
+    hOpDetWaveformCount = new TH2D("hOpDetWaveformCount", "# of waveforms found", 56, 0, 2800, 8, 0, 8);
+    hOpDetWaveformCount->GetXaxis()->SetTitle("Time [#mus]");
+    hOpDetWaveformCount->GetYaxis()->SetTitle("Op Det");
+    hOpDetWaveformCount->GetYaxis()->SetTitleOffset(0.5);
+    hOpDetWaveformCount->SetNdivisions(110, "Y");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(1,"0");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(2,"1");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(3,"2");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(4,"3");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(5,"4");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(6,"5");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(7,"6");
+    hOpDetWaveformCount->GetYaxis()->SetBinLabel(8,"7");
 }
 
 void MCEvent::GetEntry(int entry)
@@ -185,9 +208,10 @@ void MCEvent::GetEntry(int entry)
     // reco_trackPosition->Print();
     // TClonesArray *pos = (TClonesArray*)(*reco_trackPosition)[reco_nTrack-1];
     // pos->Print();
-
+    
     ProcessTracks();
     ProcessChannels();
+    //ProcessOpDet();
 }
 
 void MCEvent::Reset()
@@ -220,6 +244,10 @@ void MCEvent::Reset()
     hit_ZchannelId.clear();
     hit_UchannelId.clear();
     hit_VchannelId.clear();
+
+    (*timestamp).clear();
+    (*OpChannelToOpDet).clear();
+    //waveformCount.clear();
 }
 
 void MCEvent::ProcessChannels()
@@ -477,14 +505,30 @@ void MCEvent::FillPixel(int yView, int xView)
 
 }
 
+void MCEvent::ProcessOpDet()
+{
+  // placeholder
+}
+
 void MCEvent::FillOpDet()
 {
+  for (int i = 0; i < hOpDetWaveformCount->GetNbinsX(); ++i) {
+    for (int j = 0; j < hOpDetWaveformCount->GetNbinsY(); ++j) {
+      hOpDetWaveformCount->SetBinContent(i, j, 0.);
+    }
+  }
+  for (int i = 0; i < MAX_OPDET; ++i) {
+    for (size_t j = 0; j < OpChannelToOpDet->at(i).size(); ++j) {
+      hOpDetWaveformCount->Fill(timestamp->at(i).at(j), i);
+    }
+  }
+  /*
   for (int i=0; i<NOPDETS; i++) {
       //hOpDetAll->Fill(geom->OpDetCenterZ[i], geom->OpDetCenterY[i], CountOpDetDetected[i]);
       hOpDetAll->SetBinContent(i+1,CountOpDetDetected[i]);
       //std::cout<<CountOpDetDetected[i]<<" ";
   }
-  //std::cout<<std::endl;
+  */
 }
 
 TGraph * MCEvent::PlotTracks(int yView, int xView, bool IsMC, int trackID)

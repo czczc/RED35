@@ -8,6 +8,7 @@
 class MCGeometry;
 class TFile;
 class TH2F;
+class TH2D;
 class TH2Poly;
 class TObjArray;
 class TGraph;
@@ -103,6 +104,13 @@ public:
     TObjArray* reco_trackPosition;
 
     // Photon detectors variables
+    TObjArray *averageWaveform;
+    std::vector<std::vector<int>> *OpChannelToOpDet;
+    std::vector<std::vector<int>> *timestamp;
+    double sampleFreq;
+
+
+
     int   AllPhoton_OpChannel;
     float AllPhoton_Time;
     int   DetPhoton_OpChannel;
@@ -139,6 +147,7 @@ public:
     TH2F *hPixelZT;
     TH2F *hPixelUT;
     TH2F *hPixelVT;
+    TH2D *hOpDetWaveformCount;
     TH2Poly *hOpDetAll;
     std::map<int, int> zBintoWireHash;
     std::map<int, int> uBintoWireHash;
@@ -170,6 +179,7 @@ public:
     void InitHistograms();
     void ProcessTracks();
     void ProcessChannels();
+    void ProcessOpDet();
     bool IsPrimary(int i) { return mc_mother[i] == 0; }
 
     void FillPixel(int yView, int xView);  // T=-1, U=0, V=1, Z=2

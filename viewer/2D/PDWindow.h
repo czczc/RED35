@@ -2,6 +2,7 @@
 #define PD_WINDOW_H
 
 #include "TRootEmbeddedCanvas.h"
+#include "TRandom3.h"
 
 #include <vector>
 
@@ -22,11 +23,12 @@ public:
 
     void DrawOpDets(MCEvent *ev);
     void DrawOpDetChannel(int i, MCEvent *ev);
+    void DrawOpDetChannel(int op, double lowbin, double highbin, MCEvent *ev);
 
     void SetStyle(int theme);
 
     TCanvas* can; 
-
+    TRandom3 rnd;
     ClassDef(PDWindow, 0)
 };
 

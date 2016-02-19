@@ -194,10 +194,11 @@ void GuiController::ProcessCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *sele
 void GuiController::ProcessPDCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *selected)
 {
     if (ev == 11) {
-        if (!(selected->IsA() == TH2Poly::Class())) return;
+        if (!(selected->IsA() == TH2D::Class())) return;
 	TVirtualPad* pad = pd_can->GetClickSelectedPad();
 	double xx = pad->AbsPixeltoX(x);
 	double yy = pad->AbsPixeltoY(y);
+	/*
 	TH2Poly *h = (TH2Poly*)selected;
 	int bin = 0;
 	if (h->FindBin(xx, yy) < 0) {
@@ -206,6 +207,13 @@ void GuiController::ProcessPDCanvasEvent(Int_t ev, Int_t x, Int_t y, TObject *se
 	    bin = h->FindBin(xx, yy)-1;
 	}
 	pw->DrawOpDetChannel(bin, event);
+	*/
+	TH2D *h = (TH2D*)selected;
+	int xbin = h->GetXaxis()->FindBin(xx);
+	double lowbin = h->GetXaxis()->GetBinLowEdge(xbin);
+	double highbin = h->GetXaxis()->GetBinUpEdge(xbin);
+	int op = h->GetYaxis()->FindBin(yy)-1;
+	pw->DrawOpDetChannel(op, lowbin, highbin, event);
     }
 }
 
@@ -595,7 +603,7 @@ void GuiController::Reload()
     // cw->showMCButton->SetState(kButtonUp);
     //UpdateShowMC();
     DrawPixels();
-    // pw->DrawOpDets(event);
+    pw->DrawOpDets(event);
     // pw->DrawOpDetChannel(8,event);
 }
 
