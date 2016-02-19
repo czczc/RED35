@@ -105,8 +105,8 @@ public:
 
     // Photon detectors variables
     TObjArray *averageWaveform;
-    std::vector<std::vector<int>> *OpChannelToOpDet;
-    std::vector<std::vector<int>> *timestamp;
+    std::vector<std::vector<int> > *OpChannelToOpDet;
+    std::vector<std::vector<int> > *timestamp;
     double sampleFreq;
 
 

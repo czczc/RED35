@@ -11,13 +11,13 @@ public:
     std::vector<int> planes;
     std::vector<int> wires;
     std::vector<int> hashes; // internal hash for a wire
-    std::vector<std::vector<int>> opchannel;
+    std::vector<std::vector<int> > opchannel;
 
     MCChannel();
     virtual ~MCChannel();
 
     //  methods
-    int Encode(int plane, int tpc, int wire); 
+    int Encode(int plane, int tpc, int wire);
     static void Decode(int hash, int& plane, int& tpc, int& wire);
     void PrintInfo();
 };

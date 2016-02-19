@@ -107,14 +107,14 @@ void PDWindow::DrawOpDetChannel(int op, double lowbin, double highbin, MCEvent *
     for (size_t n = 0; n < ev->timestamp->at(op).size(); ++n) {
       double timestamp = ev->timestamp->at(op).at(n);
       int channel = ev->OpChannelToOpDet->at(op).at(n);
-      auto it = waveformcount.find(channel);
+      std::map<int,int>::iterator it = waveformcount.find(channel);
       if (it == waveformcount.end()) waveformcount[channel]=0;
       waveformcount[channel]++;
       if (timestamp > highbin || timestamp < lowbin) continue;
       TH1D *tmp = (TH1D*)ev->averageWaveform->FindObject(Form("avgwaveform_channel_%i_%i", channel, waveformcount[channel]-1))->Clone();
       if (tmp) {
 	tmp->SetName(Form("c%i_%i_%i", channel, waveformcount[channel]-1, rnd.Integer(1000)));
-	auto itr = drawnwaveformcount.find(channel);
+	std::map<int,int>::iterator itr = drawnwaveformcount.find(channel);
 	if (itr == drawnwaveformcount.end()) drawnwaveformcount[channel]=drawnwaveformcount.size();
 	allHist.push_back(tmp);
 	drawnchannelcount[allHist.size()-1]=channel;
